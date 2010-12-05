@@ -1,0 +1,92 @@
+-content_for :head do
+  -if !current_group.default_tags.empty?
+    %meta{:name => "keywords", :content => current_group.default_tags.join(", ")}
+  %meta{:name => "description", :content => markdown(current_group.description).gsub(/<\/?[^>]*>/, "")[0, 255] }
+
+-content_for :subtabs do
+  .navtitle
+    = t(".recent_questions", :default => "Recent Questions")
+    -if @questions
+      == (#{@questions.total_entries})
+
+  %ul{:style => "display: inline"}
+    %li.activity
+      = link_to t("questions.index.active"), root_path(:tab=>"activity"), :title => t("questions.index.active_tooltip"), :rel => "nofollow"
+    %li.hot
+      = link_to t("questions.index.hot"), root_path(:tab=>"hot"), :title => t("questions.index.hot_tooltip"), :rel => "nofollow"
+
+%div
+  #quick_question
+    -@question = Question.new
+    -form_for(@question, :url => questions_url, :html=>{:class => "form", :id => "ask_question"}) do |f|
+      -# TODO: refactor this
+      -lang = current_languages.kind_of?(Array) ? current_languages.first : current_languages
+      -lang = logged_in? ? current_user.language : lang
+      -lang = current_group.language ? current_group.language : lang
+
+      %h3
+        %label.label
+          =current_group.question_prompt || t(".quick_question")
+      .columns
+        .column_info
+          -if logged_in?
+            -reputation = current_user.reputation_on(current_group)
+            .avatar
+              = gravatar(current_user.email.to_s, :size => 64)
+            .reputation{:class => class_for_number(reputation)}
+              = format_number(reputation)
+          -else
+            .avatar
+              = gravatar("", :size => 64)
+        .column_form
+          .group
+            .pointer
+            =f.text_area :title, :class => "text_area", :id => "question_title"
+
+          = f.hidden_field :language, :value => lang
+
+          #tags
+            .group.left{:style => "width: 86%"}
+              %span
+                =t(:tags, :scope => "activerecord.attributes.question")
+              =f.text_field :tags, :class => "text_field autocomplete_for_tags", :style => "display: inline"
+            #qqsubmit.left{:style => "width: 14%"}
+              =f.submit t(".ask_question", :default => :"layouts.application.ask_question"), :class => "ask_question"
+          .clear
+      .clear
+  %ul.items#related_questions
+    %li
+%ul.items#questions
+  -if @questions.empty?
+    .box.highlight
+      %li
+        = t(".empty", :default => :"questions.index.empty")
+  -@questions.each do |question|
+    = render :partial => "questions/question", :object => question
+
+#additional_info
+  #help_us
+    = t(".browse_all_or_by_tags", :full_list_of_questions => link_to(t('.full_list_of_questions'), questions_path), :browse_by_tags => link_to(t('.browse_by_tags'), tags_questions_path))
+    %br
+    = t("questions.index.help_to_answer")
+    = link_to t("questions.index.unanswered_questions"), unanswered_questions_path
+
+  .clear
+
+-content_for :sidebar do
+  .block.notice
+    = render :partial => "shared/layout/notice"
+
+  -current_group.widgets.each do |widget|
+    .widget.block{:id => widget.name}
+      = render :partial => widget.partial_name, :locals => {:widget => widget}
+
+  -if logged_in?
+    = render :partial => "shared/preferred_tags"
+  -if AppConfig.enable_i18n
+    = render :partial => "shared/language_filter"
+
+  -if !current_group.isolate && AppConfig.enable_groups
+    .block{:style => "background: transparent"}
+      .content
+        = link_to t(".create_own_site"), new_group_path, :id => "create_own_site"

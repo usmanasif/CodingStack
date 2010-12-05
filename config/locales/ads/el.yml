@@ -1,0 +1,16 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Discon
+el: 
+  ads: 
+    ad_links: Προσθήκη νέας %{type} διαφήμισης
+    create: 
+      success: Η διαφήμιση δημιουργήθηκε επιτυχώς.
+    index: 
+      add_adbard: Προσθήκη νέας διαφήμισης adbard
+      add_adsense: Προσθήκη νέας διαφήμισης google adsense
+      title: Διαφημίσεις
+    name: "Όνομα:"
+    position: "Θέση:"
+    title: Προσθήκη νέας %{type} διαφήμισης

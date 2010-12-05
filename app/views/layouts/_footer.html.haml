@@ -1,0 +1,30 @@
+
+-if !current_group.footer.blank?
+  =current_group.footer
+-else
+  #cc.center
+    = image_tag('/images/ccby.png')
+    == All codingstack.com content and data are available under the #{link_to 'Creative Commons Attribution 3.0 license', 'http://creativecommons.org/licenses/by/3.0/'}
+
+  #blog.center
+    = link_to 'blog', 'http://codingstack.wordpress.com'
+    |
+    = link_to 'twitter', 'http://twitter.com/codingstack'
+    |
+    = link_to 'identi.ca', 'http://identi.ca/codingstack'
+    |
+    = link_to 'irc', 'irc://irc.freenode.org/codingstack'
+    = link_to '(web chat)', domain_url+'/chat'
+    |
+    %b
+      = link_to 'feedback', feedback_url, :class => "feedback", :id => "feedback"
+    |
+    = link_to 'tos', tos_path
+    |
+    = link_to 'privacy', privacy_path
+    #feedbackform.hide
+      = render :partial => "welcome/feedback"
+
+#default_footer.center
+  == Powered by codingstack.com under the #{link_to 'GNU Affero General Public License','http://www.fsf.org/licensing/licenses/agpl-3.0.html'}
+

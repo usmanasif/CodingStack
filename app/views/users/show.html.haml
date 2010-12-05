@@ -1,0 +1,172 @@
+
+-content_for :subtabs do
+  .navtitle
+    &= @user.login
+
+#users_show
+  .follow-info
+    -if current_user != @user
+      -if logged_in? && current_user.following?(@user)
+        =link_to "- #{t(".unfollow")}", unfollow_user_path(@user), :class => "unfollow_link", 'data-class' => "follow_link", 'data-title' => t(".follow"), 'data-undo' => follow_user_path(@user)
+      -else
+        =link_to "+ #{t(".follow")}", follow_user_path(@user), :class => "follow_link", 'data-class' => "unfollow_link", 'data-title' => t(".unfollow"), 'data-undo' => unfollow_user_path(@user)
+      .clear
+
+  -if current_user == @user
+    %span
+      =link_to t("users.form.avatar_tip"), "http://gravatar.com", :target => "_blank"
+  .general-info
+    .avatar
+      = gravatar @user.email.to_s, :size => 128
+      .reputation
+        =format_number(@user.reputation_on(current_group))
+      .text
+        = t(:reputation, :scope => "activerecord.attributes.user")
+      =format_number(@user.config_for(current_group).views_count.to_i)
+      = t(".views")
+    .user-info
+      %table
+        %tr
+          %td.user-field
+            =t(:name, :scope => "activerecord.attributes.user")
+          %td.user-field-value
+            =h(@user.name)
+        %tr
+          %td.user-field
+            =t(:website, :scope => "activerecord.attributes.user")
+          %td.user-field-value
+            -if @user.website
+              =link_to h(@user.website), h(@user.website), :rel => "nofollow"
+        %tr
+          %td.user-field
+            =t(:age, :scope => "activerecord.attributes.user")
+          %td.user-field-value
+            =@user.age
+    .bio-info
+      = markdown(@user.bio)
+  .clear
+
+  -if @user.following.count > 0
+    %h2.title
+      .counter
+        = number_with_delimiter(@user.following.count)
+      Following
+    .friend_list
+      -@user.following.each do |follower|
+        %span
+          = link_to gravatar(follower.email.to_s, :size => 24), user_path(follower)
+  -if @user.followers.count > 0
+    %h2.title
+      .counter
+        = number_with_delimiter(@user.followers.count)
+      Followers
+    .friend_list
+      -@user.followers.each do |follower|
+        %span
+          =link_to gravatar(follower.email.to_s, :size => 24), user_path(follower)
+
+  .secondary-navigation{:class => @q_sort||"votes"}
+    .navtitle
+      %span.counter
+        = number_with_delimiter(@favorites.total_entries)
+      =t(:questions, :scope => "activerecord.models")
+    %ul
+      %li.newest
+        = link_to t("questions.index.newest"), user_path(@user, params.merge(:q_sort=>"newest")), :rel => "nofollow"
+      %li.oldest
+        = link_to t("questions.index.oldest"), user_path(@user, params.merge(:q_sort=>"oldest")), :rel => "nofollow"
+      %li.views
+        = link_to t("activerecord.attributes.question.views"), user_path(@user, params.merge(:q_sort=>"views")), :rel => "nofollow"
+      %li.votes
+        = link_to t("questions.index.votes"), user_path(@user, params.merge(:q_sort=>"votes")), :rel => "nofollow"
+    .clear
+  .block
+    %ul.items#questions
+      -@questions.each do |question|
+        = render :partial => "questions/question", :object => question
+    .additional_info
+      = will_paginate @questions, :param_name => "questions_page"
+      .clear
+
+  /Favorites
+  .secondary-navigation{:class => @f_sort||"votes"}
+    .navtitle
+      %span.counter
+        = number_with_delimiter(@favorites.total_entries)
+      =t(:favorites, :scope => "activerecord.models")
+    %ul
+      %li.newest
+        = link_to t("questions.index.newest"), user_path(@user, params.merge(:f_sort=>"newest")), :rel => "nofollow"
+      %li.oldest
+        = link_to t("questions.index.oldest"), user_path(@user, params.merge(:f_sort=>"oldest")), :rel => "nofollow"
+      %li.views
+        = link_to t("activerecord.attributes.question.views"), user_path(@user, params.merge(:f_sort=>"views")), :rel => "nofollow"
+      %li.votes
+        = link_to t("questions.index.votes"), user_path(@user, params.merge(:f_sort=>"votes")), :rel => "nofollow"
+    .clear
+  .block
+
+  %ul.items#questions
+    -@favorite_questions.each do |question|
+      = render :partial => "questions/question", :object => question
+  .additional_info
+    = will_paginate @favorites, :param_name => "favorites_page"
+    .clear
+
+  / Answers
+  .secondary-navigation{:class => @a_sort||"votes"}
+    .navtitle
+      %span.counter
+        = number_with_delimiter(@answers.total_entries)
+      =t(:answers, :scope => "activerecord.models")
+
+    %ul
+      %li.newest
+        = link_to t("questions.index.newest"), user_path(@user, params.merge(:a_sort=>"newest")), :rel => "nofollow"
+      %li.oldest
+        = link_to t("questions.index.oldest"), user_path(@user, params.merge(:a_sort=>"oldest")), :rel => "nofollow"
+      %li.votes
+        = link_to t("questions.index.votes"), user_path(@user, params.merge(:a_sort=>"votes")), :rel => "nofollow"
+    .clear
+  .block
+
+  %ul.items#answers
+    -@answers.each do |answer|
+      -next if answer.question.banned
+      = render :partial => "answers/answer", :object => answer
+  .additional_info
+    = will_paginate @answers, :param_name => "answers_page"
+    .clear
+
+  /Badges
+  %h2.title
+    .counter
+      = number_with_delimiter(@badges.total_entries)
+    = t(:badges, :scope => "activerecord.models", :default => "Badges")
+
+  %ul.list#badges
+    -@badges.each do |badge|
+      %li
+        = render :partial => "badges/badge", :object => badge, :locals => {:hide_user => true}
+  .additional_info
+    = will_paginate @badges, :param_name => "badges_page"
+    .clear
+
+-content_for :sidebar do
+  .block.stats
+    .entry
+      .text
+        = t(:created_at, :scope => "activerecord.attributes.user")
+      .data
+        = t("time.ago", :time => time_ago_in_words(@user.created_at))
+    .entry
+      .text
+        = t(:last_logged_at, :scope => "activerecord.attributes.user")
+      .data
+        -if @user.last_logged_at
+          = t("time.ago", :time => time_ago_in_words(@user.last_logged_at))
+    .entry
+      .text
+        = t(:reputation, :scope => "activerecord.attributes.user")
+      .data
+        = @user.reputation_on(current_group)

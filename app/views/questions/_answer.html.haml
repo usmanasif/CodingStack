@@ -1,0 +1,98 @@
+
+-solution = question.accepted && question.answer_id == answer.id
+-source = question_path(@question)
+
+.answer.commentable{:class => "post-#{answer.id} #{solution ? "solution" : ""}" }
+  %a{:name=>answer.id}
+  .vote-col
+    =vote_box(answer, question_path(question), question.closed)
+    -if solution
+      =image_tag "correct.png", :width => 48, :alt => "correct_answer", :title => "chose as answer by the author"
+  .body-col
+    .markdown.entry-content
+      =find_and_preserve(codingstack_auto_link(markdown(answer.body), :link_users => true))
+    -if logged_in? && (current_user.mod_of?(current_group) || current_user.can_view_offensive_counts_on?(current_group)) && answer.flags_count > 0
+      %h3
+        = t(:flags, :scope => "activerecord.models")
+      = render :partial => "flags/list", :locals => {:flaggeable => answer}
+    -if !answer.updated_by.nil?
+      .author.vcard.user_data
+        .time_ago
+          = t('activerecord.attributes.answer.updated_at', :default => "updated")
+          %strong.updated{:title => answer.updated_at, :class => "relativetime"}
+            = t("time.ago", :time => time_ago_in_words(answer.updated_at))
+        .avatar.logo
+          = gravatar(answer.updated_by.email.to_s, :size => 32)
+        .user
+          = render :partial => "users/user_mini", :locals => {:user => answer.updated_by}
+          -unless answer.updated_by.hide_country
+            .adr
+              .country-name
+                = t("global.from", :site => answer.updated_by.country_name)
+              = country_flag(answer.updated_by.country_code, answer.updated_by.country_name)
+
+    .author.user_data.vcard
+      .updated{:title => answer.updated_at}
+        .time_ago
+          = t('activerecord.attributes.answer.created_at')
+          %strong.published{:title => answer.created_at, :class => "relativetime"}
+            = t("time.ago", :time => time_ago_in_words(answer.created_at))
+
+      .avatar.logo
+        = gravatar(answer.user.email.to_s, :size => 32)
+      .user
+        = render :partial => "users/user_mini", :locals => {:user => answer.user}
+        -unless answer.user.hide_country
+          .adr
+            .country-name
+              = t("global.from", :site => answer.user.country_name)
+            = country_flag(answer.user.country_code, answer.user.country_name)
+    .controls
+      -if logged_in?
+        .actions
+          -if (current_user.mod_of?(@question.group) || current_user.can_modify?(@question))
+            -unless @question.accepted
+              = link_to t(".pick_answer"), solve_question_path(@question, :answer_id => answer)
+            -if solution
+              = link_to t(".unset_answer"),  unsolve_question_path(@question)
+          -if answer.wiki || current_user.can_edit_others_posts_on?(answer.group) || current_user.can_modify?(answer)
+            = link_to t("scaffold.edit"), edit_question_answer_path(@question, answer)
+      .actions
+        = link_to t('activerecord.attributes.answer.link'), question_answer_path(@question.id, answer.id), :class => "bookmark"
+        -if logged_in?
+          -if current_user.can_modify?(answer)
+            = link_to t("scaffold.destroy"), question_answer_path(@question, answer), :confirm => t("scaffold.sure", :model => "answer"), :method => :delete, :class =>"cancel"
+
+          -if current_user != answer.user
+            = link_to t(".flag"), flag_question_answer_path(@question,answer), :class => "flag-link"
+        -if answer.versions.count > 0
+          = link_to t(".history", :default => "history"), history_question_answer_path(@question, answer)
+        -if logged_in?
+          -if(current_user.can_modify?(@question) || current_user.mod_of?(@question.group))
+            = link_to t("scaffold.destroy"), question_answer_path(@question.id, answer.id), :confirm => "are you sure?", :method => :delete
+          -if current_user.mod_of?(@question.group)
+            = link_to "ban", ban_path(:answer_ids => [answer.id]), :confirm => "are you sure?"
+      .clear
+      .forms
+        -if current_user != answer.user
+          -flag = Flag.new
+          -flag.flaggeable = answer
+          = render :partial => "flags/form", :locals => {:flag => flag, :source => source }
+    .clear
+
+    -if logged_in?
+      = link_to t(".add_comment"), new_question_comment_path(@question, answer), :class => "addNestedAnswer add_answer_comment_link"
+
+    / Nested Answers
+    .children.comments
+      -answer.comments.each do |comment|
+        = render :partial => "comments/comment", :object => comment, :locals => {:source => source, :mini => true}
+  .clear
+  .forms.comment-form
+    -form_tag question_answer_comments_path(@question, answer), :class => "form commentForm nestedAnswerForm" do
+      -@comment = Comment.new
+      = render :partial => "comments/form", :locals => {:source => source, :commentable => answer}
+      .group.navform
+        = submit_tag t("comments.shared.comment_submit"), :class => "button"
+        = t("global.or")
+        = link_to t('scaffold.cancel'), '', :class => 'cancel_comment'

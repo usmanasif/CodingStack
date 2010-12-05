@@ -1,0 +1,11 @@
+# Messages for French (Français)
+# Exported from translatewiki.net
+# Export driver: syck
+fr: 
+  shared: 
+    current_tags: 
+      title: selected tags
+    topbar: 
+      admin: administrer
+      logged_as: connecté en tant que %{login}
+      user_page: my page

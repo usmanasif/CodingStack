@@ -1,0 +1,136 @@
+# Messages for Portuguese (Português)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Hamilton Abreu
+pt-PT: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Respostas
+        asked_by: Feita por
+        body: Conteúdo
+        closed: Fechada
+        created_at: Feita
+        language: Língua
+        tags: Categorias
+        title: Título
+        updated_at: actualizada
+        updated_by: actualizada por
+        views: Visitas
+        votes: Votos
+    models: 
+      question: Pergunta
+      questions: Perguntas
+  questions: 
+    answer: 
+      add_comment: Adicionar comentário...
+      flag: Reportar
+      pick_answer: Escolher como solução
+      unset_answer: Retirar como solução?
+    create: 
+      flash_notice: A pergunta foi criada.
+    edit: 
+      title: A editar pergunta
+    flag: 
+      title: Reportar pergunta
+    form: 
+      adult_content: Esta pergunta envolve conteúdo para adultos.
+      body_tip: Qual é a sua pergunta? Seja descritivo.
+      language_tip: Seleccione a língua da pergunta.
+      tags_tip: Use categorias para fornecer mais informação sobre a sua pergunta.
+    index: 
+      active: Activas
+      active_tooltip: Perguntas actualizadas recentemente
+      ask_question: Fazer pergunta
+      empty: Ainda ninguém fez nenhuma pergunta. Seja o primeiro!
+      help_to_answer: Ajude-nos a responder
+      hot: Populares
+      hot_tooltip: Perguntas com maior actividade dos últimos 5 dias
+      newest: Mais recentes
+      newest_tooltip: Perguntas mais recentes
+      oldest: Mais antigas
+      title: Todas as perguntas
+      unanswered_questions: Perguntas sem resposta
+      votes: Votos
+      votes_tooltip: Perguntas com mais votos
+    model: 
+      messages: 
+        empty_tags: Desculpe, tem de usar pelo menos uma categoria.
+        title_too_long: O título é demasiado longo. Não pode conter mais do que 100 caracteres.
+        too_many_tags: Desculpe, mas só pode introduzir até 9 categorias.
+        too_short: Parece demasiado curta. Use mais do que %{count} palavras para ser mais específico.
+    move: 
+      group_label: "Mover para o grupo:"
+      submit: Mover!
+      title: "Mover a pergunta: %{title}"
+    move_to: 
+      group_dont_exists: O grupo %{group} não existe
+      success: Pergunta movida para o grupo %{group}
+    new: 
+      how_to_ask: Como perguntar
+      title: Fazer pergunta
+    question: 
+      accepted_tooltip: Esta pergunta tem uma resposta que foi aceite
+    retag: 
+      title: Recategorizar
+    retag_form: 
+      cancel: Cancelar
+      submit: Actualizar categorias!
+      title: Actualizar categorias
+    retag_to: 
+      failure: Desculpe, não foi possível actualizar as categorias.
+      success: As categorias foram actualizadas.
+    revert: 
+      title: Reverter a pergunta
+    shared: 
+      flag: Reportar
+    show: 
+      accepted_tooltip: Uma das respostas foi aceite como sendo a resposta correcta.
+      another_answers: Outras respostas
+      answers: Respostas
+      answers_title: 
+        one: "%{count} resposta"
+        other: "%{count} respostas"
+      asked_on: colocada a
+      ban: Banir
+      close: Fechar
+      close_reason: "A pergunta foi fechada pelo seguinte motivo:"
+      favorite_tooltip: Adicionar esta pergunta às suas favoritas
+      flag: Reportar
+      flagged_as: Reportada como
+      flags: Reportada como
+      last_activity: Actividade mais recente
+      related_questions: Perguntas relacionadas
+      request_closing: Pedir encerramento
+      request_closing_details: Pedir para fechar esta pergunta
+      retag: Recategorizar
+      retract_request: Já colocou um pedido. Quer retirá-lo?
+      share: Partilhar esta pergunta em
+      share_on: Partilhar esta pergunta em %{site}
+      solution: Solução
+      to_answer_question: para responder a esta pergunta
+      unauthenticated_retag: Precisa de uma conta para recategorizar perguntas
+      unfavorite_tooltip: Remover esta pergunta das suas favoritas
+      unwatch_tooltip: Deixar de vigiar esta pergunta
+      viewed: visitada
+      watch_tooltip: Vigiar esta pergunta
+    solve: 
+      flash_notice: A pergunta foi resolvida.
+    tags: 
+      filter: Pesquisar categorias
+      title: Categorias
+      tooltip: Mostrar perguntas na categoria %{tag}
+    unanswered: 
+      empty: Este grupo não contém perguntas sem resposta.
+      expert: Peritos
+      my_tags: As minhas categorias
+      tags: Categorias sem respostas
+      title: Perguntas sem resposta
+    unsolve: 
+      flash_notice: A pergunta deixou de estar resolvida.
+    unwatch: 
+      success: Deixará de receber notificações por correio electrónico por cada nova resposta a esta pergunta.
+    update: 
+      flash_notice: A pergunta foi actualizada.
+    watch: 
+      success: Passará a receber notificações por correio electrónico a cada nova resposta a esta pergunta.

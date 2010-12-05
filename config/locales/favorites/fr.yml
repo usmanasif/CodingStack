@@ -1,0 +1,12 @@
+# Messages for French (Français)
+# Exported from translatewiki.net
+# Export driver: syck
+fr: 
+  activerecord: 
+    models: 
+      favorite: favorite
+      favorites: favorites
+  favorites: 
+    create: 
+      success: la question a été ajouté à vos favorits
+      unauthenticated: vous devez créer un compte pour ajouter des favorits

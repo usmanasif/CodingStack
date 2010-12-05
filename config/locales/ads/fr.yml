@@ -1,0 +1,16 @@
+# Messages for French (Français)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Peter17
+fr: 
+  ads: 
+    ad_links: Ajouter une nouvelle annonce {{type}}
+    create: 
+      success: L’annonce a été créée avec succès.
+    index: 
+      add_adbard: Ajouter une nouvelle annonce adbard
+      add_adsense: Ajouter une nouvelle annonce Google AdSense
+      title: Annonces
+    name: "Nom :"
+    position: "Position :"
+    title: Ajouter une nouvelle annonce {{type}}

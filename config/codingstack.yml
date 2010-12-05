@@ -1,0 +1,57 @@
+base: &common
+  site: http://www.codingstack.com
+  analytics_id: UA-18246008-1
+  analytics_vendor: googlean
+  session_key: _codingstack_session
+  session_secret: 9ac4fd97a52153070a0bd47467c00eded1badf526f145827384ddfde45ac0bfd3f0230c961ddfb9ef84d490b3d889e0169de8eee3ef7b7ed114262824f8aa8aa
+  rest_auth_key: b4d66d73a1ade79ce227fba01b33f2ab021888ef
+  rest_auth_digest_stretches: 10
+  enable_sharing: true
+  notification_email: support@codingstack.com
+  default_language: en
+  adbard_host_id: 2746b6d24c93f71df12503ec2ab667e5
+  adbard_site_key: e8e24a6b2cba51145dc0c874e1b2f4a4
+  enable_adbard: false
+  application_name: codingstack
+  is_codingstackcom: false
+  enable_groups: false
+  default_language: en
+  enable_i18n: true
+  default_timezone: "UTC"
+
+  smtp:
+    activate: false
+    server: "smtp.gmail.com"
+    port: 587
+    domain: "codingstack.com"
+    login: "codingstack@gmail.com"
+    password: "codingstack123"
+
+  facebook:
+    activate: true
+    key: 987d466c8cbd4e4371223f8336be156d
+    secret: 1823bd32d5a8dadc4d2ac7991c98ee7a
+
+  twitter:
+    activate: true
+    key: LYFL5TS8DgLimbSxD0knw
+    secret: okWv3B9GYSs0jImhCOKhl4Dqm8EtPaU46E8w7xao7FE
+
+  exception_notification:
+    activate: true
+    exception_sender_address:
+      "[codingstack] error notifier <error-notifier@codingstack.com>"
+    exception_recipients:
+    - pyroxicated@gmail.com
+
+development:
+  <<: *common
+  domain: localhost.com
+production:
+  <<: *common
+  domain: example.com
+  googlean_domain: .codingstack.com
+test:
+  <<: *common
+  domain: test.loc
+

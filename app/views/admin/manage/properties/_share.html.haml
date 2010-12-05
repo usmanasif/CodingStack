@@ -1,0 +1,60 @@
+-content_for :after_form do
+  %h1
+    =t(".title_on_dlvr")
+  = render :partial => "shared/dlvr_link", :locals => {:url => questions_url(:format => :atom)}
+
+%h1
+  =t(".facebook_app")
+.group
+  %label.label
+    =t(".application_id")
+  = text_field_tag 'group[share][fb_app_id]', @group.share.fb_app_id, :class => "text_field"
+.group
+  %label.label
+    =t(".secret_key")
+  = text_field_tag 'group[share][fb_secret_key]',  @group.share.fb_secret_key, :class => "text_field"
+.group
+  = check_box_tag 'group[share][fb_active]', true, @group.share.fb_active, :class => "checkbox"
+  %label.radio
+    =t("global.active")
+
+%h1
+  = t(".add_tags")
+.group
+  %label.label
+    =t(".tweet_starts_with")
+  = text_field_tag 'group[share][starts_with]', @group.share.starts_with, :class => "text_field"
+  .description
+    = t(".starts_with_example")
+.group
+  %label.label
+    =t(".tweet_ends_with")
+  = text_field_tag 'group[share][ends_with]', @group.share.ends_with, :class => "text_field"
+  .description
+    = t(".ends_with_example")
+
+%h1
+  =t(".asking_from_twitter")
+
+.group
+  %label.label
+    =t(".question_asked_to")
+  @
+  = text_field_tag 'group[share][twitter_user]', @group.share.twitter_user, :class => "text_field", :style => "width: 10%"
+  .description
+    =t(".twitter_account")
+
+.group
+  %label.label
+    = t(".question_must_include")
+  =text_field_tag 'group[share][twitter_pattern]', @group.share.twitter_pattern, :class => "text_field"
+  .description
+    = t(".question_must_include_example")
+
+.group
+  = check_box_tag 'group[share][enable_twitter]', true, @group.share.enable_twitter, :class => "checkbox"
+  %label.radio
+    =t("global.active")
+
+.group.navform
+  = f.submit t('scaffold.update')

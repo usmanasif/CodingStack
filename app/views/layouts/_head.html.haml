@@ -1,0 +1,19 @@
+%meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
+%title
+  &= page_title
+%meta{ :name => "description", :content => "" }
+%meta{ :name => "keywords", :content => "" }
+
+-if @feed_urls && !@feed_urls.empty?
+  -@feed_urls.each do |title, url|
+    %link{:rel=>"alternate", :type=>"application/atom+xml", :title => h(title), :href=> url}
+
+= javascript_include_merged :base
+= yield :js
+= stylesheet_link_tag 'compoments/dialog.css', :media => 'screen, projection'
+= stylesheet_link_tag 'jquery-ui.css', :media => 'screen, projection'
+= stylesheet_link_tag 'compiled/grid.css', :media => 'screen, projection'
+= stylesheet_link_tag 'compiled/application.css', :media => 'screen, projection'
+= stylesheet_link_tag 'compiled/markdown_editor.css', :media => 'screen, projection'
+= stylesheet_link_tag '/javascripts/openid/css/style.css', :media => 'screen, projection'
+= yield :css

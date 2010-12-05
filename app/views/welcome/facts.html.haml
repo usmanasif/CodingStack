@@ -1,0 +1,86 @@
+%span#facts
+  %h1 Get the facts!
+
+%h2 Pricing
+
+%table#pricing.table
+  %tr
+    %th
+    %th
+      Small
+    %th
+      Medium
+    %th
+      Large
+    %th
+      = t('.prices.cols.onsite')
+  %tr
+    %td.first
+      StackExchange*
+    %td
+      = t('.prices.stackexchange.small')
+    %td
+      = t('.prices.stackexchange.medium')
+    %td
+      = t('.prices.stackexchange.large')
+    %td
+      = t('.prices.stackexchange.onsite')
+  %tr
+    %td.first
+      codingstack
+    %td
+      = t('.prices.codingstack.small')
+    %td
+      = t('.prices.codingstack.medium')
+    %td
+      = t('.prices.codingstack.large')
+    %td
+      = t('.prices.codingstack.onsite')
+
+%br
+%h2 Features
+
+%table#pricing.table
+  %tr
+    %th
+    %th
+      = t('.features.cols.adaptable')
+    %th
+      = t('.features.cols.multitopic')
+    %th
+      = t('.features.cols.multilanguage')
+    %th
+      = t('.features.cols.foss')
+    %th
+      = t('.features.cols.joel')
+  %tr
+    %td.first
+      StackExchange*
+    %td
+      = t('.features.stackexchange.adaptable')
+    %td
+      = t('.features.stackexchange.multitopic')
+    %td
+      = t('.features.stackexchange.multilanguage')
+    %td
+      = t('.features.stackexchange.foss')
+    %td
+      = t('.features.stackexchange.joel')
+  %tr
+    %td.first
+      codingstack
+    %td
+      = t('.features.codingstack.adaptable')
+    %td
+      = t('.features.codingstack.multitopic')
+    %td
+      = t('.features.codingstack.multilanguage')
+    %td
+      = t('.features.codingstack.foss')
+    %td
+      = t('.features.codingstack.joel')
+
+%br
+#notes{:style => "font-size: 12px"}
+  *
+  = link_to "http://stackexchange.com", "http://stackexchange.com", :target => "_blank"

@@ -1,0 +1,27 @@
+en:
+  close_requests:
+    index:
+      title: List of close requests
+    form:
+      dupe: Duplicate
+      ot: Off topic
+      no_question: Not a question
+      not_relevant: Not relevant
+      spam: spam
+      request_closing_details: Request to close this question
+      close_with_reason: Close this question using this reason
+    create:
+      flash_notice: Close request created successfully
+    update:
+      flash_notice: Close request updated successfully
+    destroy:
+      flash_notice: Close request deleted successfully
+    model:
+      name: Close request
+      prural_name: Close requests
+      messages:
+        already_requested: "You have already requested to close this question"
+      attributes:
+        user: User
+        reason: Reason
+        comment: Comment

@@ -1,0 +1,22 @@
+# Messages for French (Français)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Peter17
+fr: 
+  sessions: 
+    create: 
+      flash_error: nous n'avons pas pu vous connecter en tant que '%{login}'
+      flash_notice: connexion réussie
+    destroy: 
+      flash_notice: vous avez été déconnecté.
+    new: 
+      log_in: se connecter
+      not_registered: pas encore enregistré?
+      registered: déjà enregistré?
+      remember_me: Se souvenir de moi
+      sign_in: S’identifier
+      signup: créer un compte
+      with_authentication: se connecer avec notre système d'identification
+      with_facebook: sign in with facebook
+      with_openid: se connecter avec openid
+      with_twitter: sign in with twitter

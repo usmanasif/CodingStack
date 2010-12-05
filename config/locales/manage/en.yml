@@ -1,0 +1,51 @@
+en:
+  admin:
+    manage:
+      content:
+        title: Custom content
+        question_prompt: Question prompt
+        question_help: Question help
+        head: header
+        footer: Footer
+        top_bar: Top bar
+        top_bar_tip: Enter one link per line
+      properties:
+        general:
+          title: Group properties
+        share:
+          title: Share
+          application_id: Application ID
+          secret_key: Secret Key
+          question_asked_to: Question Asked To
+          question_must_include: Question must include the following tag to be tweeted
+          twitter_account: The Twitter account your users will ask questions to.
+          facebook_app: Facebook app settings
+          asking_from_twitter: Asking questions from Twitter
+          tweet_starts_with: Prepend a tag to your tweets
+          tweet_ends_with: Append a tag to your tweets
+          starts_with_example: "ie. #qa"
+          ends_with_example: "ie. #codingstack"
+          question_must_include_example: "ie. #iAsk"
+          add_tags: Add tags to your tweets
+          title_on_dlvr: Share on dlvr.it
+        constrains:
+          title: Requirements
+          reputation_constrains_subtitle: List of reputation requirements for each action
+          reputation_constrains_description: This form allows you to configure how many reputation points users need to do a given action
+        rewards:
+          title: Rewards
+          reputation_rewards_subtitle: List of reputations rewards
+          reputation_rewards_description: This form allows you to configure how users can win and lose reputation points for a given action
+        theme:
+          title: Set the group's theme
+          logo_legend: Upload a logo for your group. It must be smaller than 2MB.
+        domain:
+          title: Set your domain
+          description: "You can map your site so it can be accessed through your own custom domain. This is how you do it:"
+          instruction1: "To do so you first need to log on to your domain provider. That is the site where you bought your domain such as %{subdomain}.com."
+          instruction2: There you need to go to the DNS section and create something called a CNAME.
+          instruction3: "Pick 'www' or anything else as the name of your CNAME."
+          instruction4: "Then in the host or destination field, put your current codingstack domain: %{domain}."
+          instruction5: "Once this is done, after an hour or so, your domain www.%{subdomain} should point to %{appdomain}."
+          instruction6: "When this is the case, come back here and put your domain name www.%{subdomain} in the field below and press the button 'update'. If you have questions, ask us in the %{chat_url} or on our support forum."
+          warning: Are you sure you want to change your domain?

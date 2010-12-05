@@ -1,0 +1,53 @@
+-feed_url = url_for(:format => "atom", :tags => params[:tags])
+
+-content_for :rss do
+  %link{:rel=>"alternate", :type=>"application/atom+xml", :title => "atom", :href=> url_for(:format => "atom", :tags => params[:tags])}
+  %link{:rel=>"alternate", :type=>"application/atom+xml", :title => "atom", :href=> url_for(:format => "atom")}
+
+-content_for :subtabs do
+  .navtitle
+    = t(".title")
+    -if @questions
+      == (#{@questions.total_entries})
+
+  %ul
+    %li.newest
+      = link_to t("questions.index.newest"), questions_path(:sort=>"newest"), :title => t("questions.index.newest_tooltip")
+    %li.hot
+      = link_to t("questions.index.hot"), questions_path(:sort=>"hot"), :title => t("questions.index.hot_tooltip"), :rel => "nofollow"
+    %li.votes
+      = link_to t("questions.index.votes"), questions_path(:sort=>"votes"), :title =>  t("questions.index.votes_tooltip"), :rel => "nofollow"
+    %li.activity
+      = link_to t("questions.index.active"), questions_path(:sort=>"activity"), :title => t("questions.index.active_tooltip"), :rel => "nofollow"
+
+
+-content_for :sidebar do
+  -if logged_in?
+    = render :partial => "shared/language_filter"
+
+  = render :partial => "shared/current_tags"
+  .block
+    %h3
+      = t('.tags', :default => [:"layout.application.tags", :"activerecord.attributes.user.tags", "tags"])
+    .content
+      = render :partial => "shared/tag_list", :object => @tag_cloud
+
+
+= render :partial => "searches/search_box"
+
+/Questions
+%ul.items#questions
+  -if @questions.empty?
+    %li.highlight
+      = t(".empty")
+  -@questions.each do |question|
+    = render :partial => "question", :object => question
+
+#additional_info
+  =will_paginate @questions
+
+  #help_us
+    = t(".help_to_answer")
+    =link_to t(".unanswered_questions"), unanswered_questions_path
+
+  .clear

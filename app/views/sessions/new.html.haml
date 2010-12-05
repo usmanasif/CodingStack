@@ -1,0 +1,34 @@
+= javascript_include_merged :login
+= stylesheet_link_tag '/javascripts/openid/css/style.css', :media => 'screen, projection'
+-session["return_to"] = request.referrer unless request.referrer.blank?
+
+-if current_group.registered_only
+  %h1
+    IMPORTANT: You must be logged in to see this site
+
+%h2
+  = t(".with_openid")
+
+= render :partial => "sessions/openid"
+
+-unless current_group.openid_only
+  %h2
+    = t(".sign_in")
+
+  -form_for :user, resource, :url => session_path(resource_name), :html => {:class => "form"} do |f|
+    .group
+      =f.label :email, t("email", :scope => "activerecord.attributes.user"), :class => "label"
+      =f.text_field :email, :class => "text_field"
+    .group
+      =f.label :password, t("password", :scope => "activerecord.attributes.user"), :class => "label"
+      =f.password_field :password, :class => "password text_field"
+
+    -if devise_mapping.rememberable?
+      .group
+        =f.label :remember_me, t(".remember_me")
+        =f.check_box :remember_me
+
+    .group.navform
+      =f.submit "Sign in"
+
+  = render :partial => "shared/devise_links"

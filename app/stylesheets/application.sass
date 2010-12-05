@@ -1,0 +1,128 @@
+@import "compass/utilities/tables"
+@import "compass/utilities/lists/horizontal-list"
+@import "compass/utilities/general/tag-cloud"
+@import "fancy-buttons"
+
+@import mixins
+
+@import nav_menu
+
+@import base
+@import basic
+@import navigation
+
+@import autocomplete
+@import feeds
+
+@import markdown
+@import markdown_editor
+@import validation
+@import menu
+
+@import plans
+
+@import jwysiwyg
+
+@import announcements
+@import tag_cloud
+
+@import sessions
+@import fcbkcomplete
+
+#messages li
+  list-style: none
+
+textarea.text_area
+  height: 120px
+
+textarea.comment_text_area
+  height: 60px
+  border-bottom: 1px solid #DDD
+  border-left: 2px solid #CCC
+  border-right: 1px solid #DDD
+  border-top: 2px solid #CCC
+  width: 99%
+
+#container #header h1 img
+  vertical-align: middle
+  height: 50px
+
+a#create_own_site
+  padding: 10px
+  margin-bottom: 15px
+  +fancy-button-structure
+  +fancy-button-colors-matte(#CACACA)
+  +fancy-button-size(15px, 6px, 1px)
+  color: #00527E
+
+#main-doc
+  background-color: white
+  text-align: center
+  padding-top: 1em
+
+.beta_info
+  font-weight: bold
+
+.vote-icon
+  margin-right: 0.5em
+
+
+a.big_cancel_button
+  padding: 10px
+  margin-bottom: 15px
+  +fancy-button-structure
+  +fancy-button-colors-matte(#D90000)
+  +fancy-button-size(15px, 6px, 1px)
+  color: white !important
+
+a.big_confirm_button
+  padding: 10px
+  margin-bottom: 15px
+  +fancy-button-structure
+  +fancy-button-colors-matte(#CACACA)
+  +fancy-button-size(15px, 6px, 1px)
+  color: #00527E
+
+a.missing_page
+  &:link, &:visited, &:hover, &:active
+    color: red
+
+#retag
+  margin-left: 1em
+  font-size: 16px
+  font-weight: bold
+
+a.important
+  color: #CE0000 !important
+  font-weight: bold
+
+.comment-form
+  width: 91%
+  margin-left: 51px
+
+.comment-form-question
+  width: 100%
+
+
+#default_footer
+  margin: 10px 0
+  font-size: 9px
+
+.widget
+  &#badges, &#users
+    white-space: nowrap
+
+.add_answer_comment_link
+  font-weight: bold
+  font-size: 14px
+  margin-left: 1.2em
+
+
+form.share_content
+  label.label
+    display: inline
+    width: auto
+  .submit_button
+    +fancy-button-structure
+    +fancy-button-colors-matte(#CACACA)
+    +fancy-button-size(15px, 6px, 1px)

@@ -1,0 +1,68 @@
+
+-if !local_assigns[:mini]
+  .comment.list-item
+    %a{:name => comment.id}
+
+    %span.left{:style => "padding: 2px; width: 64px; margin-right: 10px"}
+      .gravatar
+        = gravatar(comment.user.email.to_s)
+      = link_to h(comment.user.login), user_path(comment.user), :class => "clear"
+    .markdown
+      = codingstack_auto_link(markdown(comment.body), :link_users => true)
+    .comment-info
+      = t("time.ago", :time => time_ago_in_words(comment.created_at))
+      = t("global.from", :site => comment.user.country_name)
+      = country_flag(comment.user.country_code, comment.user.country_name)
+    .controls
+      .actions
+        - if logged_in? && current_user != comment.user
+          = link_to t("comments.shared.reply"), "#", :class => "addNestedAnswer reply", 'data-author' => comment.user.login
+        -if logged_in? && (current_user.can_modify?(comment) || current_user.mod_of?(current_group))
+          = link_to t("scaffold.edit"), edit_comment_path(comment, :source => source)
+        -if logged_in? && comment.can_be_deleted_by?(current_user)
+          = link_to t("scaffold.destroy"), comment_path(comment, :source => source), :confirm => t("scaffold.sure", :model => "comment"), :method => :delete
+-else
+  .comment
+    %a{:name => comment.id}
+    .comment-info
+      %strong
+        = t("time.ago", :time => time_ago_in_words(comment.created_at))
+      =link_to comment.user.login, user_path(comment.user)
+      == #{t("comments.shared.said")}:
+    .comment-votes
+      .votes_average
+        -if comment.votes_average > 0
+          &= comment.votes_average
+        -else
+          &nbsp;
+      -if logged_in? && current_user.can_vote_up_on?(current_group) && current_user != comment.user
+        -form_tag votes_path, :class => "vote-up-comment-form" do
+          .fields
+            = hidden_field_tag "voteable_type", comment.class.name, :id => "voteable_type_#{comment.id}"
+            = hidden_field_tag "voteable_id", comment.id, :id =>  "voteable_id_#{comment.id}"
+            = hidden_field_tag "source", request.path, :id =>  "source_#{comment.id}"
+            -if vote = current_user.vote_on(comment)
+              = image_submit_tag("dialog-ok-apply.png", :name=>"vote_up", :value=>"1", :title => t("votes.control.to_vote_up"), :class => "comment-voteup-button")
+            -else
+              = image_submit_tag("dialog-ok.png", :name=>"vote_up", :value=>"1", :title => t("votes.control.to_vote_up"), :class => "comment-voteup-button")
+    .comment-content.markdown
+      = codingstack_auto_link(markdown(comment.body), :link_users => true)
+
+    .controls
+      .actions
+        - if logged_in? && current_user != comment.user
+          = link_to t("comments.shared.reply"), "#", :class => "addNestedAnswer reply", 'data-author' => comment.user.login
+        -if logged_in? && (current_user.can_modify?(comment) || current_user.mod_of?(current_group))
+          -case comment.commentable_type
+            -when "Question"
+              = link_to t("scaffold.edit"), edit_question_comment_path(comment.commentable, comment, :source => source), :class => "edit_comment"
+            -when "Answer"
+              = link_to t("scaffold.edit"), edit_question_answer_comment_path(comment.commentable.question, comment.commentable, comment, :source => source), :class => "edit_comment"
+        -if logged_in? && comment.can_be_deleted_by?(current_user)
+          -case comment.commentable_type
+            -when "Question"
+              = link_to t("scaffold.destroy"), question_comment_path(comment.commentable, comment, :source => source), :confirm => t("scaffold.sure", :model => "comment"), :method => :delete
+            -when "Answer"
+              = link_to t("scaffold.destroy"), question_answer_comment_path(comment.commentable.question, comment.commentable, comment, :source => source), :confirm => t("scaffold.sure", :model => "comment"), :method => :delete
+    .clear
+

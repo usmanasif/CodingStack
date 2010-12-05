@@ -1,0 +1,21 @@
+# Messages for Portuguese (Português)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Hamilton Abreu
+pt-PT: 
+  activerecord: 
+    attributes: 
+      flag: 
+        type: Motivo
+    models: 
+      flag: Reportada
+      flags: Reportadas
+  flags: 
+    create: 
+      flash_error: Não pode reportar isto
+      flash_notice: Obrigado por ter reportado
+    form: 
+      attention: Requer a atenção do moderador
+      label: Reporte com cuidado, por favor
+      offensive: Conteúdo ofensivo, abusivo ou insultuoso
+      spam: Spam

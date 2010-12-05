@@ -1,0 +1,2245 @@
+/* incase an inverted custom gradient isn't specified */
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items {
+  list-style-type: none;
+}
+/* line 4, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/* line 9, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item h3 {
+  margin-top: 0;
+}
+/* line 12, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .logo {
+  float: left;
+  padding: 0px 10px;
+  margin-right: 4px;
+}
+/* line 17, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .box {
+  float: left;
+  padding: 10px;
+  margin-right: 4px;
+  text-align: center;
+  vertical-align: baseline;
+  width: 42px;
+  height: 42px;
+  display: block;
+  font-size: 10px;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  color: #666666;
+  -moz-border-radius: 2px 2px 2px 2px;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  -khtml-border-radius: 2px 2px 2px 2px;
+  border-radius: 2px 2px 2px 2px;
+}
+/* line 31, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .box .counter {
+  padding: 3px;
+  font-size: 25px;
+  font-weight: bold;
+}
+/* line 35, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .box .counter.medium_number {
+  font-size: 20px;
+  color: orange;
+}
+/* line 38, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .box .counter.big_number {
+  padding: 1px;
+  font-size: 15px;
+  color: red;
+}
+/* line 42, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .box .counter.negative_number {
+  font-size: 21px;
+  color: #ee3746;
+}
+/* line 46, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .votes {
+  background: #ebebeb;
+}
+/* line 48, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .answers {
+  background: #666666;
+  color: white;
+}
+/* line 51, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .answers.accepted {
+  background: #0ebb05;
+}
+/* line 53, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .views {
+  background: #fbfbfb;
+}
+/* line 57, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .summary .tag-list {
+  float: left;
+  margin-top: 0px;
+}
+/* line 60, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .summary .owner-data {
+  float: right;
+  padding-top: 4px;
+}
+/* line 64, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .summary .owner-data .time_ago a {
+  color: black;
+}
+/* line 66, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .summary .owner-data .reputation {
+  font-weight: bold;
+  color: #666666;
+}
+/* line 70, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .actions {
+  padding: 5px;
+  margin: 6px;
+  background: #eeeeee;
+}
+/* line 74, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .actions a {
+  margin: 2px 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* line 79, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item .vote-up-form {
+  display: inline;
+  vertical-align: middle;
+}
+/* line 84, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item.lite .box {
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+}
+/* line 88, ../../../../../app/stylesheets/themes/drastic-bec/_items.sass */
+ul.items li.item.lite .box .counter {
+  font-size: 18px;
+  padding: 1px;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_main_bar.sass */
+#main-bar {
+  width: 100%;
+  float: left;
+  margin: 0 10px 10px 10px;
+}
+/* line 6, ../../../../../app/stylesheets/themes/drastic-bec/_main_bar.sass */
+#main-bar #logo {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 10, ../../../../../app/stylesheets/themes/drastic-bec/_main_bar.sass */
+#main-bar ul {
+  list-style-type: none;
+}
+
+/* line 13, ../../../../../app/stylesheets/themes/drastic-bec/_main_bar.sass */
+#main-bar ul li {
+  margin-top: 18px;
+  background: #1a1a1a;
+  margin-right: 5px;
+  color: #eeeeee;
+  float: left;
+}
+/* line 20, ../../../../../app/stylesheets/themes/drastic-bec/_main_bar.sass */
+#main-bar ul li:hover {
+  border-top-color: #666666;
+  background-color: #666666 !important;
+  color: white;
+}
+/* line 25, ../../../../../app/stylesheets/themes/drastic-bec/_main_bar.sass */
+#main-bar ul li.active {
+  background: #f0f0ee;
+}
+/* line 28, ../../../../../app/stylesheets/themes/drastic-bec/_main_bar.sass */
+#main-bar ul li.active a:link, #main-bar ul li.active a:visited, #main-bar ul li.active a:hover, #main-bar ul li.active a:active {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 33, ../../../../../app/stylesheets/themes/drastic-bec/_main_bar.sass */
+#main-bar ul li a {
+  display: block;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+/* line 39, ../../../../../app/stylesheets/themes/drastic-bec/_main_bar.sass */
+#main-bar ul li a:link, #main-bar ul li a:visited, #main-bar ul li a:hover, #main-bar ul li a:active {
+  text-decoration: none;
+  color: white;
+}
+/* line 43, ../../../../../app/stylesheets/themes/drastic-bec/_main_bar.sass */
+#main-bar ul li.ask_question {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #a3a3a3;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #c9c9c9), color-stop(100%, #949494));
+  background-image: -moz-linear-gradient(top, #c9c9c9 0%, #949494 100%);
+  background-image: linear-gradient(top, #c9c9c9 0%, #949494 100%);
+  border-color: #7d7d7d;
+  text-shadow: #636363 0px 1px 1px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -o-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -khtml-border-radius: 18px;
+  border-radius: 18px;
+  font-size: 24px;
+  line-height: 10px;
+  padding: 6px 24px;
+  border-width: 1px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-rigth: 2%;
+}
+/* line 172, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question.disabled, #main-bar ul li.ask_question[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question.disabled:hover, #main-bar ul li.ask_question.disabled:focus, #main-bar ul li.ask_question[disabled]:hover, #main-bar ul li.ask_question[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question.disabled:active, #main-bar ul li.ask_question[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question, #main-bar ul li.ask_question:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question.disabled:active, #main-bar ul li.ask_question.disabled:hover, #main-bar ul li.ask_question[disabled]:active, #main-bar ul li.ask_question[disabled]:hover {
+  background-color: #a3a3a3;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #c9c9c9), color-stop(100%, #949494));
+  background-image: -moz-linear-gradient(top, #c9c9c9 0%, #949494 100%);
+  background-image: linear-gradient(top, #c9c9c9 0%, #949494 100%);
+  border-color: #7d7d7d;
+  text-shadow: #636363 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question.disabled:active, #main-bar ul li.ask_question.disabled:active:visited, #main-bar ul li.ask_question.disabled:hover, #main-bar ul li.ask_question.disabled:hover:visited, #main-bar ul li.ask_question[disabled]:active, #main-bar ul li.ask_question[disabled]:active:visited, #main-bar ul li.ask_question[disabled]:hover, #main-bar ul li.ask_question[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question:hover, #main-bar ul li.ask_question:focus {
+  background-color: #9b9b9b;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #c1c1c1), color-stop(100%, #8c8c8c));
+  background-image: -moz-linear-gradient(top, #c1c1c1 0%, #8c8c8c 100%);
+  background-image: linear-gradient(top, #c1c1c1 0%, #8c8c8c 100%);
+  border-color: #757575;
+  text-shadow: #5b5b5b 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question:hover, #main-bar ul li.ask_question:hover:visited, #main-bar ul li.ask_question:focus, #main-bar ul li.ask_question:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question:active {
+  background-color: #949494;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #929292), color-stop(40%, #999999), color-stop(85%, #999999), color-stop(100%, #ababab));
+  background-image: -moz-linear-gradient(top, #929292 0%, #999999 40%, #999999 85%, #ababab 100%);
+  background-image: linear-gradient(top, #929292 0%, #999999 40%, #999999 85%, #ababab 100%);
+  border-color: #6e6e6e;
+  text-shadow: #545454 0px -1px -1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question:active, #main-bar ul li.ask_question:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question:active {
+  padding: 5px 23px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#main-bar ul li.ask_question.disabled:active, #main-bar ul li.ask_question[disabled] {
+  padding: 6px 24px;
+  border-width: 1px;
+}
+/* line 51, ../../../../../app/stylesheets/themes/drastic-bec/_main_bar.sass */
+#main-bar ul li.ask_question a {
+  font-size: 23px;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_top_bar.sass */
+#top-bar {
+  padding: 10px 10px;
+  margin: 0;
+  font-weight: bold;
+  float: right;
+  color: #cecece;
+  background: #f0f0f0;
+  border: 1px solid #dcdcdc;
+  margin-right: 20px;
+}
+/* line 2, ../../../../../app/stylesheets/themes/drastic-bec/_top_bar.sass */
+#top-bar .entry {
+  float: left;
+  margin-left: 4px;
+}
+/* line 5, ../../../../../app/stylesheets/themes/drastic-bec/_top_bar.sass */
+#top-bar .entry .gravatar {
+  line-height: 20px;
+  display: inline;
+  margin-bottom: -5px;
+  width: 18px;
+}
+/* line 10, ../../../../../app/stylesheets/themes/drastic-bec/_top_bar.sass */
+#top-bar .entry .reputation {
+  font-weight: bold;
+  font-size: 10px;
+  background: #777777;
+  color: white;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -khtml-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  padding: 2px;
+}
+/* line 18, ../../../../../app/stylesheets/themes/drastic-bec/_top_bar.sass */
+#top-bar .entry #search-field {
+  background: white url(/images/search-icon.png) no-repeat 0% 50%;
+  padding-left: 17px;
+  border: 1px solid gray;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_tags.sass */
+.tag-list {
+  font-size: 0.785em;
+  overflow: hidden;
+  line-height: 14px;
+  margin-top: 8px;
+}
+/* line 7, ../../../../../app/stylesheets/themes/drastic-bec/_tags.sass */
+.tag-list ul {
+  list-style-type: none;
+}
+/* line 10, ../../../../../app/stylesheets/themes/drastic-bec/_tags.sass */
+.tag-list .tag {
+  margin-left: 3px;
+  display: inline;
+  overflow: hidden;
+  float: left;
+}
+/* line 15, ../../../../../app/stylesheets/themes/drastic-bec/_tags.sass */
+.tag-list .tag a {
+  color: #666666;
+  background: #e7e7e7 !important;
+  border-bottom: 1px solid #c2c9d4;
+  border-right: 1px solid #cbced4;
+  cursor: pointer;
+  font-size: 100%;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 2px 8px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: lowercase;
+  white-space: nowrap;
+  line-height: 20px;
+}
+/* line 30, ../../../../../app/stylesheets/themes/drastic-bec/_tags.sass */
+.tag-list .tag a:hover {
+  color: black !important;
+}
+/* line 32, ../../../../../app/stylesheets/themes/drastic-bec/_tags.sass */
+.tag-list .tag a.remove_tag {
+  background: #e55252 !important;
+  padding: 0px 2px;
+  font-weight: bold;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -khtml-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  border: none;
+}
+/* line 38, ../../../../../app/stylesheets/themes/drastic-bec/_tags.sass */
+.tag-list .tag a.remove_tag:hover {
+  color: #ffdede;
+  background: #810000 !important;
+}
+
+/* line 42, ../../../../../app/stylesheets/themes/drastic-bec/_tags.sass */
+.tag-multiplier {
+  font-size: 125%;
+  color: #555555;
+  font-weight: bold;
+  margin-left: 5px;
+  display: inline;
+  font-family: Helvetica;
+}
+
+/* line 51, ../../../../../app/stylesheets/themes/drastic-bec/_tags.sass */
+.tag_cloud a.tag {
+  text-decoration: none;
+  line-height: 26px;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-vote-col {
+  float: left;
+  width: 4%;
+  text-align: center;
+  margin-right: 5px;
+}
+/* line 8, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-vote-col .question-action img {
+  width: 25px;
+  height: 25px;
+}
+/* line 11, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-vote-col .favorites_count {
+  color: #666666;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* line 16, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col {
+  width: 95%;
+  float: left;
+}
+/* line 20, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col .flagged {
+  font-size: 13px;
+  font-weight: bold;
+}
+/* line 24, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col #body {
+  min-height: 100px;
+}
+/* line 27, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col #body #close_reason {
+  text-align: center;
+  padding: 10px;
+  width: 95%;
+  border: 4px solid #386ea4;
+  margin: 10px 5px;
+  font-weight: bold;
+  background: #e0ebf1;
+}
+/* line 36, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col .user_info {
+  font-size: 12px;
+  padding: 8px 4px;
+  margin: 10px 2px;
+  color: #666666;
+  background: #e0ebf1;
+  float: right;
+}
+/* line 45, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col .user_info .wiki_flag {
+  float: right;
+  font-weight: bold;
+  color: #e55b00;
+}
+/* line 49, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col .user_info .gravatar {
+  float: left;
+}
+/* line 51, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col .user_info .user_data {
+  margin-left: 2px;
+  float: left;
+}
+/* line 55, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col .user_info .user_data .user_reputation {
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 58, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col .user_info .user_data .time_ago {
+  display: block;
+  font-weight: bold;
+}
+/* line 61, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col .actions {
+  padding: 1px;
+  margin: 2px;
+}
+/* line 64, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col .actions a {
+  font-size: 12px;
+  margin-right: 2px;
+}
+/* line 67, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#question-body-col a.add_comment_link {
+  margin-bottom: 2px;
+}
+
+/* line 70, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+.comments {
+  clear: both;
+}
+/* line 72, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+.comments .comment {
+  border-top: 2px dotted #cccccc;
+  padding-top: 1px;
+  margin-top: 1px;
+}
+/* line 76, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+.comments .comment .comment-content {
+  float: left;
+  width: 95%;
+}
+/* line 79, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+.comments .comment .comment-votes {
+  float: left;
+  display: inline;
+  width: 4%;
+}
+/* line 83, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+.comments .comment .comment-votes .votes_average {
+  font-weight: bold;
+  font-size: 12px;
+  float: left;
+  margin-right: 4px;
+}
+/* line 88, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+.comments .comment .controls {
+  clear: both;
+}
+
+/* line 90, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers, #questions {
+  margin-top: 20px;
+}
+/* line 93, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers .wiki_flag, #questions .wiki_flag {
+  font-weight: bold;
+  color: #e55b00;
+  font-size: 130%;
+}
+/* line 97, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers .secondary-navigation, #questions .secondary-navigation {
+  background: white;
+  border-bottom: 1px solid #666666;
+}
+/* line 101, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers .answer, #answers .question, #questions .answer, #questions .question {
+  border-bottom: 1px solid #222222;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+/* line 107, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers .answer h2.version_title, #answers .question h2.version_title, #questions .answer h2.version_title, #questions .question h2.version_title {
+  padding: 20px;
+  background: #ffffcd;
+}
+/* line 110, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers .answer h2.version_title .version, #answers .question h2.version_title .version, #questions .answer h2.version_title .version, #questions .question h2.version_title .version {
+  font-size: 36px;
+  color: #666666;
+}
+/* line 114, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers .answer #vote-col, #answers .answer .vote-col, #answers .question #vote-col, #answers .question .vote-col, #questions .answer #vote-col, #questions .answer .vote-col, #questions .question #vote-col, #questions .question .vote-col {
+  float: left;
+  text-align: center;
+  margin-right: 4px;
+}
+/* line 118, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers .answer #body-col, #answers .answer .body-col, #answers .question #body-col, #answers .question .body-col, #questions .answer #body-col, #questions .answer .body-col, #questions .question #body-col, #questions .question .body-col {
+  float: left;
+  width: 90%;
+}
+/* line 121, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers .answer #body-col .actions, #answers .answer .body-col .actions, #answers .question #body-col .actions, #answers .question .body-col .actions, #questions .answer #body-col .actions, #questions .answer .body-col .actions, #questions .question #body-col .actions, #questions .question .body-col .actions {
+  float: left;
+  padding: 4px;
+}
+/* line 124, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers .answer #body-col .actions a, #answers .answer .body-col .actions a, #answers .question #body-col .actions a, #answers .question .body-col .actions a, #questions .answer #body-col .actions a, #questions .answer .body-col .actions a, #questions .question #body-col .actions a, #questions .question .body-col .actions a {
+  margin: 2px 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 129, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers .answer #body-col .user_data, #answers .answer .body-col .user_data, #answers .question #body-col .user_data, #answers .question .body-col .user_data, #questions .answer #body-col .user_data, #questions .answer .body-col .user_data, #questions .question #body-col .user_data, #questions .question .body-col .user_data {
+  margin-bottom: 5px;
+  width: 170px;
+  padding: 4px;
+  float: right;
+}
+/* line 135, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers .answer #body-col .user_data .avatar, #answers .answer .body-col .user_data .avatar, #answers .question #body-col .user_data .avatar, #answers .question .body-col .user_data .avatar, #questions .answer #body-col .user_data .avatar, #questions .answer .body-col .user_data .avatar, #questions .question #body-col .user_data .avatar, #questions .question .body-col .user_data .avatar {
+  float: left;
+  margin: 4px;
+}
+/* line 139, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+#answers .answer .comment, #answers .question .comment, #questions .answer .comment, #questions .question .comment {
+  border-top: 2px dotted #cccccc;
+  padding-top: 6px;
+  margin-top: 4px;
+}
+
+/* line 144, ../../../../../app/stylesheets/themes/drastic-bec/_questions.sass */
+.version_message {
+  background: #eeeeff;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_vote_box.sass */
+.vote_box {
+  display: block;
+  padding: 5px 0px;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 9, ../../../../../app/stylesheets/themes/drastic-bec/_vote_box.sass */
+.vote_box .votes_average {
+  display: block;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 0.9em;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+}
+/* line 19, ../../../../../app/stylesheets/themes/drastic-bec/_vote_box.sass */
+.vote_box button {
+  cursor: pointer;
+  border: 0px;
+  padding: 0px;
+  width: 100%;
+}
+/* line 25, ../../../../../app/stylesheets/themes/drastic-bec/_vote_box.sass */
+.vote_box button.arrow {
+  height: 18px;
+}
+/* line 29, ../../../../../app/stylesheets/themes/drastic-bec/_vote_box.sass */
+.vote_box button.arrow.vote_up img:hover {
+  border-bottom: 1px solid red;
+}
+/* line 32, ../../../../../app/stylesheets/themes/drastic-bec/_vote_box.sass */
+.vote_box button.arrow.vote_down img:hover {
+  border-top: 1px solid red;
+}
+/* line 36, ../../../../../app/stylesheets/themes/drastic-bec/_vote_box.sass */
+.vote_box .arrow {
+  border: 0px;
+  background: transparent;
+  display: block;
+}
+/* line 41, ../../../../../app/stylesheets/themes/drastic-bec/_vote_box.sass */
+.vote_box a {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_markdown.sass */
+.markdown {
+  font-size: 16px;
+  color: #222222;
+}
+/* line 5, ../../../../../app/stylesheets/themes/drastic-bec/_markdown.sass */
+.markdown p {
+  margin-top: 0;
+  font-size: 16px;
+  color: #222222;
+}
+/* line 10, ../../../../../app/stylesheets/themes/drastic-bec/_markdown.sass */
+.markdown#markdown_preview {
+  border: 2px dotted #cccccc;
+  min-height: 20px;
+}
+
+/* line 17, ../../../../../app/stylesheets/themes/drastic-bec/_markdown.sass */
+#main #answers .children .markdown {
+  font-size: 13px;
+  color: #555555;
+}
+/* line 21, ../../../../../app/stylesheets/themes/drastic-bec/_markdown.sass */
+#main #answers .children .markdown p {
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 15px;
+  color: #555555;
+  margin-bottom: 4px;
+}
+
+/* line 30, ../../../../../app/stylesheets/themes/drastic-bec/_markdown.sass */
+#question-body-col .comments .comment {
+  font-size: 13px;
+}
+/* line 33, ../../../../../app/stylesheets/themes/drastic-bec/_markdown.sass */
+#question-body-col .comments .comment .markdown p {
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 15px;
+  color: #555555;
+  margin-bottom: 10px;
+}
+/* line 40, ../../../../../app/stylesheets/themes/drastic-bec/_markdown.sass */
+#question-body-col .comments .comment .actions a {
+  font-size: 12px;
+}
+
+/* line 2, ../../../../../app/stylesheets/themes/drastic-bec/_stats.sass */
+.stats .entry {
+  padding: 12px 2px;
+}
+/* line 4, ../../../../../app/stylesheets/themes/drastic-bec/_stats.sass */
+.stats .entry .text {
+  font-size: 16px;
+}
+/* line 6, ../../../../../app/stylesheets/themes/drastic-bec/_stats.sass */
+.stats .entry .data {
+  font-size: 20px;
+  font-weight: bold;
+  color: #666666;
+}
+
+/* line 2, ../../../../../app/stylesheets/themes/drastic-bec/_groups.sass */
+#groups .actions {
+  float: right;
+}
+
+/* line 5, ../../../../../app/stylesheets/themes/drastic-bec/_groups.sass */
+a.request_group {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #26b82b;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #b4d3b5), color-stop(10%, #7ab17c), color-stop(50%, #4d834e), color-stop(50%, #477948), color-stop(100%, #5a995b));
+  background-image: -moz-linear-gradient(top, #b4d3b5 0%, #7ab17c 10%, #4d834e 50%, #477948 50%, #5a995b 100%);
+  background-image: linear-gradient(top, #b4d3b5 0%, #7ab17c 10%, #4d834e 50%, #477948 50%, #5a995b 100%);
+  border-color: #365c37;
+  text-shadow: #104e12 0px 1px 1px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 24px;
+  line-height: 30px;
+  padding: 6px 24px;
+  border-width: 2px;
+  margin-top: 20px;
+  float: right;
+}
+/* line 172, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group.disabled, a.request_group[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group.disabled:hover, a.request_group.disabled:focus, a.request_group[disabled]:hover, a.request_group[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group.disabled:active, a.request_group[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group, a.request_group:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group.disabled:active, a.request_group.disabled:hover, a.request_group[disabled]:active, a.request_group[disabled]:hover {
+  background-color: #26b82b;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #b4d3b5), color-stop(10%, #7ab17c), color-stop(50%, #4d834e), color-stop(50%, #477948), color-stop(100%, #5a995b));
+  background-image: -moz-linear-gradient(top, #b4d3b5 0%, #7ab17c 10%, #4d834e 50%, #477948 50%, #5a995b 100%);
+  background-image: linear-gradient(top, #b4d3b5 0%, #7ab17c 10%, #4d834e 50%, #477948 50%, #5a995b 100%);
+  border-color: #365c37;
+  text-shadow: #104e12 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group.disabled:active, a.request_group.disabled:active:visited, a.request_group.disabled:hover, a.request_group.disabled:hover:visited, a.request_group[disabled]:active, a.request_group[disabled]:active:visited, a.request_group[disabled]:hover, a.request_group[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:hover, a.request_group:focus {
+  background-color: #23ab28;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #a9cdab), color-stop(10%, #6fab72), color-stop(50%, #477948), color-stop(50%, #416f42), color-stop(100%, #548f55));
+  background-image: -moz-linear-gradient(top, #a9cdab 0%, #6fab72 10%, #477948 50%, #416f42 50%, #548f55 100%);
+  background-image: linear-gradient(top, #a9cdab 0%, #6fab72 10%, #477948 50%, #416f42 50%, #548f55 100%);
+  border-color: #305231;
+  text-shadow: #0d410f 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:hover, a.request_group:hover:visited, a.request_group:focus, a.request_group:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:active {
+  background-color: #219f23;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #477949), color-stop(30%, #4b804c), color-stop(50%, #447345), color-stop(50%, #3e693f), color-stop(100%, #569358));
+  background-image: -moz-linear-gradient(top, #477949 0%, #4b804c 30%, #447345 50%, #3e693f 50%, #569358 100%);
+  background-image: linear-gradient(top, #477949 0%, #4b804c 30%, #447345 50%, #3e693f 50%, #569358 100%);
+  border-color: #2b492b;
+  text-shadow: #0b350c 0px -1px -1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:active, a.request_group:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:active {
+  padding: 5px 23px;
+  border-width: 3px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group.disabled:active, a.request_group[disabled] {
+  padding: 6px 24px;
+  border-width: 2px;
+}
+/* line 12, ../../../../../app/stylesheets/themes/drastic-bec/_groups.sass */
+a.request_group:visited, a.request_group:link {
+  color: white;
+}
+
+/* line 16, ../../../../../app/stylesheets/themes/drastic-bec/_groups.sass */
+#show_group .group_logo {
+  float: right;
+}
+/* line 18, ../../../../../app/stylesheets/themes/drastic-bec/_groups.sass */
+#show_group .actions {
+  padding: 5px;
+  margin: 6px;
+  background: #eeeeee;
+}
+/* line 22, ../../../../../app/stylesheets/themes/drastic-bec/_groups.sass */
+#show_group .actions a {
+  margin: 2px 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question {
+  background: #36393d;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -22px;
+  color: white;
+  padding: 20px;
+  -moz-border-radius: 1px 1px 15px 15px;
+  -webkit-border-radius: 1px 1px 15px 15px;
+  -khtml-border-radius: 1px 1px 15px 15px;
+  border-radius: 1px 1px 15px 15px;
+}
+/* line 9, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question h3 {
+  color: white;
+}
+/* line 11, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question label {
+  color: white;
+}
+/* line 13, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question .columns {
+  margin-top: 15px;
+}
+/* line 15, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question .columns .column_info {
+  float: left;
+  width: 10%;
+}
+/* line 18, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question .columns .column_info .avatar {
+  float: right;
+  margin: 5px 5px 20px 0px;
+  width: 50%;
+  text-align: center;
+}
+/* line 23, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question .columns .column_info .reputation {
+  color: #cccccc;
+  font-size: 38px;
+  font-weight: bold;
+  float: right;
+  margin-right: 5px;
+  text-align: center;
+  width: 50%;
+}
+/* line 32, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question .columns .column_info .reputation.big_number {
+  font-size: 33px;
+  margin-right: 20px;
+}
+/* line 35, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question .columns .column_form {
+  float: right;
+  width: 85%;
+}
+/* line 38, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question .columns .column_form .pointer {
+  background: transparent url(/images/pointer.png) no-repeat;
+  width: 20px;
+  height: 40px;
+  float: left;
+  margin-top: 12px;
+  margin-right: -1px;
+}
+/* line 45, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question .columns .column_form textarea {
+  padding: 4px;
+  width: 95%;
+  height: 67px;
+  background: white;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -khtml-border-radius: 8px 8px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
+  color: black;
+  font-weight: bold;
+  border-style: none;
+  outline-style: none;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+/* line 57, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question .columns .column_form textarea:focus {
+  outline: 0px;
+}
+/* line 60, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question .columns .column_form #tags .text_field {
+  width: 60%;
+}
+/* line 63, ../../../../../app/stylesheets/themes/drastic-bec/_quick_question.sass */
+#quick_question .ask_question {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #ff3838;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #fbe5e5), color-stop(10%, #ef9595), color-stop(50%, #e34444), color-stop(50%, #e13737), color-stop(100%, #e86363));
+  background-image: -moz-linear-gradient(top, #fbe5e5 0%, #ef9595 10%, #e34444 50%, #e13737 50%, #e86363 100%);
+  background-image: linear-gradient(top, #fbe5e5 0%, #ef9595 10%, #e34444 50%, #e13737 50%, #e86363 100%);
+  border-color: #cc1f1f;
+  text-shadow: #b80000 0px 1px 1px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 2px;
+  float: right;
+}
+/* line 172, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question.disabled, #quick_question .ask_question[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question.disabled:hover, #quick_question .ask_question.disabled:focus, #quick_question .ask_question[disabled]:hover, #quick_question .ask_question[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question.disabled:active, #quick_question .ask_question[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question, #quick_question .ask_question:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question.disabled:active, #quick_question .ask_question.disabled:hover, #quick_question .ask_question[disabled]:active, #quick_question .ask_question[disabled]:hover {
+  background-color: #ff3838;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #fbe5e5), color-stop(10%, #ef9595), color-stop(50%, #e34444), color-stop(50%, #e13737), color-stop(100%, #e86363));
+  background-image: -moz-linear-gradient(top, #fbe5e5 0%, #ef9595 10%, #e34444 50%, #e13737 50%, #e86363 100%);
+  background-image: linear-gradient(top, #fbe5e5 0%, #ef9595 10%, #e34444 50%, #e13737 50%, #e86363 100%);
+  border-color: #cc1f1f;
+  text-shadow: #b80000 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question.disabled:active, #quick_question .ask_question.disabled:active:visited, #quick_question .ask_question.disabled:hover, #quick_question .ask_question.disabled:hover:visited, #quick_question .ask_question[disabled]:active, #quick_question .ask_question[disabled]:active:visited, #quick_question .ask_question[disabled]:hover, #quick_question .ask_question[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:hover, #quick_question .ask_question:focus {
+  background-color: #ff2929;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #f9d7d7), color-stop(10%, #ed8787), color-stop(50%, #e13737), color-stop(50%, #df2a2a), color-stop(100%, #e65656));
+  background-image: -moz-linear-gradient(top, #f9d7d7 0%, #ed8787 10%, #e13737 50%, #df2a2a 50%, #e65656 100%);
+  background-image: linear-gradient(top, #f9d7d7 0%, #ed8787 10%, #e13737 50%, #df2a2a 50%, #e65656 100%);
+  border-color: #bf1d1d;
+  text-shadow: #a90000 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:hover, #quick_question .ask_question:hover:visited, #quick_question .ask_question:focus, #quick_question .ask_question:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:active {
+  background-color: #ff1919;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #e13838), color-stop(30%, #e24141), color-stop(50%, #df2f2f), color-stop(50%, #dd2222), color-stop(100%, #e65b5b));
+  background-image: -moz-linear-gradient(top, #e13838 0%, #e24141 30%, #df2f2f 50%, #dd2222 50%, #e65b5b 100%);
+  background-image: linear-gradient(top, #e13838 0%, #e24141 30%, #df2f2f 50%, #dd2222 50%, #e65b5b 100%);
+  border-color: #b11b1b;
+  text-shadow: #990000 0px -1px -1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:active, #quick_question .ask_question:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:active {
+  padding: 4px 17px;
+  border-width: 3px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question.disabled:active, #quick_question .ask_question[disabled] {
+  padding: 5px 18px;
+  border-width: 2px;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_search_box.sass */
+#search_box {
+  background: #36393d;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 30px;
+  margin-top: -22px;
+  color: white;
+  padding: 20px;
+  -moz-border-radius: 1px 1px 15px 15px;
+  -webkit-border-radius: 1px 1px 15px 15px;
+  -khtml-border-radius: 1px 1px 15px 15px;
+  border-radius: 1px 1px 15px 15px;
+}
+/* line 10, ../../../../../app/stylesheets/themes/drastic-bec/_search_box.sass */
+#search_box h4 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+/* line 14, ../../../../../app/stylesheets/themes/drastic-bec/_search_box.sass */
+#search_box label {
+  color: white;
+}
+/* line 16, ../../../../../app/stylesheets/themes/drastic-bec/_search_box.sass */
+#search_box .search {
+  margin-right: 20px;
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #18c518;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #acdaac), color-stop(10%, #6cbe6c), color-stop(50%, #408f40), color-stop(50%, #3b843b), color-stop(100%, #4ba74b));
+  background-image: -moz-linear-gradient(top, #acdaac 0%, #6cbe6c 10%, #408f40 50%, #3b843b 50%, #4ba74b 100%);
+  background-image: linear-gradient(top, #acdaac 0%, #6cbe6c 10%, #408f40 50%, #3b843b 50%, #4ba74b 100%);
+  border-color: #2c642c;
+  text-shadow: #0a530a 0px 1px 1px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 2px;
+  float: right;
+}
+/* line 172, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search.disabled, #search_box .search[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search.disabled:hover, #search_box .search.disabled:focus, #search_box .search[disabled]:hover, #search_box .search[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search.disabled:active, #search_box .search[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search, #search_box .search:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search.disabled:active, #search_box .search.disabled:hover, #search_box .search[disabled]:active, #search_box .search[disabled]:hover {
+  background-color: #18c518;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #acdaac), color-stop(10%, #6cbe6c), color-stop(50%, #408f40), color-stop(50%, #3b843b), color-stop(100%, #4ba74b));
+  background-image: -moz-linear-gradient(top, #acdaac 0%, #6cbe6c 10%, #408f40 50%, #3b843b 50%, #4ba74b 100%);
+  background-image: linear-gradient(top, #acdaac 0%, #6cbe6c 10%, #408f40 50%, #3b843b 50%, #4ba74b 100%);
+  border-color: #2c642c;
+  text-shadow: #0a530a 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search.disabled:active, #search_box .search.disabled:active:visited, #search_box .search.disabled:hover, #search_box .search.disabled:hover:visited, #search_box .search[disabled]:active, #search_box .search[disabled]:active:visited, #search_box .search[disabled]:hover, #search_box .search[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search:hover, #search_box .search:focus {
+  background-color: #16b716;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #a1d5a1), color-stop(10%, #61b961), color-stop(50%, #3b843b), color-stop(50%, #367936), color-stop(100%, #469c46));
+  background-image: -moz-linear-gradient(top, #a1d5a1 0%, #61b961 10%, #3b843b 50%, #367936 50%, #469c46 100%);
+  background-image: linear-gradient(top, #a1d5a1 0%, #61b961 10%, #3b843b 50%, #367936 50%, #469c46 100%);
+  border-color: #275927;
+  text-shadow: #084508 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search:hover, #search_box .search:hover:visited, #search_box .search:focus, #search_box .search:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search:active {
+  background-color: #15aa15;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #3c843c), color-stop(30%, #3f8b3f), color-stop(50%, #387d38), color-stop(50%, #347334), color-stop(100%, #48a048));
+  background-image: -moz-linear-gradient(top, #3c843c 0%, #3f8b3f 30%, #387d38 50%, #347334 50%, #48a048 100%);
+  background-image: linear-gradient(top, #3c843c 0%, #3f8b3f 30%, #387d38 50%, #347334 50%, #48a048 100%);
+  border-color: #234f23;
+  text-shadow: #073907 0px -1px -1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search:active, #search_box .search:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search:active {
+  padding: 4px 17px;
+  border-width: 3px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .search.disabled:active, #search_box .search[disabled] {
+  padding: 5px 18px;
+  border-width: 2px;
+}
+
+/* line 22, ../../../../../app/stylesheets/themes/drastic-bec/_search_box.sass */
+.search_field {
+  margin-top: 1em;
+}
+
+/* line 2, ../../../../../app/stylesheets/themes/drastic-bec/_widgets.sass */
+.widget ul.list {
+  margin-top: 15px;
+}
+/* line 6, ../../../../../app/stylesheets/themes/drastic-bec/_widgets.sass */
+.widget#groups ul li {
+  color: #888888;
+}
+/* line 8, ../../../../../app/stylesheets/themes/drastic-bec/_widgets.sass */
+.widget#groups ul li a {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 11, ../../../../../app/stylesheets/themes/drastic-bec/_widgets.sass */
+.widget .more {
+  float: right;
+  margin-right: 10px;
+  padding: 1px;
+}
+/* line 17, ../../../../../app/stylesheets/themes/drastic-bec/_widgets.sass */
+.widget#users ul, .widget#top_users ul {
+  margin-top: 15px;
+}
+/* line 19, ../../../../../app/stylesheets/themes/drastic-bec/_widgets.sass */
+.widget#users ul li, .widget#top_users ul li {
+  height: 35px;
+}
+/* line 21, ../../../../../app/stylesheets/themes/drastic-bec/_widgets.sass */
+.widget#users ul li .gravatar, .widget#top_users ul li .gravatar {
+  float: left;
+}
+/* line 23, ../../../../../app/stylesheets/themes/drastic-bec/_widgets.sass */
+.widget#users ul li .item, .widget#top_users ul li .item {
+  margin-left: 40px;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+.general-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 4, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+.general-info .avatar {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+/* line 8, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+.general-info .avatar .reputation {
+  margin-top: 20px;
+  font-size: 400%;
+  font-weight: bold;
+}
+/* line 12, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+.general-info .avatar .text {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 16, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+.general-info .user-info {
+  float: left;
+  width: 44%;
+}
+/* line 19, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+.general-info .user-info .user-field {
+  font-weight: bold;
+  font-size: 120%;
+  width: 45%;
+}
+/* line 23, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+.general-info .user-info .user-field-value {
+  width: 40%;
+}
+/* line 26, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+.general-info .bio-info {
+  float: left;
+  width: 30%;
+  padding: 8px;
+  margin: 4px;
+  background: #eeeeee;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+/* line 36, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+.reputation {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+/* line 40, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+.modflair, .ownerflair {
+  color: black;
+}
+
+/* line 44, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+a.follow_link {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #e76400;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff8c34), color-stop(100%, #c85700));
+  background-image: -moz-linear-gradient(top, #ff8c34 0%, #c85700 100%);
+  background-image: linear-gradient(top, #ff8c34 0%, #c85700 100%);
+  border-color: #9b4300;
+  text-shadow: #682d00 0px 1px 1px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -o-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -khtml-border-radius: 18px;
+  border-radius: 18px;
+  font-size: 24px;
+  line-height: 15px;
+  padding: 6px 24px;
+  border-width: 1px;
+  float: right;
+}
+/* line 172, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link.disabled, a.follow_link[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link.disabled:hover, a.follow_link.disabled:focus, a.follow_link[disabled]:hover, a.follow_link[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link.disabled:active, a.follow_link[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link, a.follow_link:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link.disabled:active, a.follow_link.disabled:hover, a.follow_link[disabled]:active, a.follow_link[disabled]:hover {
+  background-color: #e76400;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff8c34), color-stop(100%, #c85700));
+  background-image: -moz-linear-gradient(top, #ff8c34 0%, #c85700 100%);
+  background-image: linear-gradient(top, #ff8c34 0%, #c85700 100%);
+  border-color: #9b4300;
+  text-shadow: #682d00 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link.disabled:active, a.follow_link.disabled:active:visited, a.follow_link.disabled:hover, a.follow_link.disabled:hover:visited, a.follow_link[disabled]:active, a.follow_link[disabled]:active:visited, a.follow_link[disabled]:hover, a.follow_link[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:hover, a.follow_link:focus {
+  background-color: #d85d00;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff8325), color-stop(100%, #b95000));
+  background-image: -moz-linear-gradient(top, #ff8325 0%, #b95000 100%);
+  background-image: linear-gradient(top, #ff8325 0%, #b95000 100%);
+  border-color: #8c3c00;
+  text-shadow: #592600 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:hover, a.follow_link:hover:visited, a.follow_link:focus, a.follow_link:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:active {
+  background-color: #c85700;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #c35500), color-stop(40%, #d25c00), color-stop(85%, #d25c00), color-stop(100%, #f56b00));
+  background-image: -moz-linear-gradient(top, #c35500 0%, #d25c00 40%, #d25c00 85%, #f56b00 100%);
+  background-image: linear-gradient(top, #c35500 0%, #d25c00 40%, #d25c00 85%, #f56b00 100%);
+  border-color: #7c3600;
+  text-shadow: #492000 0px -1px -1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:active, a.follow_link:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:active {
+  padding: 5px 23px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link.disabled:active, a.follow_link[disabled] {
+  padding: 6px 24px;
+  border-width: 1px;
+}
+/* line 49, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+a.follow_link:active, a.follow_link:link {
+  color: white;
+}
+
+/* line 52, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+a.unfollow_link {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: red;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff4d4d), color-stop(100%, #e00000));
+  background-image: -moz-linear-gradient(top, #ff4d4d 0%, #e00000 100%);
+  background-image: linear-gradient(top, #ff4d4d 0%, #e00000 100%);
+  border-color: #b30000;
+  text-shadow: maroon 0px 1px 1px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -o-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -khtml-border-radius: 18px;
+  border-radius: 18px;
+  font-size: 24px;
+  line-height: 15px;
+  padding: 6px 24px;
+  border-width: 1px;
+  float: right;
+}
+/* line 172, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link.disabled, a.unfollow_link[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link.disabled:hover, a.unfollow_link.disabled:focus, a.unfollow_link[disabled]:hover, a.unfollow_link[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link.disabled:active, a.unfollow_link[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link, a.unfollow_link:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link.disabled:active, a.unfollow_link.disabled:hover, a.unfollow_link[disabled]:active, a.unfollow_link[disabled]:hover {
+  background-color: red;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff4d4d), color-stop(100%, #e00000));
+  background-image: -moz-linear-gradient(top, #ff4d4d 0%, #e00000 100%);
+  background-image: linear-gradient(top, #ff4d4d 0%, #e00000 100%);
+  border-color: #b30000;
+  text-shadow: maroon 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link.disabled:active, a.unfollow_link.disabled:active:visited, a.unfollow_link.disabled:hover, a.unfollow_link.disabled:hover:visited, a.unfollow_link[disabled]:active, a.unfollow_link[disabled]:active:visited, a.unfollow_link[disabled]:hover, a.unfollow_link[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:hover, a.unfollow_link:focus {
+  background-color: #f00000;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff3e3e), color-stop(100%, #d10000));
+  background-image: -moz-linear-gradient(top, #ff3e3e 0%, #d10000 100%);
+  background-image: linear-gradient(top, #ff3e3e 0%, #d10000 100%);
+  border-color: #a30000;
+  text-shadow: #710000 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:hover, a.unfollow_link:hover:visited, a.unfollow_link:focus, a.unfollow_link:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:active {
+  background-color: #e00000;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #db0000), color-stop(40%, #ea0000), color-stop(85%, #ea0000), color-stop(100%, #ff0f0f));
+  background-image: -moz-linear-gradient(top, #db0000 0%, #ea0000 40%, #ea0000 85%, #ff0f0f 100%);
+  background-image: linear-gradient(top, #db0000 0%, #ea0000 40%, #ea0000 85%, #ff0f0f 100%);
+  border-color: #930000;
+  text-shadow: #610000 0px -1px -1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:active, a.unfollow_link:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:active {
+  padding: 5px 23px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link.disabled:active, a.unfollow_link[disabled] {
+  padding: 6px 24px;
+  border-width: 1px;
+}
+/* line 57, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+a.unfollow_link:active, a.unfollow_link:link, a.unfollow_link:visited {
+  color: white;
+}
+
+/* line 61, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+.friend_list {
+  margin: 3px;
+}
+/* line 63, ../../../../../app/stylesheets/themes/drastic-bec/_users.sass */
+.friend_list span {
+  padding: 1px 2px;
+}
+
+/* line 2, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+#badges ul.list {
+  padding-bottom: 15px;
+}
+/* line 5, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+#badges ul.list li .badge_item {
+  width: 30%;
+  float: left;
+}
+/* line 8, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+#badges ul.list li .badge_item .badge {
+  width: 55%;
+  display: inline;
+}
+/* line 11, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+#badges ul.list li .badge_item .counter {
+  display: inline;
+  width: 40%;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* line 16, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+#badges ul.list li .badge_description {
+  width: 50%;
+  float: left;
+}
+
+/* line 22, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+#badges_show .title .counter {
+  font-size: 28px;
+}
+
+/* line 26, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+.badgeicon {
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -khtml-border-radius: 8px 8px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
+  margin-bottom: 2px;
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+}
+/* line 34, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+.badgeicon.silver {
+  background: silver;
+}
+/* line 36, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+.badgeicon.bronze {
+  background: #e1a970;
+}
+/* line 38, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+.badgeicon.gold {
+  background: #ffcc00;
+}
+
+/* line 40, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+.badgecount {
+  margin-left: -3px;
+}
+
+/* line 43, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+.badge {
+  background: #222222;
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  -khtml-border-radius: 6px 6px 6px 6px;
+  border-radius: 6px 6px 6px 6px;
+  padding: 4px 8px 4px 3px;
+  margin: 0px 3px 3px 0px;
+  vertical-align: baseline;
+  border-bottom: 1px solid gray;
+  line-height: 23px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: #eeeeee;
+}
+/* line 57, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+.badge:hover, .badge:link, .badge:visited, .badge:active {
+  font-size: 13px !important;
+  color: #eeeeee !important;
+  background: #222222 !important;
+  text-decoration: none !important;
+}
+/* line 63, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+.badge .badgeicon {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+/* line 66, ../../../../../app/stylesheets/themes/drastic-bec/_badges.sass */
+.badge.mini {
+  line-height: 15px !important;
+  padding: 0px 4px 0px 4px;
+  margin: 0px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -khtml-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  margin-left: 3px;
+  display: inline;
+  overflow: hidden;
+  float: left;
+  font-size: 10px;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.small {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.4em;
+}
+
+/* line 10, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.gray {
+  color: #999999;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.6em;
+}
+
+/* line 21, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.hightlight {
+  background-color: #ffff88;
+  font-weight: bold;
+  color: #36393d;
+}
+
+/* line 28, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+a:link, a:visited, a:hover, a:active {
+  color: #36393d;
+}
+
+/* line 32, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+h1, h2, h3 {
+  color: #36393d;
+}
+
+/* line 36, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+a {
+  -moz-outline: none;
+}
+
+/* line 40, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+body {
+  color: #222222;
+  background: #cfcfcf;
+  font-family: Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+}
+
+/* line 46, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+hr {
+  background: #f0f0ee;
+  color: #f0f0ee;
+}
+
+/* line 51, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#header {
+  background: #36393d;
+}
+/* line 54, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#header h1 {
+  font-size: 28px;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+/* line 60, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#header h1 a:link, #header h1 a:active, #header h1 a:hover, #header h1 a:visited {
+  color: white;
+}
+
+/* line 64, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#user-navigation a.logout {
+  padding: 1px 4px;
+}
+
+/* line 68, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main {
+  width: 73%;
+}
+/* line 71, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main .block .content {
+  background: white;
+  padding-top: 1px;
+}
+/* line 75, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main .block .content h2 {
+  margin-left: 15px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: normal;
+  letter-spacing: -1px;
+  line-height: 1.2em;
+}
+/* line 84, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main .block .content p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.45em;
+}
+
+/* line 94, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#sidebar .block {
+  background: white;
+}
+/* line 97, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#sidebar .block h4 {
+  font-weight: bold;
+}
+/* line 100, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#sidebar .block .content ul.list {
+  margin-top: 15px !important;
+}
+/* line 103, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#sidebar .notice {
+  background: #e6eefc;
+}
+/* line 106, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#sidebar .notice h4 {
+  color: #0b43a8;
+}
+/* line 109, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#sidebar .help {
+  background: #e6bb66;
+}
+/* line 112, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#sidebar h3 {
+  background: #36393d;
+  color: white;
+  border-bottom: 5px solid #1a1a1a;
+  text-transform: capitalize;
+}
+
+/* line 119, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main-navigation ul li a {
+  font-size: 12px;
+  padding: 4px 10px;
+}
+
+/* line 125, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#sidebar ul li a:link, #sidebar ul li a:visited {
+  background: white;
+  border-bottom: 1px solid #f0f0ee;
+  text-decoration: none;
+}
+/* line 130, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#sidebar ul li a:hover, #sidebar ul li a:active {
+  background: #666666;
+  color: white;
+}
+
+/* line 135, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main-navigation ul li {
+  background: #1a1a1a;
+}
+/* line 138, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main-navigation ul li.active {
+  background: #f0f0ee;
+}
+/* line 142, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main-navigation ul li a:link, #main-navigation ul li a:visited, #main-navigation ul li a:hover, #main-navigation ul li a:active {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 148, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.secondary-navigation ul li a:link, .secondary-navigation ul li a:visited, .secondary-navigation ul li a:hover, .secondary-navigation ul li a:active {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 152, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.secondary-navigation .navtitle {
+  font-size: 20px;
+  line-height: 18px;
+}
+
+/* line 157, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#user-navigation ul li a:link, #user-navigation ul li a:visited, #user-navigation ul li a:hover, #user-navigation ul li a:active {
+  text-decoration: none;
+  color: white;
+}
+/* line 161, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#user-navigation ul li a:hover {
+  text-decoration: underline;
+}
+
+/* line 165, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.secondary-navigation li a:hover {
+  background: #666666;
+}
+
+/* line 170, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main-navigation ul li.active a:link, #main-navigation ul li.active a:visited, #main-navigation ul li.active a:hover, #main-navigation ul li.active a:active {
+  color: #1a1a1a;
+}
+
+/* line 174, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.secondary-navigation {
+  color: #eeeeee;
+  background: #36393d;
+  border-bottom-color: #1a1a1a;
+}
+/* line 179, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.secondary-navigation ul li.active {
+  background-color: #1a1a1a;
+}
+/* line 182, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.secondary-navigation ul li.active a:hover {
+  background-color: #1a1a1a;
+}
+
+/* line 186, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#footer .block {
+  color: white;
+  background: #1a1a1a;
+}
+/* line 190, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#footer .block a {
+  color: #bbbbbb;
+}
+/* line 193, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#footer .block p {
+  margin: 0;
+  padding: 10px;
+}
+
+/* line 199, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.pagination a {
+  background: #cfcfcf;
+  -moz-border-radius: 3px;
+  border: 1px solid #c1c1c1;
+}
+/* line 204, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.pagination span {
+  background: #cfcfcf;
+  -moz-border-radius: 3px;
+  border: 1px solid #c1c1c1;
+}
+/* line 209, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.pagination span.current {
+  background: #36393d;
+  color: white;
+  border: 1px solid #36393d;
+}
+/* line 214, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.pagination a {
+  color: #1a1a1a;
+}
+/* line 217, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.pagination a:hover {
+  border: 1px solid #666666;
+}
+
+/* line 222, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.table th {
+  background: #36393d;
+  border-bottom: 3px solid #700000;
+  color: white;
+}
+/* line 227, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.table td {
+  border-bottom: 1px solid #f0f0ee;
+}
+/* line 230, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.table tr.even {
+  background: #ebebeb;
+}
+
+/* line 235, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.form label.label {
+  color: #666666;
+}
+/* line 238, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.form input.text_field, .form textarea.text_area {
+  width: 100%;
+  border: 1px solid #cfcfcf;
+}
+/* line 242, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.form input.button {
+  background: #cfcfcf;
+  -moz-border-radius: 5px;
+  border: 1px solid #c1c1c1;
+  padding: 2px 5px;
+  cursor: pointer;
+  color: #36393d;
+  font-weight: bold;
+  font-size: 11px;
+}
+/* line 252, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.form input.button:hover {
+  border: 1px solid #666666;
+}
+/* line 255, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.form .description {
+  font-style: italic;
+  color: #8c8c8c;
+  font-size: 0.9em;
+}
+/* line 260, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.form .navform a {
+  color: #cc0000;
+}
+
+/* line 265, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.flash .message {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-align: center;
+  margin: 0 auto 15px;
+}
+/* line 271, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.flash .message p {
+  margin: 8px;
+}
+/* line 274, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.flash .error {
+  border: 1px solid #ffbbbb;
+  background-color: #ffdddd;
+}
+/* line 278, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.flash .warning {
+  border: 1px solid #fffaaa;
+  background-color: #ffffcc;
+}
+/* line 282, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.flash .notice {
+  border: 1px solid #1fdf00;
+  background-color: #bbffb6;
+}
+
+/* line 288, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+ul.list li .item .avatar {
+  border-color: #f0f0ee;
+  border-width: 1px;
+  border-style: solid;
+  padding: 2px;
+}
+
+/* line 295, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#box .block {
+  background: white;
+}
+/* line 298, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#box .block h2 {
+  background: #36393d;
+  color: white;
+}
+
+/* line 303, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main, .secondary-navigation, #main .block {
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+}
+
+/* line 311, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#sidebar .block, #sidebar h3 {
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+}
+
+/* line 318, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+ul.list li, #footer .block, .form input.button {
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+}
+
+/* line 325, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#box .block {
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+}
+/* line 331, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#box .block h2 {
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+}
+
+/* line 339, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.secondary-navigation li.first a, .secondary-navigation ul li.first {
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+}
+
+/* line 344, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.table th.last {
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+}
+
+/* line 349, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.secondary-navigation ul li.first {
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+}
+
+/* line 354, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#sidebar {
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+}
+/* line 360, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#sidebar .block {
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+}
+
+/* line 367, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main .block, #sidebar ul.navigation, ul.list li, #footer .block, .form input.button, #box .block {
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+}
+
+/* line 374, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+.secondary-navigation {
+  border-bottom-width: 5px;
+}
+
+/* line 378, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main .block .content {
+  background: white;
+}
+/* line 381, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main .block .content .page_header {
+  background: #edf3fe none repeat scroll 0 0;
+  color: black;
+  font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  padding: 13px 30px 13px 24px;
+}
+/* line 390, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main .block .content .page_header .page_header_links {
+  width: 350px;
+  color: #cccccc;
+  float: right;
+  font-size: 11px;
+  line-height: 20px;
+  margin-top: 0;
+  text-align: right;
+}
+/* line 399, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main .block .content .page_header .page_header_links a {
+  color: red;
+}
+/* line 402, ../../../../../app/stylesheets/themes/drastic-bec/_base.sass */
+#main .block .content .page_header .page_header_links a:hover {
+  background: red none repeat scroll 0 0;
+  color: white;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_footer.sass */
+#footer {
+  background-color: #222222;
+  border-top: 1px solid #bbbbbb;
+}
+/* line 4, ../../../../../app/stylesheets/themes/drastic-bec/_footer.sass */
+#footer a {
+  color: #eeeeee;
+}
+/* line 7, ../../../../../app/stylesheets/themes/drastic-bec/_footer.sass */
+#footer .block {
+  font-size: 11px;
+  background-color: #222222;
+  padding: 0 10px;
+  padding-bottom: 20px;
+  text-align: right;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/drastic-bec/_close_requests.sass */
+#request_close_question_form, #question_flag_form {
+  padding: 20px 20px 0px 20px;
+  border: 8px solid lightGray;
+}
+
+/* line 2, ../../../../../app/stylesheets/themes/drastic-bec/_manage_widgets.sass */
+#manage_widgets ul#widgets {
+  width: 100%;
+}
+/* line 5, ../../../../../app/stylesheets/themes/drastic-bec/_manage_widgets.sass */
+#manage_widgets ul#widgets li .widget {
+  width: 40%;
+  border: 1px dotted #666666;
+  padding: 4px;
+}
+/* line 9, ../../../../../app/stylesheets/themes/drastic-bec/_manage_widgets.sass */
+#manage_widgets ul#widgets li .widget .controls {
+  float: right;
+  padding: 4px;
+  width: 30%;
+}
+/* line 13, ../../../../../app/stylesheets/themes/drastic-bec/_manage_widgets.sass */
+#manage_widgets ul#widgets li .widget .controls .action {
+  float: right;
+  display: block;
+}
+/* line 17, ../../../../../app/stylesheets/themes/drastic-bec/_manage_widgets.sass */
+#manage_widgets ul#widgets li .widget_description {
+  width: 40%;
+  color: #666666;
+  margin-right: 15%;
+  float: right;
+  font-size: 20px;
+}

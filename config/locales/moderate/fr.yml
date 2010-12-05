@@ -1,0 +1,15 @@
+# Messages for French (Français)
+# Exported from translatewiki.net
+# Export driver: syck
+fr: 
+  admin: 
+    moderate: 
+      index: 
+        all: tous
+        ban: ban
+        banned: questions banée
+        content: contenu
+        flagged: questions reportées
+        item_title: titre
+        need_tags: a besoin de tags
+        title: modérer

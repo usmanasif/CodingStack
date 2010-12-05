@@ -1,0 +1,2611 @@
+/* incase an inverted custom gradient isn't specified */
+/* line 1, ../../../app/stylesheets/_nav_menu.sass */
+ul#nav {
+  padding: 10px 20px;
+  background-color: #ebebeb;
+  border: 1px solid black;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 20px;
+}
+/* line 8, ../../../app/stylesheets/_nav_menu.sass */
+ul#nav li {
+  padding: 4px;
+}
+
+/* line 1, ../../../app/stylesheets/_base.sass */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../../../app/stylesheets/_base.sass */
+.clear {
+  clear: both;
+  height: 0;
+}
+
+/* line 11, ../../../app/stylesheets/_base.sass */
+h1 {
+  margin: 15px 0;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+/* line 17, ../../../app/stylesheets/_base.sass */
+h2 {
+  font-size: 22px;
+  margin: 15px 0;
+  font-weight: normal;
+}
+
+/* line 23, ../../../app/stylesheets/_base.sass */
+h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+/* line 29, ../../../app/stylesheets/_base.sass */
+h4 {
+  font-size: 16px;
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+/* line 35, ../../../app/stylesheets/_base.sass */
+hr {
+  height: 1px;
+  border: 0;
+}
+
+/* line 40, ../../../app/stylesheets/_base.sass */
+p {
+  margin: 15px 0;
+}
+
+/* line 44, ../../../app/stylesheets/_base.sass */
+a img {
+  border: none;
+}
+
+/* line 48, ../../../app/stylesheets/_base.sass */
+body {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+/* line 53, ../../../app/stylesheets/_base.sass */
+#container {
+  min-width: 960px;
+}
+
+/* line 57, ../../../app/stylesheets/_base.sass */
+#header, #wrapper {
+  padding: 0 20px;
+}
+
+/* line 61, ../../../app/stylesheets/_base.sass */
+#header {
+  position: relative;
+  padding-top: 1px;
+}
+/* line 65, ../../../app/stylesheets/_base.sass */
+#header h1 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 30px;
+}
+/* line 71, ../../../app/stylesheets/_base.sass */
+#header h1 a:link, #header h1 a:active, #header h1 a:hover, #header h1 a:visited {
+  text-decoration: none;
+}
+/* line 74, ../../../app/stylesheets/_base.sass */
+#header .group_logo {
+  padding: 2px;
+}
+
+/* line 77, ../../../app/stylesheets/_base.sass */
+#main {
+  width: 70%;
+  float: left;
+}
+
+/* line 82, ../../../app/stylesheets/_base.sass */
+.actions-bar {
+  padding: 10px 1px;
+}
+/* line 85, ../../../app/stylesheets/_base.sass */
+.actions-bar .actions {
+  float: left;
+}
+/* line 88, ../../../app/stylesheets/_base.sass */
+.actions-bar .pagination {
+  float: right;
+  padding: 1px 0;
+}
+
+/* line 93, ../../../app/stylesheets/_base.sass */
+#sidebar {
+  width: 25%;
+  float: right;
+}
+/* line 97, ../../../app/stylesheets/_base.sass */
+#sidebar h3 {
+  padding: 10px 15px;
+  margin: 0;
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+/* line 103, ../../../app/stylesheets/_base.sass */
+#sidebar .block {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+/* line 107, ../../../app/stylesheets/_base.sass */
+#sidebar .block .content {
+  padding: 0 15px;
+}
+/* line 111, ../../../app/stylesheets/_base.sass */
+#sidebar ul.navigation li a:link, #sidebar ul.navigation li a:visited {
+  display: block;
+  padding: 10px 15px;
+}
+/* line 115, ../../../app/stylesheets/_base.sass */
+#sidebar .block .sidebar-block, #sidebar .notice, #sidebar .help {
+  padding: 10px;
+}
+/* line 119, ../../../app/stylesheets/_base.sass */
+#sidebar .help h4 {
+  margin: 5px 0;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* line 125, ../../../app/stylesheets/_base.sass */
+#wrapper {
+  padding-top: 20px;
+}
+
+/* line 130, ../../../app/stylesheets/_base.sass */
+#main .block {
+  margin-bottom: 20px;
+  padding-top: 1px;
+}
+/* line 134, ../../../app/stylesheets/_base.sass */
+#main .block .content .inner {
+  padding: 0 15px 15px;
+}
+/* line 137, ../../../app/stylesheets/_base.sass */
+#main .main p.first {
+  margin-top: 0;
+}
+
+/* line 141, ../../../app/stylesheets/_base.sass */
+#user-navigation {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+
+/* line 147, ../../../app/stylesheets/_base.sass */
+#main-navigation {
+  width: 100%;
+}
+
+/* line 151, ../../../app/stylesheets/_base.sass */
+#user-navigation ul, #main-navigation ul, .secondary-navigation ul, #sidebar ul.navigation {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 157, ../../../app/stylesheets/_base.sass */
+#user-navigation ul li, #main-navigation ul li, .secondary-navigation ul li {
+  float: left;
+}
+
+/* line 160, ../../../app/stylesheets/_base.sass */
+#main-navigation ul li {
+  margin-right: 5px;
+}
+
+/* line 164, ../../../app/stylesheets/_base.sass */
+#user-navigation ul li {
+  padding: 5px 10px;
+}
+
+/* line 169, ../../../app/stylesheets/_base.sass */
+#main-navigation ul li a:link, #main-navigation ul li a:visited, #main-navigation ul li a:hover, #main-navigation ul li a:active {
+  text-decoration: none;
+}
+
+/* line 174, ../../../app/stylesheets/_base.sass */
+.secondary-navigation ul li a:link, .secondary-navigation ul li a:visited, .secondary-navigation ul li a:hover, .secondary-navigation ul li a:active {
+  text-decoration: none;
+}
+
+/* line 177, ../../../app/stylesheets/_base.sass */
+h1.navtitle {
+  margin: 0;
+  padding: 1px 0;
+  color: inherit;
+}
+
+/* line 182, ../../../app/stylesheets/_base.sass */
+.secondary-navigation .navtitle {
+  float: left;
+  padding: 0px 15px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  margin-top: -4px;
+}
+
+/* line 190, ../../../app/stylesheets/_base.sass */
+#main .content .secondary-navigation .navtitle {
+  text-transform: capitalize;
+  line-height: 14px;
+  margin-top: 8px;
+}
+
+/* line 196, ../../../app/stylesheets/_base.sass */
+#user-navigation ul li a:link, #user-navigation ul li a:visited, #user-navigation ul li a:hover, #user-navigation ul li a:active {
+  text-decoration: none;
+}
+
+/* line 200, ../../../app/stylesheets/_base.sass */
+#main-navigation ul li a {
+  font-size: 15px;
+  display: block;
+  padding: 8px 15px;
+}
+
+/* line 206, ../../../app/stylesheets/_base.sass */
+.secondary-navigation {
+  font-size: 13px;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+  padding-top: 2px;
+}
+/* line 212, ../../../app/stylesheets/_base.sass */
+.secondary-navigation ul li a {
+  display: block;
+  padding: 10px 15px;
+}
+
+/* line 217, ../../../app/stylesheets/_base.sass */
+#footer {
+  padding-bottom: 20px;
+  padding-top: 1em;
+}
+
+/* line 222, ../../../app/stylesheets/_base.sass */
+.pagination a {
+  padding: 2px 5px;
+  margin-right: 5px;
+  display: block;
+  float: left;
+  border-style: solid;
+  border-width: 1px;
+}
+/* line 230, ../../../app/stylesheets/_base.sass */
+.pagination span {
+  padding: 2px 5px;
+  margin-right: 5px;
+  display: block;
+  float: left;
+  border-style: solid;
+  border-width: 1px;
+}
+/* line 238, ../../../app/stylesheets/_base.sass */
+.pagination span.current {
+  font-weight: bold;
+}
+/* line 241, ../../../app/stylesheets/_base.sass */
+.pagination a {
+  text-decoration: none;
+}
+
+/* line 245, ../../../app/stylesheets/_base.sass */
+.title .counter {
+  font-size: 25px;
+  color: #666666;
+  display: inline;
+}
+
+/* line 250, ../../../app/stylesheets/_base.sass */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+/* line 255, ../../../app/stylesheets/_base.sass */
+.table th {
+  padding: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+/* line 260, ../../../app/stylesheets/_base.sass */
+.table th.first {
+  width: 30px;
+}
+/* line 263, ../../../app/stylesheets/_base.sass */
+.table th.last {
+  width: 200px;
+}
+/* line 266, ../../../app/stylesheets/_base.sass */
+.table .checkbox {
+  margin-left: 10px;
+}
+/* line 269, ../../../app/stylesheets/_base.sass */
+.table td {
+  padding: 10px;
+}
+/* line 272, ../../../app/stylesheets/_base.sass */
+.table td.last {
+  text-align: right;
+}
+
+/* line 276, ../../../app/stylesheets/_base.sass */
+input.checkbox {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 282, ../../../app/stylesheets/_base.sass */
+.form .group {
+  margin-bottom: 15px;
+}
+/* line 286, ../../../app/stylesheets/_base.sass */
+.form div.left {
+  width: 20%;
+  float: left;
+}
+/* line 290, ../../../app/stylesheets/_base.sass */
+.form div.right {
+  width: 75%;
+  float: right;
+}
+/* line 295, ../../../app/stylesheets/_base.sass */
+.form .columns .column {
+  width: 48%;
+}
+/* line 298, ../../../app/stylesheets/_base.sass */
+.form .columns .left {
+  float: left;
+}
+/* line 301, ../../../app/stylesheets/_base.sass */
+.form .columns .right {
+  float: right;
+}
+/* line 304, ../../../app/stylesheets/_base.sass */
+.form textarea.comment_text_area {
+  font-size: 12px;
+  padding: 1px 0;
+  margin: 0;
+}
+/* line 309, ../../../app/stylesheets/_base.sass */
+.form label.label, .form input.text_field, .form textarea.text_area {
+  font-size: 1.2em;
+  padding: 1px 0;
+  margin: 0;
+}
+/* line 314, ../../../app/stylesheets/_base.sass */
+.form label.right {
+  text-align: right;
+}
+/* line 318, ../../../app/stylesheets/_base.sass */
+.form input.checkbox, .form input.radio {
+  margin-right: 5px;
+}
+/* line 322, ../../../app/stylesheets/_base.sass */
+.form label.checkbox, .form label.radio {
+  line-height: 1.5em;
+}
+/* line 325, ../../../app/stylesheets/_base.sass */
+.form label.label {
+  display: block;
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+/* line 330, ../../../app/stylesheets/_base.sass */
+.form div.fieldWithErrors label.label {
+  display: inline;
+}
+/* line 333, ../../../app/stylesheets/_base.sass */
+.form .fieldWithErrors .error {
+  color: red;
+}
+/* line 336, ../../../app/stylesheets/_base.sass */
+.form input.text_field, .form textarea.text_area {
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+}
+/* line 340, ../../../app/stylesheets/_base.sass */
+.form input.text_field.filter_field, .form textarea.text_area.filter_field {
+  width: 30%;
+}
+
+/* line 343, ../../../app/stylesheets/_base.sass */
+ul.share {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 347, ../../../app/stylesheets/_base.sass */
+ul.share li {
+  margin: 0 4px 0 0;
+}
+
+/* line 350, ../../../app/stylesheets/_base.sass */
+ul.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 355, ../../../app/stylesheets/_base.sass */
+ul.list li {
+  clear: left;
+  padding-bottom: 5px;
+}
+/* line 359, ../../../app/stylesheets/_base.sass */
+ul.list li .left {
+  float: left;
+}
+/* line 362, ../../../app/stylesheets/_base.sass */
+ul.list li .left .avatar {
+  width: 50px;
+  height: 50px;
+}
+/* line 366, ../../../app/stylesheets/_base.sass */
+ul.list li .item {
+  margin-left: 80px;
+}
+/* line 369, ../../../app/stylesheets/_base.sass */
+ul.list li .item .avatar {
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 376, ../../../app/stylesheets/_base.sass */
+#box {
+  width: 500px;
+  margin: 50px auto;
+}
+/* line 380, ../../../app/stylesheets/_base.sass */
+#box .block {
+  margin-bottom: 20px;
+}
+/* line 383, ../../../app/stylesheets/_base.sass */
+#box .block h2 {
+  padding: 10px 15px;
+  margin: 0;
+}
+/* line 387, ../../../app/stylesheets/_base.sass */
+#box .block .content {
+  padding: 10px 20px;
+}
+
+/* line 393, ../../../app/stylesheets/_base.sass */
+#additional_info, .additional_info {
+  margin-top: 10px;
+}
+/* line 396, ../../../app/stylesheets/_base.sass */
+#additional_info .pagination, .additional_info .pagination {
+  float: left;
+  width: 50%;
+  font-size: 12px;
+}
+/* line 401, ../../../app/stylesheets/_base.sass */
+#additional_info #help_us, .additional_info #help_us {
+  float: left;
+  width: 50%;
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* line 409, ../../../app/stylesheets/_base.sass */
+.microblogging {
+  float: left;
+  margin: 5px 5px 5px 0px;
+}
+
+/* line 413, ../../../app/stylesheets/_base.sass */
+.video_thumbnail {
+  width: 130px;
+  height: 97px;
+  cursor: pointer;
+}
+
+/* line 418, ../../../app/stylesheets/_base.sass */
+.thumb {
+  position: relative;
+}
+
+/* line 421, ../../../app/stylesheets/_base.sass */
+.play_button {
+  opacity: 0.7;
+  position: absolute;
+  left: 50px;
+  top: 35px;
+  border: medium none;
+  cursor: pointer;
+}
+
+/* line 429, ../../../app/stylesheets/_base.sass */
+.highlight {
+  background: #ffffe3;
+}
+
+/* line 432, ../../../app/stylesheets/_base.sass */
+ol.manage-domain {
+  margin-left: 3em;
+  margin-bottom: 2em;
+}
+/* line 435, ../../../app/stylesheets/_base.sass */
+ol.manage-domain li {
+  font-size: 18px;
+}
+
+/* line 1, ../../../app/stylesheets/_basic.sass */
+.clear {
+  clear: both;
+  height: 0;
+}
+
+/* line 5, ../../../app/stylesheets/_basic.sass */
+.hide {
+  display: none;
+}
+
+/* line 8, ../../../app/stylesheets/_basic.sass */
+.left {
+  float: left;
+}
+
+/* line 11, ../../../app/stylesheets/_basic.sass */
+.right {
+  float: right;
+}
+
+/* line 14, ../../../app/stylesheets/_basic.sass */
+.italic {
+  font-style: italic !important;
+  display: inline;
+}
+
+/* line 18, ../../../app/stylesheets/_basic.sass */
+.bold {
+  font-weight: bold !important;
+  display: inline;
+}
+
+/* line 22, ../../../app/stylesheets/_basic.sass */
+a.tag {
+  display: inline;
+  margin: 2px;
+  padding: 2px 4px;
+  background-color: #ebebeb;
+  color: #445566;
+  font-weight: bold;
+  font-size: 10px;
+}
+/* line 30, ../../../app/stylesheets/_basic.sass */
+a.tag:hover {
+  background-color: #9cc3ea;
+}
+
+/* line 33, ../../../app/stylesheets/_basic.sass */
+.inline {
+  display: inline;
+}
+
+/* line 36, ../../../app/stylesheets/_basic.sass */
+.bignum {
+  font-size: 36pt;
+  color: #888888;
+  line-height: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* line 1, ../../../app/stylesheets/navigation/_navigation.sass */
+#main-bar.questions ul li.questions a,
+#main-bar.users ul li.users a,
+#main-bar.badges ul li.badges a,
+#main-bar.tags ul li.tags a,
+#main-bar.unanswered ul li.unanswered a,
+#main-bar.dashboard ul li.dashboard a,
+#main-bar.widgets ul li.widgets a,
+#main-bar.ads ul li.ads a,
+#main-bar.members ul li.members a,
+#main-bar.properties ul li.properties a,
+#main-bar.stats ul li.stats a,
+#main-bar.actions ul li.actions a,
+#main-bar.content ul li.content a,
+#main-bar.pages ul li.pages a,
+#main-bar.announcements ul li.announcements a {
+  background: #b0b0b0;
+  color: #333333;
+}
+
+/* line 18, ../../../app/stylesheets/navigation/_navigation.sass */
+.secondary-navigation.votes ul li.votes a,
+.secondary-navigation.newest ul li.newest a,
+.secondary-navigation.oldest ul li.oldest a,
+.secondary-navigation.most_active ul li.most_active a,
+.secondary-navigation.activity ul li.activity a,
+.secondary-navigation.hot ul li.hot a,
+.secondary-navigation.mytags ul li.mytags a,
+.secondary-navigation.questions ul li.questions a,
+.secondary-navigation.expert ul li.expert a,
+.secondary-navigation.answers ul li.answers a,
+.secondary-navigation.question_help ul li.question_help a,
+.secondary-navigation.question_prompt ul li.question_prompt a,
+.secondary-navigation.head_tag ul li.head_tag a,
+.secondary-navigation.head ul li.head a,
+.secondary-navigation.constrains ul li.constrains a,
+.secondary-navigation.rewards ul li.rewards a,
+.secondary-navigation.general ul li.general a,
+.secondary-navigation.theme ul li.theme a,
+.secondary-navigation.domain ul li.domain a,
+.secondary-navigation.name ul li.name a {
+  background: #b0b0b0;
+  color: #333333;
+}
+
+/* line 1, ../../../app/stylesheets/_autocomplete.sass */
+.ac_results {
+  padding: 0px;
+  border: 1px solid black;
+  background-color: white;
+  overflow: hidden;
+  z-index: 99999;
+}
+/* line 8, ../../../app/stylesheets/_autocomplete.sass */
+.ac_results ul {
+  width: 100%;
+  list-style-position: outside;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 15, ../../../app/stylesheets/_autocomplete.sass */
+.ac_results li {
+  margin: 0px;
+  padding: 2px 5px;
+  cursor: default;
+  display: block;
+  font: menu;
+  font-size: 12px;
+  line-height: 16px;
+  overflow: hidden;
+}
+
+/* line 26, ../../../app/stylesheets/_autocomplete.sass */
+.ac_loading {
+  background: white url(/images/indicator.gif) right center no-repeat;
+}
+
+/* line 30, ../../../app/stylesheets/_autocomplete.sass */
+.ac_odd {
+  background-color: #eeeeee;
+}
+
+/* line 34, ../../../app/stylesheets/_autocomplete.sass */
+.ac_over {
+  background-color: #0a246a;
+  color: white;
+}
+
+/* line 2, ../../../app/stylesheets/_feeds.sass */
+.feeds .feed_entry {
+  display: block;
+  margin-bottom: 4px;
+}
+/* line 5, ../../../app/stylesheets/_feeds.sass */
+.feeds .feed_entry a {
+  font-size: 14px;
+  color: #666666;
+  text-decoration: none;
+}
+/* line 6, ../../../app/stylesheets/_feeds.sass */
+.feeds .feed_entry a span {
+  margin-bottom: -4px;
+}
+/* line 11, ../../../app/stylesheets/_feeds.sass */
+.feeds .feed_entry a:hover {
+  text-decoration: underline;
+}
+
+/* line 3, ../../../app/stylesheets/_markdown.sass */
+.markdown {
+  font-size: 14px;
+  color: #222222;
+}
+/* line 6, ../../../app/stylesheets/_markdown.sass */
+.markdown strong {
+  font-weight: bold;
+}
+/* line 8, ../../../app/stylesheets/_markdown.sass */
+.markdown em {
+  font-style: italic;
+}
+/* line 10, ../../../app/stylesheets/_markdown.sass */
+.markdown ul {
+  list-style: disc outside;
+  padding: 4px;
+}
+/* line 14, ../../../app/stylesheets/_markdown.sass */
+.markdown ol {
+  list-style: decimal outside;
+  padding: 4px;
+}
+/* line 18, ../../../app/stylesheets/_markdown.sass */
+.markdown li {
+  margin-left: 1.3em;
+  padding-left: 0.5em;
+  font-weight: normal;
+  font-size: 14px;
+}
+/* line 24, ../../../app/stylesheets/_markdown.sass */
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  color: black;
+  font-weight: bold;
+}
+/* line 29, ../../../app/stylesheets/_markdown.sass */
+.markdown h1 {
+  font-size: 20px;
+}
+/* line 31, ../../../app/stylesheets/_markdown.sass */
+.markdown h2 {
+  font-size: 18px;
+}
+/* line 33, ../../../app/stylesheets/_markdown.sass */
+.markdown h3 {
+  font-size: 16px;
+}
+/* line 35, ../../../app/stylesheets/_markdown.sass */
+.markdown h4 {
+  font-size: 14px;
+}
+/* line 37, ../../../app/stylesheets/_markdown.sass */
+.markdown h5 {
+  font-size: 14px;
+}
+/* line 40, ../../../app/stylesheets/_markdown.sass */
+.markdown code {
+  background-color: #eeeeee;
+  margin-bottom: 10px;
+  max-height: 600px;
+  overflow: auto;
+  padding: 5px;
+  width: auto;
+  display: inline;
+}
+/* line 50, ../../../app/stylesheets/_markdown.sass */
+.markdown pre code {
+  display: block;
+}
+/* line 54, ../../../app/stylesheets/_markdown.sass */
+.markdown blockquote {
+  width: 80%;
+  padding: 5px;
+  margin: 0.5em;
+  background-color: #dddddd;
+  display: block;
+  word-wrap: break-word;
+  quotes: none;
+  vertical-align: baseline;
+}
+
+/* line 1, ../../../app/stylesheets/_markdown_editor.sass */
+.markdown_toolbar {
+  position: relative;
+  list-style: none;
+  border: 1px solid #d7d7d7;
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 0;
+  height: 18px;
+  margin-bottom: 2px;
+}
+/* line 11, ../../../app/stylesheets/_markdown_editor.sass */
+.markdown_toolbar li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+/* line 17, ../../../app/stylesheets/_markdown_editor.sass */
+.markdown_toolbar li a {
+  width: 24px;
+  height: 16px;
+  float: left;
+  display: block;
+  background-image: url(/images/markdown_icons.gif);
+  border: 1px solid white;
+  border-right-color: #d7d7d7;
+}
+/* line 26, ../../../app/stylesheets/_markdown_editor.sass */
+.markdown_toolbar li a:hover {
+  border-color: #990000;
+}
+/* line 29, ../../../app/stylesheets/_markdown_editor.sass */
+.markdown_toolbar li span {
+  display: none;
+}
+/* line 32, ../../../app/stylesheets/_markdown_editor.sass */
+.markdown_toolbar li a#markdown_help_button {
+  position: absolute;
+  top: 0;
+  rightright: 0;
+  border-left-color: #d7d7d7;
+  border-right-color: white;
+}
+/* line 39, ../../../app/stylesheets/_markdown_editor.sass */
+.markdown_toolbar li a#markdown_help_button:hover {
+  border-left-color: #990000;
+  border-right-color: #990000;
+}
+
+/* line 44, ../../../app/stylesheets/_markdown_editor.sass */
+#markdown_italics_button {
+  background-position: 0 -119px;
+}
+
+/* line 48, ../../../app/stylesheets/_markdown_editor.sass */
+#markdown_bold_button {
+  background-position: 0 -102px;
+}
+
+/* line 52, ../../../app/stylesheets/_markdown_editor.sass */
+#markdown_link_button {
+  background-position: 0 0;
+}
+
+/* line 56, ../../../app/stylesheets/_markdown_editor.sass */
+#markdown_image_button {
+  background-position: 0 -170px;
+}
+
+/* line 60, ../../../app/stylesheets/_markdown_editor.sass */
+#markdown_unordered_list_button {
+  background-position: 0 -34px;
+}
+
+/* line 64, ../../../app/stylesheets/_markdown_editor.sass */
+#markdown_ordered_list_button {
+  background-position: 0 -51px;
+}
+
+/* line 68, ../../../app/stylesheets/_markdown_editor.sass */
+#markdown_quote_button {
+  background-position: 0 -68px;
+}
+
+/* line 72, ../../../app/stylesheets/_markdown_editor.sass */
+#markdown_code_button {
+  background-position: 0 -136px;
+}
+
+/* line 76, ../../../app/stylesheets/_markdown_editor.sass */
+#markdown_help_button {
+  background-position: 0 -153px;
+}
+
+/* line 80, ../../../app/stylesheets/_markdown_editor.sass */
+#markdown_heading_button {
+  background-position: 0 -85px;
+}
+
+/* line 83, ../../../app/stylesheets/_markdown_editor.sass */
+#markdown_latex_button {
+  background-position: 0 -306px;
+}
+
+/* line 86, ../../../app/stylesheets/_markdown_editor.sass */
+.resizeHandle {
+  overflow: hidden;
+  width: 22px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/images/handle.png);
+  cursor: n-resize;
+}
+
+/* line 1, ../../../app/stylesheets/_validation.sass */
+.errorExplanation {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+/* line 6, ../../../app/stylesheets/_validation.sass */
+.errorExplanation ul {
+  list-style-type: none;
+}
+/* line 8, ../../../app/stylesheets/_validation.sass */
+.errorExplanation ul li {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #666666;
+}
+
+/* line 14, ../../../app/stylesheets/_validation.sass */
+.fieldWithErrors {
+  padding: 5px;
+  background: #ffdddd;
+}
+
+/* line 2, ../../../app/stylesheets/_menu.sass */
+ul.combobox {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  list-style-position: outside;
+  display: inline;
+}
+/* line 8, ../../../app/stylesheets/_menu.sass */
+ul.combobox li {
+  float: left;
+  margin-right: 0.7em;
+}
+/* line 11, ../../../app/stylesheets/_menu.sass */
+ul.combobox li:hover ul {
+  left: auto;
+  z-index: 2;
+}
+/* line 15, ../../../app/stylesheets/_menu.sass */
+ul.combobox li ul {
+  position: absolute;
+  background-color: #ebebeb;
+  display: block;
+  border: 1px solid #dcdcdc;
+  left: -999em;
+  list-style: none;
+}
+/* line 22, ../../../app/stylesheets/_menu.sass */
+ul.combobox li ul li {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+/* line 26, ../../../app/stylesheets/_menu.sass */
+ul.combobox li ul li:hover {
+  background-color: #e0e0e0;
+}
+/* line 28, ../../../app/stylesheets/_menu.sass */
+ul.combobox li ul li a {
+  padding: 4px;
+  color: #666666;
+  text-decoration: none;
+  display: block;
+}
+
+/* line 35, ../../../app/stylesheets/_menu.sass */
+ul.combobox li:hover ul, ul.combobox li.sfhover ul {
+  left: auto;
+  max-height: 40em;
+  overflow: auto;
+}
+
+/* line 1, ../../../app/stylesheets/_plans.sass */
+.plans {
+  height: 590px;
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 2.5em;
+}
+
+/* line 8, ../../../app/stylesheets/_plans.sass */
+.plan {
+  width: 17.5%;
+  text-align: center;
+  border: 1px solid #434343;
+  padding-top: 0.7em;
+}
+/* line 13, ../../../app/stylesheets/_plans.sass */
+.plan ul {
+  border-top: 1px solid #434343;
+}
+/* line 15, ../../../app/stylesheets/_plans.sass */
+.plan ul li {
+  list-style-type: none;
+  margin-top: 1em;
+}
+/* line 18, ../../../app/stylesheets/_plans.sass */
+.plan .value {
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+}
+/* line 22, ../../../app/stylesheets/_plans.sass */
+.plan .description {
+  color: black;
+  font-size: 14px;
+}
+
+/* line 25, ../../../app/stylesheets/_plans.sass */
+.center {
+  text-align: center;
+}
+
+/* line 27, ../../../app/stylesheets/_plans.sass */
+.short {
+  margin-top: 20px;
+  height: 450px;
+  background: #efefef;
+}
+
+/* line 31, ../../../app/stylesheets/_plans.sass */
+.tall {
+  border: 0px solid #3671a1;
+  height: 490px;
+  box-shadow: 0 0 1em 0.5em maroon;
+  -moz-box-shadow: 0 0 1em 0.5em maroon;
+  -webkit-box-shadow: 0 0 1em 0.5em maroon;
+}
+
+/* line 37, ../../../app/stylesheets/_plans.sass */
+.border-left {
+  border-right: 0;
+}
+
+/* line 39, ../../../app/stylesheets/_plans.sass */
+.border-right {
+  border-left: 0;
+  margin-left: 0.9em;
+}
+
+/* line 42, ../../../app/stylesheets/_plans.sass */
+.free-offer {
+  margin-top: 1.5em;
+}
+
+/* line 44, ../../../app/stylesheets/_plans.sass */
+a.sign_up {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: white;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffffff), color-stop(100%, #f0f0f0));
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+  border-color: #d9d9d9;
+  text-shadow: white 0px 1px 1px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 3px 12px;
+  border-width: 1px;
+}
+/* line 172, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up.disabled, a.sign_up[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up.disabled:hover, a.sign_up.disabled:focus, a.sign_up[disabled]:hover, a.sign_up[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up.disabled:active, a.sign_up[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up, a.sign_up:visited {
+  color: #222222;
+}
+/* line 26, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up.disabled:active, a.sign_up.disabled:hover, a.sign_up[disabled]:active, a.sign_up[disabled]:hover {
+  background-color: white;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffffff), color-stop(100%, #f0f0f0));
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+  border-color: #d9d9d9;
+  text-shadow: white 0px 1px 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up.disabled:active, a.sign_up.disabled:active:visited, a.sign_up.disabled:hover, a.sign_up.disabled:hover:visited, a.sign_up[disabled]:active, a.sign_up[disabled]:active:visited, a.sign_up[disabled]:hover, a.sign_up[disabled]:hover:visited {
+  color: #222222;
+}
+/* line 28, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up:hover, a.sign_up:focus {
+  background-color: white;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffffff), color-stop(100%, #e8e8e8));
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #e8e8e8 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #e8e8e8 100%);
+  border-color: #d1d1d1;
+  text-shadow: white 0px 1px 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up:hover, a.sign_up:hover:visited, a.sign_up:focus, a.sign_up:focus:visited {
+  color: #222222;
+}
+/* line 33, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up:active {
+  background-color: white;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #eeeeee), color-stop(40%, #f5f5f5), color-stop(85%, #f5f5f5), color-stop(100%, #ffffff));
+  background-image: -moz-linear-gradient(top, #eeeeee 0%, #f5f5f5 40%, #f5f5f5 85%, #ffffff 100%);
+  background-image: linear-gradient(top, #eeeeee 0%, #f5f5f5 40%, #f5f5f5 85%, #ffffff 100%);
+  border-color: #cacaca;
+  text-shadow: white 0px -1px -1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up:active, a.sign_up:active:visited {
+  color: #222222;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up:active {
+  padding: 2px 11px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.sign_up.disabled:active, a.sign_up[disabled] {
+  padding: 3px 12px;
+  border-width: 1px;
+}
+
+/* line 50, ../../../app/stylesheets/_plans.sass */
+.bold {
+  font-weight: bold;
+}
+
+/* line 1, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg {
+  border: 1px solid #cccccc;
+  padding: 5px;
+  background-color: white;
+}
+/* line 5, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg * {
+  margin: 0;
+  padding: 0;
+}
+/* line 8, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel {
+  border-bottom: 1px solid #cccccc;
+  float: left;
+  width: 100%;
+  padding: 0;
+}
+/* line 13, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li {
+  list-style: none;
+  float: left;
+  margin: 1px 2px 3px 0;
+  background: white;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  text-indent: -5000px;
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/images/jquery.wysiwyg.gif) no-repeat -64px -80px;
+  border: 0;
+  cursor: pointer;
+  margin: 1px;
+}
+/* line 21, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.separator {
+  width: 1px;
+  height: 16px;
+  margin: 0 4px;
+  border-left: 1px solid #cccccc;
+}
+/* line 36, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.wysiwyg-button-hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+/* line 39, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.active {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  background-color: #f9f9f9;
+  border: 1px solid #cccccc;
+  border-left-color: #aaaaaa;
+  border-top-color: #aaaaaa;
+  margin: 0;
+}
+/* line 47, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.bold {
+  background-position: 0 -16px;
+}
+/* line 49, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.italic {
+  background-position: -16px -16px;
+}
+/* line 51, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.strikeThrough {
+  background-position: -32px -16px;
+}
+/* line 53, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.underline {
+  background-position: -48px -16px;
+}
+/* line 55, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.justifyLeft {
+  background-position: 0 0;
+}
+/* line 57, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.justifyCenter {
+  background-position: -16px 0;
+}
+/* line 59, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.justifyRight {
+  background-position: -32px 0;
+}
+/* line 61, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.justifyFull {
+  background-position: -48px 0;
+}
+/* line 63, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.indent {
+  background-position: -64px 0;
+}
+/* line 65, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.outdent {
+  background-position: -80px 0;
+}
+/* line 67, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.subscript {
+  background-position: -64px -16px;
+}
+/* line 69, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.superscript {
+  background-position: -80px -16px;
+}
+/* line 71, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.undo {
+  background-position: 0 -64px;
+}
+/* line 73, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.redo {
+  background-position: -16px -64px;
+}
+/* line 75, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.insertOrderedList {
+  background-position: -32px -48px;
+}
+/* line 77, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.insertUnorderedList {
+  background-position: -16px -48px;
+}
+/* line 79, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.insertHorizontalRule {
+  background-position: 0 -48px;
+}
+/* line 81, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.h1 {
+  background-position: 0 -32px;
+}
+/* line 83, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.h2 {
+  background-position: -16px -32px;
+}
+/* line 85, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.h3 {
+  background-position: -32px -32px;
+}
+/* line 87, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.h4 {
+  background-position: -48px -32px;
+}
+/* line 89, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.h5 {
+  background-position: -64px -32px;
+}
+/* line 91, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.h6 {
+  background-position: -80px -32px;
+}
+/* line 93, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.cut {
+  background-position: -32px -64px;
+}
+/* line 95, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.copy {
+  background-position: -48px -64px;
+}
+/* line 97, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.paste {
+  background-position: -64px -64px;
+}
+/* line 99, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.insertTable {
+  background-position: -64px -48px;
+}
+/* line 101, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.increaseFontSize {
+  background-position: -16px -80px;
+}
+/* line 103, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.decreaseFontSize {
+  background-position: -32px -80px;
+}
+/* line 105, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.createLink {
+  background-position: -80px -48px;
+}
+/* line 107, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.insertImage {
+  background-position: -80px -80px;
+}
+/* line 109, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.html {
+  background-position: -47px -46px;
+}
+/* line 111, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.removeFormat {
+  background-position: -80px -63px;
+}
+/* line 113, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg ul.panel li.empty {
+  background-position: -64px -80px;
+}
+/* line 115, ../../../app/stylesheets/_jwysiwyg.sass */
+div.wysiwyg iframe {
+  border: 0;
+  clear: left;
+  margin: 4px 0 0 1px;
+}
+
+/* line 119, ../../../app/stylesheets/_jwysiwyg.sass */
+form.wysiwyg {
+  background: white;
+  padding: 1em;
+  border: 1px solid #eeeeee;
+  margin: 2px;
+  width: 25em;
+}
+/* line 125, ../../../app/stylesheets/_jwysiwyg.sass */
+form.wysiwyg fieldset div {
+  margin: 0.3em 0;
+  clear: both;
+  margin-bottom: 5px;
+}
+/* line 129, ../../../app/stylesheets/_jwysiwyg.sass */
+form.wysiwyg label {
+  display: block;
+  width: 10em;
+  text-align: right;
+  margin-right: 1em;
+}
+/* line 134, ../../../app/stylesheets/_jwysiwyg.sass */
+form.wysiwyg legend {
+  color: #0b77b7;
+  font-size: 1.2em;
+}
+/* line 137, ../../../app/stylesheets/_jwysiwyg.sass */
+form.wysiwyg legend span {
+  width: 10em;
+  text-align: right;
+}
+/* line 140, ../../../app/stylesheets/_jwysiwyg.sass */
+form.wysiwyg input {
+  padding: 0.15em;
+  width: 10em;
+  border: 1px solid #dddddd;
+  background: #fafafa;
+  font: bold 0.95em arial, sans-serif;
+  margin-bottom: 5px;
+  -moz-border-radius: 0.4em;
+  -khtml-border-radius: 0.4em;
+}
+/* line 149, ../../../app/stylesheets/_jwysiwyg.sass */
+form.wysiwyg input:hover, form.wysiwyg input:focus {
+  border-color: #c5c5c5;
+  background: #f6f6f6;
+}
+/* line 152, ../../../app/stylesheets/_jwysiwyg.sass */
+form.wysiwyg .button {
+  margin-top: 8px;
+}
+/* line 154, ../../../app/stylesheets/_jwysiwyg.sass */
+form.wysiwyg fieldset {
+  border: 1px solid #dddddd;
+  padding: 0 0.5em 0.5em;
+}
+/* line 157, ../../../app/stylesheets/_jwysiwyg.sass */
+form.wysiwyg input.default {
+  color: #bbbbbb;
+}
+
+/* line 1, ../../../app/stylesheets/_announcements.sass */
+#announcement {
+  background-color: #b2ffa4;
+  margin-bottom: 5px;
+}
+/* line 5, ../../../app/stylesheets/_announcements.sass */
+#announcement #announcement_message {
+  text-align: center;
+  color: #3f3a2f;
+  margin: 4px 20px;
+  float: left;
+  width: 90%;
+}
+/* line 11, ../../../app/stylesheets/_announcements.sass */
+#announcement #announcement_message p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+/* line 15, ../../../app/stylesheets/_announcements.sass */
+#announcement a#hide_announcement {
+  float: left;
+  width: 5%;
+  text-align: center;
+  margin-top: 6px;
+  font-weight: bold;
+}
+
+/* line 1, ../../../app/stylesheets/_tag_cloud.sass */
+.tag_cloud {
+  font-size: 1.2em;
+  line-height: 1.44em;
+}
+/* line 5, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/utilities/general/_tag-cloud.scss */
+.tag_cloud .xxs, .tag_cloud .xs, .tag_cloud .s, .tag_cloud .l, .tag_cloud .xl, .tag_cloud .xxl {
+  line-height: 1.44em;
+}
+/* line 7, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/utilities/general/_tag-cloud.scss */
+.tag_cloud .xxs {
+  font-size: 0.6em;
+}
+/* line 9, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/utilities/general/_tag-cloud.scss */
+.tag_cloud .xs {
+  font-size: 0.8em;
+}
+/* line 11, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/utilities/general/_tag-cloud.scss */
+.tag_cloud .s {
+  font-size: 0.9em;
+}
+/* line 13, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/utilities/general/_tag-cloud.scss */
+.tag_cloud .l {
+  font-size: 1.6em;
+}
+/* line 15, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/utilities/general/_tag-cloud.scss */
+.tag_cloud .xl {
+  font-size: 1.8em;
+}
+/* line 17, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/utilities/general/_tag-cloud.scss */
+.tag_cloud .xxl {
+  font-size: 2.4em;
+}
+
+/* line 1, ../../../app/stylesheets/_sessions.sass */
+#twitter-and-facebook {
+  text-align: center;
+}
+/* line 3, ../../../app/stylesheets/_sessions.sass */
+#twitter-and-facebook a#twitter_auth {
+  margin-left: 20px;
+}
+
+/* line 6, ../../../app/stylesheets/_sessions.sass */
+a#facebook_auth {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #1b61da;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #7d97c5), color-stop(100%, #436094));
+  background-image: -moz-linear-gradient(top, #7d97c5 0%, #436094 100%);
+  background-image: linear-gradient(top, #7d97c5 0%, #436094 100%);
+  border-color: #344c74;
+  text-shadow: #0d2f69 0px 1px 1px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 3px 12px;
+  border-width: 1px;
+  white-space: nowrap;
+}
+/* line 172, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth.disabled, a#facebook_auth[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth.disabled:hover, a#facebook_auth.disabled:focus, a#facebook_auth[disabled]:hover, a#facebook_auth[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth.disabled:active, a#facebook_auth[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth, a#facebook_auth:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth.disabled:active, a#facebook_auth.disabled:hover, a#facebook_auth[disabled]:active, a#facebook_auth[disabled]:hover {
+  background-color: #1b61da;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #7d97c5), color-stop(100%, #436094));
+  background-image: -moz-linear-gradient(top, #7d97c5 0%, #436094 100%);
+  background-image: linear-gradient(top, #7d97c5 0%, #436094 100%);
+  border-color: #344c74;
+  text-shadow: #0d2f69 0px 1px 1px;
+}
+/* line 98, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth.disabled:active, a#facebook_auth.disabled:active:visited, a#facebook_auth.disabled:hover, a#facebook_auth.disabled:hover:visited, a#facebook_auth[disabled]:active, a#facebook_auth[disabled]:active:visited, a#facebook_auth[disabled]:hover, a#facebook_auth[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth:hover, a#facebook_auth:focus {
+  background-color: #195bcc;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #728ec0), color-stop(100%, #3e5989));
+  background-image: -moz-linear-gradient(top, #728ec0 0%, #3e5989 100%);
+  background-image: linear-gradient(top, #728ec0 0%, #3e5989 100%);
+  border-color: #2f4569;
+  text-shadow: #0b285a 0px 1px 1px;
+}
+/* line 98, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth:hover, a#facebook_auth:hover:visited, a#facebook_auth:focus, a#facebook_auth:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth:active {
+  background-color: #1854bf;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #415d91), color-stop(40%, #46649b), color-stop(85%, #46649b), color-stop(100%, #5375b2));
+  background-image: -moz-linear-gradient(top, #415d91 0%, #46649b 40%, #46649b 85%, #5375b2 100%);
+  background-image: linear-gradient(top, #415d91 0%, #46649b 40%, #46649b 85%, #5375b2 100%);
+  border-color: #2b3e5f;
+  text-shadow: #0a224e 0px -1px -1px;
+}
+/* line 98, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth:active, a#facebook_auth:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth:active {
+  padding: 2px 11px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#facebook_auth.disabled:active, a#facebook_auth[disabled] {
+  padding: 3px 12px;
+  border-width: 1px;
+}
+
+/* line 12, ../../../app/stylesheets/_sessions.sass */
+a#twitter_auth {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #8cfaff;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #dff7f8), color-stop(100%, #87e2e6));
+  background-image: -moz-linear-gradient(top, #dff7f8 0%, #87e2e6 100%);
+  background-image: linear-gradient(top, #dff7f8 0%, #87e2e6 100%);
+  border-color: #61d9de;
+  text-shadow: #d9fdff 0px 1px 1px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 3px 12px;
+  border-width: 1px;
+  white-space: nowrap;
+}
+/* line 172, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth.disabled, a#twitter_auth[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth.disabled:hover, a#twitter_auth.disabled:focus, a#twitter_auth[disabled]:hover, a#twitter_auth[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth.disabled:active, a#twitter_auth[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth, a#twitter_auth:visited {
+  color: #222222;
+}
+/* line 26, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth.disabled:active, a#twitter_auth.disabled:hover, a#twitter_auth[disabled]:active, a#twitter_auth[disabled]:hover {
+  background-color: #8cfaff;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #dff7f8), color-stop(100%, #87e2e6));
+  background-image: -moz-linear-gradient(top, #dff7f8 0%, #87e2e6 100%);
+  background-image: linear-gradient(top, #dff7f8 0%, #87e2e6 100%);
+  border-color: #61d9de;
+  text-shadow: #d9fdff 0px 1px 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth.disabled:active, a#twitter_auth.disabled:active:visited, a#twitter_auth.disabled:hover, a#twitter_auth.disabled:hover:visited, a#twitter_auth[disabled]:active, a#twitter_auth[disabled]:active:visited, a#twitter_auth[disabled]:hover, a#twitter_auth[disabled]:hover:visited {
+  color: #222222;
+}
+/* line 28, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth:hover, a#twitter_auth:focus {
+  background-color: #7cfaff;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #d2f4f5), color-stop(100%, #7adfe3));
+  background-image: -moz-linear-gradient(top, #d2f4f5 0%, #7adfe3 100%);
+  background-image: linear-gradient(top, #d2f4f5 0%, #7adfe3 100%);
+  border-color: #54d6db;
+  text-shadow: #c9fdff 0px 1px 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth:hover, a#twitter_auth:hover:visited, a#twitter_auth:focus, a#twitter_auth:focus:visited {
+  color: #222222;
+}
+/* line 33, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth:active {
+  background-color: #6ef9ff;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #83e1e5), color-stop(40%, #90e4e8), color-stop(85%, #90e4e8), color-stop(100%, #adebee));
+  background-image: -moz-linear-gradient(top, #83e1e5 0%, #90e4e8 40%, #90e4e8 85%, #adebee 100%);
+  background-image: linear-gradient(top, #83e1e5 0%, #90e4e8 40%, #90e4e8 85%, #adebee 100%);
+  border-color: #48d3d9;
+  text-shadow: #bbfcff 0px -1px -1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth:active, a#twitter_auth:active:visited {
+  color: #222222;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth:active {
+  padding: 2px 11px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#twitter_auth.disabled:active, a#twitter_auth[disabled] {
+  padding: 3px 12px;
+  border-width: 1px;
+}
+
+/* line 1, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder {
+  background: white;
+  margin: 0;
+  border: 1px solid #999999;
+  overflow: hidden;
+  height: auto !important;
+  height: 1%;
+  padding: 4px 5px 0;
+  width: 50%;
+  display: inline-block;
+}
+
+/* line 13, ../../../app/stylesheets/_fcbkcomplete.sass */
+*:first-child + html ul.holder, * html ul.holder {
+  padding-bottom: 2px;
+}
+
+/* line 16, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li {
+  float: left;
+  list-style-type: none;
+  margin: 0 5px 4px 0;
+  white-space: nowrap;
+}
+/* line 21, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li.bit-box, ul.holder li.bit-input input {
+  font: 11px "Lucida Grande", "Verdana";
+}
+/* line 23, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li.bit-box {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #cad8f3;
+  background: #dee7f8;
+  padding: 1px 5px 2px;
+}
+/* line 30, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li.bit-box-focus {
+  border-color: #598bec;
+  background: #598bec;
+  color: white;
+}
+/* line 34, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li.bit-input input {
+  width: auto;
+  overflow: visible;
+  margin: 0;
+  border: 0px;
+  outline: 0;
+  padding: 3px 0px 2px;
+}
+/* line 41, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li.bit-input input.smallinput {
+  width: 20px;
+}
+
+/* line 44, ../../../app/stylesheets/_fcbkcomplete.sass */
+#add {
+  border: 1px solid #999999;
+  margin: 50px;
+  padding: 20px 30px 10px;
+}
+
+/* line 50, ../../../app/stylesheets/_fcbkcomplete.sass */
+form ol {
+  font: 11px "Lucida Grande", "Verdana";
+  margin: 0;
+  padding: 0;
+}
+/* line 51, ../../../app/stylesheets/_fcbkcomplete.sass */
+form ol li {
+  list-style-type: none;
+}
+/* line 53, ../../../app/stylesheets/_fcbkcomplete.sass */
+form ol li.input-text {
+  margin-bottom: 10px;
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+/* line 57, ../../../app/stylesheets/_fcbkcomplete.sass */
+form ol li.input-text label {
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+/* line 63, ../../../app/stylesheets/_fcbkcomplete.sass */
+form ol li.input-text input {
+  padding: 5px 5px 6px;
+  font: 11px "Lucida Grande", "Verdana";
+  border: 1px solid #999999;
+}
+/* line 70, ../../../app/stylesheets/_fcbkcomplete.sass */
+form ul {
+  margin: 0 !important;
+}
+
+/* line 73, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li.bit-box {
+  padding-right: 15px;
+  position: relative;
+  z-index: 1000;
+}
+
+/* line 79, ../../../app/stylesheets/_fcbkcomplete.sass */
+#apple-list ul.holder li.bit-box {
+  padding-right: 15px;
+  position: relative;
+  z-index: 1000;
+}
+/* line 83, ../../../app/stylesheets/_fcbkcomplete.sass */
+#apple-list ul.holder li.bit-input {
+  margin: 0;
+}
+/* line 85, ../../../app/stylesheets/_fcbkcomplete.sass */
+#apple-list ul.holder li.bit-input input.smallinput {
+  width: 5px;
+}
+
+/* line 89, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li.bit-hover {
+  background: #bbcef1;
+  border: 1px solid #6d95e0;
+}
+/* line 92, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li.bit-box-focus {
+  border-color: #598bec;
+  background: #598bec;
+  color: white;
+}
+/* line 96, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li.bit-box a.closebutton {
+  position: absolute;
+  right: 4px;
+  top: 5px;
+  display: block;
+  width: 7px;
+  height: 7px;
+  font-size: 1px;
+  background: url(/images/close.gif);
+}
+/* line 105, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li.bit-box a.closebutton:hover {
+  background-position: 7px;
+}
+/* line 107, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li.bit-box-focus a.closebutton {
+  background-position: bottom;
+}
+/* line 109, ../../../app/stylesheets/_fcbkcomplete.sass */
+ul.holder li.bit-box-focus a.closebutton:hover {
+  background-position: bottom;
+}
+
+/* line 112, ../../../app/stylesheets/_fcbkcomplete.sass */
+.facebook-auto {
+  display: none;
+  position: absolute;
+  background: #eeeeee;
+}
+/* line 116, ../../../app/stylesheets/_fcbkcomplete.sass */
+.facebook-auto .default {
+  padding: 5px 7px;
+  border: 1px solid #cccccc;
+  border-width: 0 1px 1px;
+  font-family: "Lucida Grande", "Verdana";
+  font-size: 11px;
+}
+/* line 122, ../../../app/stylesheets/_fcbkcomplete.sass */
+.facebook-auto ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  position: absolute;
+  z-index: 9999;
+}
+/* line 129, ../../../app/stylesheets/_fcbkcomplete.sass */
+.facebook-auto ul li {
+  padding: 5px 12px;
+  z-index: 1000;
+  cursor: pointer;
+  margin: 0;
+  list-style-type: none;
+  border: 1px solid #cccccc;
+  border-width: 0 1px 1px;
+  font: 11px "Lucida Grande", "Verdana";
+  background-color: #eeeeee;
+}
+/* line 139, ../../../app/stylesheets/_fcbkcomplete.sass */
+.facebook-auto ul li em {
+  font-weight: bold;
+  font-style: normal;
+  background: #cccccc;
+}
+/* line 143, ../../../app/stylesheets/_fcbkcomplete.sass */
+.facebook-auto ul li.auto-focus {
+  background: #4173cc;
+  color: white;
+}
+/* line 146, ../../../app/stylesheets/_fcbkcomplete.sass */
+.facebook-auto ul li.auto-focus em {
+  background: none;
+}
+
+/* line 149, ../../../app/stylesheets/_fcbkcomplete.sass */
+.deleted {
+  background-color: #4173cc !important;
+  color: white !important;
+}
+
+/* line 153, ../../../app/stylesheets/_fcbkcomplete.sass */
+.hidden {
+  display: none;
+}
+
+/* line 156, ../../../app/stylesheets/_fcbkcomplete.sass */
+#demo ul.holder li.bit-input input {
+  padding: 2px 0 1px;
+  border: 1px solid #999999;
+}
+
+/* line 160, ../../../app/stylesheets/_fcbkcomplete.sass */
+.ie6fix {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+/* line 32, ../../../app/stylesheets/application.sass */
+#messages li {
+  list-style: none;
+}
+
+/* line 35, ../../../app/stylesheets/application.sass */
+textarea.text_area {
+  height: 120px;
+}
+
+/* line 38, ../../../app/stylesheets/application.sass */
+textarea.comment_text_area {
+  height: 60px;
+  border-bottom: 1px solid #dddddd;
+  border-left: 2px solid #cccccc;
+  border-right: 1px solid #dddddd;
+  border-top: 2px solid #cccccc;
+  width: 99%;
+}
+
+/* line 46, ../../../app/stylesheets/application.sass */
+#container #header h1 img {
+  vertical-align: middle;
+  height: 50px;
+}
+
+/* line 50, ../../../app/stylesheets/application.sass */
+a#create_own_site {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #fdfdfd;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #bbbbbb));
+  background-image: -moz-linear-gradient(top, #f0f0f0 0%, #bbbbbb 100%);
+  background-image: linear-gradient(top, #f0f0f0 0%, #bbbbbb 100%);
+  border-color: #a4a4a4;
+  text-shadow: white 0px 1px 1px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 3px 12px;
+  border-width: 1px;
+  color: #00527e;
+}
+/* line 172, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site.disabled, a#create_own_site[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site.disabled:hover, a#create_own_site.disabled:focus, a#create_own_site[disabled]:hover, a#create_own_site[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site.disabled:active, a#create_own_site[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site, a#create_own_site:visited {
+  color: #222222;
+}
+/* line 26, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site.disabled:active, a#create_own_site.disabled:hover, a#create_own_site[disabled]:active, a#create_own_site[disabled]:hover {
+  background-color: #fdfdfd;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #bbbbbb));
+  background-image: -moz-linear-gradient(top, #f0f0f0 0%, #bbbbbb 100%);
+  background-image: linear-gradient(top, #f0f0f0 0%, #bbbbbb 100%);
+  border-color: #a4a4a4;
+  text-shadow: white 0px 1px 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site.disabled:active, a#create_own_site.disabled:active:visited, a#create_own_site.disabled:hover, a#create_own_site.disabled:hover:visited, a#create_own_site[disabled]:active, a#create_own_site[disabled]:active:visited, a#create_own_site[disabled]:hover, a#create_own_site[disabled]:hover:visited {
+  color: #222222;
+}
+/* line 28, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site:hover, a#create_own_site:focus {
+  background-color: #f5f5f5;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #e8e8e8), color-stop(100%, #b3b3b3));
+  background-image: -moz-linear-gradient(top, #e8e8e8 0%, #b3b3b3 100%);
+  background-image: linear-gradient(top, #e8e8e8 0%, #b3b3b3 100%);
+  border-color: #9c9c9c;
+  text-shadow: white 0px 1px 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site:hover, a#create_own_site:hover:visited, a#create_own_site:focus, a#create_own_site:focus:visited {
+  color: #222222;
+}
+/* line 33, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site:active {
+  background-color: #eeeeee;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #b9b9b9), color-stop(40%, #c0c0c0), color-stop(85%, #c0c0c0), color-stop(100%, #d2d2d2));
+  background-image: -moz-linear-gradient(top, #b9b9b9 0%, #c0c0c0 40%, #c0c0c0 85%, #d2d2d2 100%);
+  background-image: linear-gradient(top, #b9b9b9 0%, #c0c0c0 40%, #c0c0c0 85%, #d2d2d2 100%);
+  border-color: #959595;
+  text-shadow: white 0px -1px -1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site:active, a#create_own_site:active:visited {
+  color: #222222;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site:active {
+  padding: 2px 11px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a#create_own_site.disabled:active, a#create_own_site[disabled] {
+  padding: 3px 12px;
+  border-width: 1px;
+}
+
+/* line 58, ../../../app/stylesheets/application.sass */
+#main-doc {
+  background-color: white;
+  text-align: center;
+  padding-top: 1em;
+}
+
+/* line 63, ../../../app/stylesheets/application.sass */
+.beta_info {
+  font-weight: bold;
+}
+
+/* line 66, ../../../app/stylesheets/application.sass */
+.vote-icon {
+  margin-right: 0.5em;
+}
+
+/* line 70, ../../../app/stylesheets/application.sass */
+a.big_cancel_button {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #d90000;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff2626), color-stop(100%, #ba0000));
+  background-image: -moz-linear-gradient(top, #ff2626 0%, #ba0000 100%);
+  background-image: linear-gradient(top, #ff2626 0%, #ba0000 100%);
+  border-color: #8d0000;
+  text-shadow: #5a0000 0px 1px 1px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 3px 12px;
+  border-width: 1px;
+  color: white !important;
+}
+/* line 172, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button.disabled, a.big_cancel_button[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button.disabled:hover, a.big_cancel_button.disabled:focus, a.big_cancel_button[disabled]:hover, a.big_cancel_button[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button.disabled:active, a.big_cancel_button[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button, a.big_cancel_button:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button.disabled:active, a.big_cancel_button.disabled:hover, a.big_cancel_button[disabled]:active, a.big_cancel_button[disabled]:hover {
+  background-color: #d90000;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff2626), color-stop(100%, #ba0000));
+  background-image: -moz-linear-gradient(top, #ff2626 0%, #ba0000 100%);
+  background-image: linear-gradient(top, #ff2626 0%, #ba0000 100%);
+  border-color: #8d0000;
+  text-shadow: #5a0000 0px 1px 1px;
+}
+/* line 98, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button.disabled:active, a.big_cancel_button.disabled:active:visited, a.big_cancel_button.disabled:hover, a.big_cancel_button.disabled:hover:visited, a.big_cancel_button[disabled]:active, a.big_cancel_button[disabled]:active:visited, a.big_cancel_button[disabled]:hover, a.big_cancel_button[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button:hover, a.big_cancel_button:focus {
+  background-color: #ca0000;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff1818), color-stop(100%, #ab0000));
+  background-image: -moz-linear-gradient(top, #ff1818 0%, #ab0000 100%);
+  background-image: linear-gradient(top, #ff1818 0%, #ab0000 100%);
+  border-color: #7e0000;
+  text-shadow: #4a0000 0px 1px 1px;
+}
+/* line 98, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button:hover, a.big_cancel_button:hover:visited, a.big_cancel_button:focus, a.big_cancel_button:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button:active {
+  background-color: #ba0000;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #b40000), color-stop(40%, #c40000), color-stop(85%, #c40000), color-stop(100%, #e70000));
+  background-image: -moz-linear-gradient(top, #b40000 0%, #c40000 40%, #c40000 85%, #e70000 100%);
+  background-image: linear-gradient(top, #b40000 0%, #c40000 40%, #c40000 85%, #e70000 100%);
+  border-color: #6e0000;
+  text-shadow: #3a0000 0px -1px -1px;
+}
+/* line 98, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button:active, a.big_cancel_button:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button:active {
+  padding: 2px 11px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_cancel_button.disabled:active, a.big_cancel_button[disabled] {
+  padding: 3px 12px;
+  border-width: 1px;
+}
+
+/* line 78, ../../../app/stylesheets/application.sass */
+a.big_confirm_button {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #fdfdfd;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #bbbbbb));
+  background-image: -moz-linear-gradient(top, #f0f0f0 0%, #bbbbbb 100%);
+  background-image: linear-gradient(top, #f0f0f0 0%, #bbbbbb 100%);
+  border-color: #a4a4a4;
+  text-shadow: white 0px 1px 1px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 3px 12px;
+  border-width: 1px;
+  color: #00527e;
+}
+/* line 172, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button.disabled, a.big_confirm_button[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button.disabled:hover, a.big_confirm_button.disabled:focus, a.big_confirm_button[disabled]:hover, a.big_confirm_button[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button.disabled:active, a.big_confirm_button[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button, a.big_confirm_button:visited {
+  color: #222222;
+}
+/* line 26, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button.disabled:active, a.big_confirm_button.disabled:hover, a.big_confirm_button[disabled]:active, a.big_confirm_button[disabled]:hover {
+  background-color: #fdfdfd;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #bbbbbb));
+  background-image: -moz-linear-gradient(top, #f0f0f0 0%, #bbbbbb 100%);
+  background-image: linear-gradient(top, #f0f0f0 0%, #bbbbbb 100%);
+  border-color: #a4a4a4;
+  text-shadow: white 0px 1px 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button.disabled:active, a.big_confirm_button.disabled:active:visited, a.big_confirm_button.disabled:hover, a.big_confirm_button.disabled:hover:visited, a.big_confirm_button[disabled]:active, a.big_confirm_button[disabled]:active:visited, a.big_confirm_button[disabled]:hover, a.big_confirm_button[disabled]:hover:visited {
+  color: #222222;
+}
+/* line 28, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button:hover, a.big_confirm_button:focus {
+  background-color: #f5f5f5;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #e8e8e8), color-stop(100%, #b3b3b3));
+  background-image: -moz-linear-gradient(top, #e8e8e8 0%, #b3b3b3 100%);
+  background-image: linear-gradient(top, #e8e8e8 0%, #b3b3b3 100%);
+  border-color: #9c9c9c;
+  text-shadow: white 0px 1px 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button:hover, a.big_confirm_button:hover:visited, a.big_confirm_button:focus, a.big_confirm_button:focus:visited {
+  color: #222222;
+}
+/* line 33, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button:active {
+  background-color: #eeeeee;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #b9b9b9), color-stop(40%, #c0c0c0), color-stop(85%, #c0c0c0), color-stop(100%, #d2d2d2));
+  background-image: -moz-linear-gradient(top, #b9b9b9 0%, #c0c0c0 40%, #c0c0c0 85%, #d2d2d2 100%);
+  background-image: linear-gradient(top, #b9b9b9 0%, #c0c0c0 40%, #c0c0c0 85%, #d2d2d2 100%);
+  border-color: #959595;
+  text-shadow: white 0px -1px -1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button:active, a.big_confirm_button:active:visited {
+  color: #222222;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button:active {
+  padding: 2px 11px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.big_confirm_button.disabled:active, a.big_confirm_button[disabled] {
+  padding: 3px 12px;
+  border-width: 1px;
+}
+
+/* line 87, ../../../app/stylesheets/application.sass */
+a.missing_page:link, a.missing_page:visited, a.missing_page:hover, a.missing_page:active {
+  color: red;
+}
+
+/* line 90, ../../../app/stylesheets/application.sass */
+#retag {
+  margin-left: 1em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* line 95, ../../../app/stylesheets/application.sass */
+a.important {
+  color: #ce0000 !important;
+  font-weight: bold;
+}
+
+/* line 99, ../../../app/stylesheets/application.sass */
+.comment-form {
+  width: 91%;
+  margin-left: 51px;
+}
+
+/* line 103, ../../../app/stylesheets/application.sass */
+.comment-form-question {
+  width: 100%;
+}
+
+/* line 107, ../../../app/stylesheets/application.sass */
+#default_footer {
+  margin: 10px 0;
+  font-size: 9px;
+}
+
+/* line 112, ../../../app/stylesheets/application.sass */
+.widget#badges, .widget#users {
+  white-space: nowrap;
+}
+
+/* line 115, ../../../app/stylesheets/application.sass */
+.add_answer_comment_link {
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 1.2em;
+}
+
+/* line 122, ../../../app/stylesheets/application.sass */
+form.share_content label.label {
+  display: inline;
+  width: auto;
+}
+/* line 125, ../../../app/stylesheets/application.sass */
+form.share_content .submit_button {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #fdfdfd;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #bbbbbb));
+  background-image: -moz-linear-gradient(top, #f0f0f0 0%, #bbbbbb 100%);
+  background-image: linear-gradient(top, #f0f0f0 0%, #bbbbbb 100%);
+  border-color: #a4a4a4;
+  text-shadow: white 0px 1px 1px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 3px 12px;
+  border-width: 1px;
+}
+/* line 172, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button.disabled, form.share_content .submit_button[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button.disabled:hover, form.share_content .submit_button.disabled:focus, form.share_content .submit_button[disabled]:hover, form.share_content .submit_button[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button.disabled:active, form.share_content .submit_button[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button, form.share_content .submit_button:visited {
+  color: #222222;
+}
+/* line 26, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button.disabled:active, form.share_content .submit_button.disabled:hover, form.share_content .submit_button[disabled]:active, form.share_content .submit_button[disabled]:hover {
+  background-color: #fdfdfd;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #bbbbbb));
+  background-image: -moz-linear-gradient(top, #f0f0f0 0%, #bbbbbb 100%);
+  background-image: linear-gradient(top, #f0f0f0 0%, #bbbbbb 100%);
+  border-color: #a4a4a4;
+  text-shadow: white 0px 1px 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button.disabled:active, form.share_content .submit_button.disabled:active:visited, form.share_content .submit_button.disabled:hover, form.share_content .submit_button.disabled:hover:visited, form.share_content .submit_button[disabled]:active, form.share_content .submit_button[disabled]:active:visited, form.share_content .submit_button[disabled]:hover, form.share_content .submit_button[disabled]:hover:visited {
+  color: #222222;
+}
+/* line 28, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button:hover, form.share_content .submit_button:focus {
+  background-color: #f5f5f5;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #e8e8e8), color-stop(100%, #b3b3b3));
+  background-image: -moz-linear-gradient(top, #e8e8e8 0%, #b3b3b3 100%);
+  background-image: linear-gradient(top, #e8e8e8 0%, #b3b3b3 100%);
+  border-color: #9c9c9c;
+  text-shadow: white 0px 1px 1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button:hover, form.share_content .submit_button:hover:visited, form.share_content .submit_button:focus, form.share_content .submit_button:focus:visited {
+  color: #222222;
+}
+/* line 33, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button:active {
+  background-color: #eeeeee;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #b9b9b9), color-stop(40%, #c0c0c0), color-stop(85%, #c0c0c0), color-stop(100%, #d2d2d2));
+  background-image: -moz-linear-gradient(top, #b9b9b9 0%, #c0c0c0 40%, #c0c0c0 85%, #d2d2d2 100%);
+  background-image: linear-gradient(top, #b9b9b9 0%, #c0c0c0 40%, #c0c0c0 85%, #d2d2d2 100%);
+  border-color: #959595;
+  text-shadow: white 0px -1px -1px;
+}
+/* line 102, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button:active, form.share_content .submit_button:active:visited {
+  color: #222222;
+}
+/* line 152, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button:active {
+  padding: 2px 11px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+form.share_content .submit_button.disabled:active, form.share_content .submit_button[disabled] {
+  padding: 3px 12px;
+  border-width: 1px;
+}

@@ -1,0 +1,20 @@
+/* line 4, ../../../app/stylesheets/errors.sass */
+.error-dialog {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+/* line 9, ../../../app/stylesheets/errors.sass */
+.error-dialog #dialog-content img {
+  float: left;
+}
+/* line 11, ../../../app/stylesheets/errors.sass */
+.error-dialog .error-options {
+  text-align: left;
+}
+/* line 13, ../../../app/stylesheets/errors.sass */
+.error-dialog .error-options ul {
+  line-height: 20px;
+  list-style: disc inside;
+  padding: 4px;
+}

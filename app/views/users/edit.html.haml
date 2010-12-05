@@ -1,0 +1,36 @@
+-content_for :subtabs do
+  .navtitle
+    =t(".title")
+
+-content_for :sidebar do
+  -if AppConfig.twitter["activate"] || with_facebook?
+    .block.notice{:style => "padding-bottom: 10px"}
+      %h4
+        =t(".enable_twitter")
+
+      -if with_facebook?
+        =link_to t("sessions.new.with_facebook"), oauth_authorize_path(:merge => true), :title => "Facebook", :id => "facebook_auth"
+
+        %br
+        %br
+
+      -if AppConfig.twitter["activate"]
+        =link_to t("sessions.new.with_twitter"), twitter_authorize_path(:merge => true), :title => "Twitter", :id => "twitter_auth"
+  .block
+    .inner{:style => "padding-top: 10px"}
+      %ul.navigation
+        %li{:style => "text-align: center"}
+          = gravatar @user.email.to_s, :size => 128
+          =link_to t("users.form.avatar_tip"), "http://gravatar.com", :target => "_blank"
+
+  .block{:style => "font-weight: bold"}
+    =render :partial => "shared/dlvr_link", :locals => {:url => user_url(@user, :format => :atom)}
+
+- @user.password = @user.password_confirmation = nil
+= error_messages_for :user
+- form_for @user, :html => {:class => "form"} do |f|
+  %h2.title
+    = t("users.form.information")
+  =render :partial => "form", :locals => {:f => f}
+  .group.navform
+    = submit_tag t('.submit')

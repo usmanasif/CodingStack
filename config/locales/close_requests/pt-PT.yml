@@ -1,0 +1,32 @@
+# Messages for Portuguese (Português)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Giro720
+# Author: Hamilton Abreu
+pt-PT: 
+  close_requests: 
+    create: 
+      flash_notice: O pedido de fecho foi criado
+    destroy: 
+      flash_notice: O pedido de fecho foi eliminado
+    form: 
+      close_with_reason: Fechar esta pergunta usando este motivo
+      dupe: Duplicada
+      no_question: Não é uma pergunta
+      not_relevant: Não é relevante
+      ot: Está fora do tema
+      request_closing_details: Pedir para fechar esta pergunta
+      spam: spam
+    index: 
+      title: Lista de pedidos de fecho
+    model: 
+      attributes: 
+        comment: Comentário
+        reason: motivo
+        user: Utilizador
+      messages: 
+        already_requested: Já pediu para fechar esta pergunta
+      name: Pedido de fecho
+      prural_name: Pedidos de fecho
+    update: 
+      flash_notice: O pedido de fecho foi actualizado

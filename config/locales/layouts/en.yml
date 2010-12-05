@@ -1,0 +1,47 @@
+en:
+  layouts:
+    application:
+      title: "Questions & Answers"
+      questions: Questions
+      questions_in: Questions in
+      questions_tagged: tagged with
+      ask_question: Ask question
+      tags: Tags
+      users: Users
+      badges: Badges
+      unanswered: Unanswered
+      pages: Pages
+      logout: Log out
+      logged: Logged in as %{login}
+      search: Search
+      forgot: Forgot?
+      log_in: Login
+      signup: Sign up
+      settings: Settings
+      languages: Languages
+      moderate: Moderate
+      manage_ads: Manage ads
+      home: Home
+      subscribe: Subscribe
+      welcome_from: Welcome! You can
+      now: now!
+      openid:
+        explaination: "If you would like to register or just log in, please select your OpenID provider:"
+    manage:
+      dashboard: Dashboard
+      properties: Properties
+      widgets: Widgets
+      actions: Actions
+      stats: Stats
+      members: Members
+      reputation: Reputation
+      content: Content
+      theme: Theme
+      domain: Domain
+      pages: Pages
+      constrains: Requirements
+      rewards: Rewards
+      general: General
+      announcements: Announcements
+    notifications:
+      message: "If you do not want to receive automatic notifications from %{domain} anymore, change your preferences in the notifications screen."

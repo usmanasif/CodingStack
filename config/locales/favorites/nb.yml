@@ -1,0 +1,13 @@
+# Messages for Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Nghtwlkr
+nb: 
+  activerecord: 
+    models: 
+      favorite: Favoritt
+      favorites: Favoritter
+  favorites: 
+    create: 
+      success: Spørsmålet har blitt lagt til dine favoritter
+      unauthenticated: Du må ha en konto for å legge til favoritter

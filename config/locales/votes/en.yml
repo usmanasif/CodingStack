@@ -1,0 +1,21 @@
+en:
+  votes:
+    create:
+      flash_notice: "Thanks for voting!"
+      flash_error:  "You cannot vote this"
+      unauthenticated: "Anonymous users cannot vote"
+    destroy:
+      flash_notice: "Your vote has been revoked successfully."
+    control:
+      to_vote_up: "Click to vote up"
+      to_vote_down: "Click to vote down"
+      have_voted_up: "Click to undo your up vote"
+      have_voted_down: "Click to undo your down vote"
+    model:
+      messages:
+        closed_question: "You cannot vote on any posts belonging to a closed question"
+        vote_down_comment: "Comments cannot be voted down"
+  activerecord:
+    models:
+      votes: Votes
+      vote: Vote

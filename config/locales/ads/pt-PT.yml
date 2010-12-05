@@ -1,0 +1,18 @@
+# Messages for Portuguese (Português)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Giro720
+# Author: Hamilton Abreu
+# Author: McDutchie
+pt-PT: 
+  ads: 
+    ad_links: Adicionar um anúncio %{type} novo
+    create: 
+      success: O anúncio foi criado.
+    index: 
+      add_adbard: Adicionar um anúncio Ad Bard novo
+      add_adsense: Adicionar um anúncio do Google AdSense novo
+      title: Anúncios
+    name: "Nome:"
+    position: "Posição:"
+    title: Adicionar um anúncio %{type} novo

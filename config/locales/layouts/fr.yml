@@ -1,0 +1,51 @@
+# Messages for French (Français)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Patcito
+fr: 
+  layouts: 
+    application: 
+      ask_question: posez une question
+      badges: insignes
+      forgot: oublié?
+      home: page principale
+      languages: langues
+      log_in: se connecter
+      logged: connecté %{login}
+      logout: se déconnecter
+      manage_ads: administrer les publicités
+      moderate: modérer
+      now: now!
+      openid: 
+        explaination: "si vous souhaitez ouvrir un compte ou juste vous connectez, sélectionnez un fournisseur openid:"
+      pages: pages
+      questions: questions
+      questions_in: questions en
+      questions_tagged: taguées
+      search: chercher
+      settings: configuration
+      signup: créer un compte
+      subscribe: s'inscrire
+      tags: tags
+      title: questions & réponses
+      unanswered: sans réponses
+      users: utilisateurs
+      welcome_from: welcome! you can
+    manage: 
+      actions: actions
+      announcements: annonces
+      constrains: constraintes
+      content: contenu
+      dashboard: dashboard
+      domain: domaine
+      general: général
+      members: membres
+      pages: pages
+      properties: propriétés
+      reputation: réputation
+      rewards: récompenses
+      stats: États
+      theme: thème
+      widgets: widgets
+    notifications: 
+      message: Si vous ne souhaitez plus recevoir de notifications automatiques de %{domain}, vous pouvez changer votre configuration de notifications.

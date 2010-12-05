@@ -1,0 +1,2161 @@
+/* incase an inverted custom gradient isn't specified */
+/* line 1, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items {
+  list-style-type: none;
+}
+/* line 4, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item {
+  border-bottom: 1px dotted #666666;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/* line 9, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item h3 {
+  margin-top: 0;
+}
+/* line 11, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .logo {
+  float: left;
+  padding: 0px 10px;
+  margin-right: 4px;
+}
+/* line 16, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .box {
+  float: left;
+  padding: 8px;
+  margin-right: 4px;
+  text-align: center;
+  vertical-align: baseline;
+  width: 42px;
+  height: 40px;
+  display: block;
+  font-size: 10px;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  color: #666666;
+  -moz-border-radius: 1px 1px 1px 1px;
+  -webkit-border-radius: 1px 1px 1px 1px;
+  -khtml-border-radius: 1px 1px 1px 1px;
+  border-radius: 1px 1px 1px 1px;
+}
+/* line 30, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .box .counter {
+  padding: 2px;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* line 34, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .box .counter.medium_number {
+  font-size: 20px;
+  color: orange;
+}
+/* line 37, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .box .counter.big_number {
+  padding: 1px;
+  font-size: 19px;
+  color: red;
+}
+/* line 41, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .box .counter.negative_number {
+  font-size: 19px;
+  color: #ee3746;
+}
+/* line 45, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .votes {
+  background: #eeeeee;
+  color: #555555;
+}
+/* line 48, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .answers {
+  background: #75845c;
+  color: white;
+}
+/* line 51, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .answers.accepted {
+  background: #528c54;
+}
+/* line 53, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .views {
+  background: white;
+  color: #999999;
+}
+/* line 57, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .stats {
+  width: 26%;
+  float: left;
+}
+/* line 61, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .summary {
+  width: 72%;
+  float: left;
+}
+/* line 65, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .summary .tag-list {
+  float: left;
+  margin-top: 0px;
+}
+/* line 68, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .summary .owner-data {
+  float: right;
+  padding-top: 4px;
+}
+/* line 72, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .summary .owner-data .time_ago a {
+  color: black;
+}
+/* line 74, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .summary .owner-data .reputation {
+  font-weight: bold;
+  color: #666666;
+}
+/* line 78, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .actions {
+  padding: 5px;
+  margin: 6px;
+  background: #eeeeee;
+}
+/* line 82, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .actions a {
+  margin: 2px 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* line 87, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item .vote-up-form {
+  display: inline;
+  vertical-align: middle;
+}
+/* line 92, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item.lite .box {
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+}
+/* line 96, ../../../../../app/stylesheets/themes/sof/_items.sass */
+ul.items li.item.lite .box .counter {
+  font-size: 18px;
+  padding: 1px;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/sof/_main_bar.sass */
+#main-bar {
+  width: 100%;
+  float: left;
+  margin: 0 10px 10px 10px;
+}
+/* line 6, ../../../../../app/stylesheets/themes/sof/_main_bar.sass */
+#main-bar #logo {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 10, ../../../../../app/stylesheets/themes/sof/_main_bar.sass */
+#main-bar ul {
+  list-style-type: none;
+}
+
+/* line 13, ../../../../../app/stylesheets/themes/sof/_main_bar.sass */
+#main-bar ul li {
+  margin-top: 18px;
+  background: #777777;
+  margin-right: 5px;
+  color: #f8f0e6;
+  float: left;
+}
+/* line 20, ../../../../../app/stylesheets/themes/sof/_main_bar.sass */
+#main-bar ul li:hover {
+  background-color: #ff9900 !important;
+  color: white;
+}
+/* line 24, ../../../../../app/stylesheets/themes/sof/_main_bar.sass */
+#main-bar ul li.active {
+  border-top: 1px solid white;
+  background-color: #ff9900 !important;
+  color: #333333;
+}
+/* line 29, ../../../../../app/stylesheets/themes/sof/_main_bar.sass */
+#main-bar ul li.active a:link, #main-bar ul li.active a:visited, #main-bar ul li.active a:hover, #main-bar ul li.active a:active {
+  color: #364b69;
+}
+
+/* line 33, ../../../../../app/stylesheets/themes/sof/_main_bar.sass */
+#main-bar ul li a {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+/* line 39, ../../../../../app/stylesheets/themes/sof/_main_bar.sass */
+#main-bar ul li a:link, #main-bar ul li a:visited, #main-bar ul li a:hover, #main-bar ul li a:active {
+  text-decoration: none;
+  color: white;
+}
+/* line 43, ../../../../../app/stylesheets/themes/sof/_main_bar.sass */
+#main-bar ul li.ask_question {
+  float: right;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/sof/_top_bar.sass */
+#top-bar {
+  padding: 10px 10px;
+  margin: 0;
+  font-weight: bold;
+  float: right;
+  color: #cecece;
+  background: #ebebeb;
+}
+/* line 2, ../../../../../app/stylesheets/themes/sof/_top_bar.sass */
+#top-bar .entry {
+  float: left;
+  margin-left: 4px;
+}
+/* line 5, ../../../../../app/stylesheets/themes/sof/_top_bar.sass */
+#top-bar .entry .gravatar {
+  line-height: 20px;
+  display: inline;
+  margin-bottom: -5px;
+  width: 18px;
+}
+/* line 10, ../../../../../app/stylesheets/themes/sof/_top_bar.sass */
+#top-bar .entry .reputation {
+  font-weight: bold;
+  font-size: 10px;
+  background: #777777;
+  color: white;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -khtml-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  padding: 2px;
+}
+/* line 18, ../../../../../app/stylesheets/themes/sof/_top_bar.sass */
+#top-bar .entry #search-field {
+  background: white url(/images/search-icon.png) no-repeat 0% 50%;
+  padding-left: 17px;
+  border: 1px solid gray;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/sof/_tags.sass */
+.tag-list {
+  font-size: 0.785em;
+  overflow: hidden;
+  line-height: 25px;
+  margin-top: 15px;
+}
+/* line 7, ../../../../../app/stylesheets/themes/sof/_tags.sass */
+.tag-list ul {
+  list-style-type: none;
+}
+/* line 10, ../../../../../app/stylesheets/themes/sof/_tags.sass */
+.tag-list .tag {
+  margin-left: 3px;
+  display: inline;
+  overflow: hidden;
+  float: left;
+}
+/* line 15, ../../../../../app/stylesheets/themes/sof/_tags.sass */
+.tag-list .tag a {
+  border-bottom: 1px solid #3e6d8e;
+  border-right: 1px solid #7f9fb6;
+  color: #3e6d8e;
+  background: #e0eaf1;
+  cursor: pointer;
+  font-size: 100%;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 2px 8px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: lowercase;
+  white-space: nowrap;
+  line-height: 20px;
+}
+/* line 31, ../../../../../app/stylesheets/themes/sof/_tags.sass */
+.tag-list .tag a:hover {
+  color: #e0ebf1 !important;
+  background: #3e6e8e !important;
+}
+/* line 34, ../../../../../app/stylesheets/themes/sof/_tags.sass */
+.tag-list .tag a.remove_tag {
+  background: #e55252 !important;
+  padding: 0px 2px;
+  font-weight: bold;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -khtml-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  border: none;
+}
+/* line 40, ../../../../../app/stylesheets/themes/sof/_tags.sass */
+.tag-list .tag a.remove_tag:hover {
+  color: #ffdede;
+  background: #810000 !important;
+}
+
+/* line 44, ../../../../../app/stylesheets/themes/sof/_tags.sass */
+.tag-multiplier {
+  font-size: 125%;
+  color: #555555;
+  font-weight: bold;
+  margin-left: 5px;
+  display: inline;
+  font-family: Helvetica;
+}
+
+/* line 53, ../../../../../app/stylesheets/themes/sof/_tags.sass */
+.tag_cloud a.tag {
+  text-decoration: none;
+  line-height: 26px;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-vote-col {
+  float: left;
+  width: 4%;
+  text-align: center;
+  margin-right: 5px;
+}
+/* line 8, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-vote-col .question-action img {
+  width: 25px;
+  height: 25px;
+}
+/* line 11, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-vote-col .favorites_count {
+  color: #666666;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* line 16, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col {
+  width: 95%;
+  float: left;
+}
+/* line 20, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col .flagged {
+  font-size: 13px;
+  font-weight: bold;
+}
+/* line 24, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col #body {
+  min-height: 100px;
+}
+/* line 27, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col #body #close_reason {
+  text-align: center;
+  padding: 10px;
+  width: 95%;
+  border: 4px solid #386ea4;
+  margin: 10px 5px;
+  font-weight: bold;
+  background: #e0ebf1;
+}
+/* line 36, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col .user_info {
+  font-size: 12px;
+  padding: 8px 4px;
+  margin: 10px 2px;
+  color: #666666;
+  background: #e0ebf1;
+  float: right;
+}
+/* line 45, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col .user_info .wiki_flag {
+  float: right;
+  font-weight: bold;
+  color: #e55b00;
+}
+/* line 49, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col .user_info .gravatar {
+  float: left;
+}
+/* line 51, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col .user_info .user_data {
+  margin-left: 2px;
+  float: left;
+}
+/* line 55, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col .user_info .user_data .user_reputation {
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 58, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col .user_info .user_data .time_ago {
+  display: block;
+  font-weight: bold;
+}
+/* line 61, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col .actions {
+  padding: 1px;
+  margin: 2px;
+}
+/* line 64, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col .actions a {
+  font-size: 12px;
+  margin-right: 2px;
+}
+/* line 67, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#question-body-col a.add_comment_link {
+  margin-bottom: 2px;
+}
+
+/* line 70, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+.comments {
+  clear: both;
+}
+/* line 72, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+.comments .comment {
+  border-top: 2px dotted #cccccc;
+  padding-top: 6px;
+  margin-top: 4px;
+}
+/* line 76, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+.comments .comment .comment-content {
+  float: left;
+  width: 95%;
+}
+/* line 79, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+.comments .comment .comment-votes {
+  float: left;
+  display: inline;
+  width: 4%;
+}
+/* line 83, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+.comments .comment .comment-votes .votes_average {
+  color: #666666;
+  font-weight: bold;
+  font-size: 12px;
+  float: left;
+  margin-right: 4px;
+}
+/* line 89, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+.comments .comment .controls {
+  clear: both;
+}
+
+/* line 92, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#answers, #questions {
+  margin-top: 20px;
+}
+/* line 95, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#answers .wiki_flag, #questions .wiki_flag {
+  font-weight: bold;
+  color: #e55b00;
+  font-size: 130%;
+}
+/* line 99, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#answers .secondary-navigation, #questions .secondary-navigation {
+  background: white;
+  border-bottom: 1px solid #666666;
+}
+/* line 103, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#answers .answer, #answers .question, #questions .answer, #questions .question {
+  border-bottom: 1px solid #222222;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+/* line 109, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#answers .answer h2.version_title, #answers .question h2.version_title, #questions .answer h2.version_title, #questions .question h2.version_title {
+  padding: 20px;
+  background: #ffffcd;
+}
+/* line 112, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#answers .answer h2.version_title .version, #answers .question h2.version_title .version, #questions .answer h2.version_title .version, #questions .question h2.version_title .version {
+  font-size: 36px;
+  color: #666666;
+}
+/* line 116, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#answers .answer #vote-col, #answers .answer .vote-col, #answers .question #vote-col, #answers .question .vote-col, #questions .answer #vote-col, #questions .answer .vote-col, #questions .question #vote-col, #questions .question .vote-col {
+  float: left;
+  text-align: center;
+  margin-right: 4px;
+}
+/* line 120, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#answers .answer #body-col, #answers .answer .body-col, #answers .question #body-col, #answers .question .body-col, #questions .answer #body-col, #questions .answer .body-col, #questions .question #body-col, #questions .question .body-col {
+  float: left;
+  width: 90%;
+}
+/* line 123, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#answers .answer #body-col .actions, #answers .answer .body-col .actions, #answers .question #body-col .actions, #answers .question .body-col .actions, #questions .answer #body-col .actions, #questions .answer .body-col .actions, #questions .question #body-col .actions, #questions .question .body-col .actions {
+  float: left;
+  padding: 4px;
+}
+/* line 126, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#answers .answer #body-col .actions a, #answers .answer .body-col .actions a, #answers .question #body-col .actions a, #answers .question .body-col .actions a, #questions .answer #body-col .actions a, #questions .answer .body-col .actions a, #questions .question #body-col .actions a, #questions .question .body-col .actions a {
+  margin: 2px 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 131, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#answers .answer #body-col .user_data, #answers .answer .body-col .user_data, #answers .question #body-col .user_data, #answers .question .body-col .user_data, #questions .answer #body-col .user_data, #questions .answer .body-col .user_data, #questions .question #body-col .user_data, #questions .question .body-col .user_data {
+  margin-bottom: 5px;
+  width: 170px;
+  padding: 4px;
+  float: right;
+}
+/* line 137, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+#answers .answer #body-col .user_data .avatar, #answers .answer .body-col .user_data .avatar, #answers .question #body-col .user_data .avatar, #answers .question .body-col .user_data .avatar, #questions .answer #body-col .user_data .avatar, #questions .answer .body-col .user_data .avatar, #questions .question #body-col .user_data .avatar, #questions .question .body-col .user_data .avatar {
+  float: left;
+  margin: 4px;
+}
+
+/* line 141, ../../../../../app/stylesheets/themes/sof/_questions.sass */
+.version_message {
+  background: #eeeeff;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/sof/_vote_box.sass */
+.vote_box {
+  display: block;
+  padding: 5px 0px;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 9, ../../../../../app/stylesheets/themes/sof/_vote_box.sass */
+.vote_box .votes_average {
+  display: block;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 0.9em;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+}
+/* line 19, ../../../../../app/stylesheets/themes/sof/_vote_box.sass */
+.vote_box button {
+  cursor: pointer;
+  border: 0px;
+  padding: 0px;
+  width: 100%;
+}
+/* line 25, ../../../../../app/stylesheets/themes/sof/_vote_box.sass */
+.vote_box button.arrow {
+  height: 18px;
+}
+/* line 29, ../../../../../app/stylesheets/themes/sof/_vote_box.sass */
+.vote_box button.arrow.vote_up img:hover {
+  border-bottom: 1px solid red;
+}
+/* line 32, ../../../../../app/stylesheets/themes/sof/_vote_box.sass */
+.vote_box button.arrow.vote_down img:hover {
+  border-top: 1px solid red;
+}
+/* line 36, ../../../../../app/stylesheets/themes/sof/_vote_box.sass */
+.vote_box .arrow {
+  border: 0px;
+  background: transparent;
+  display: block;
+}
+/* line 41, ../../../../../app/stylesheets/themes/sof/_vote_box.sass */
+.vote_box a {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/sof/_markdown.sass */
+.markdown {
+  font-size: 16px;
+  color: #222222;
+}
+/* line 5, ../../../../../app/stylesheets/themes/sof/_markdown.sass */
+.markdown p {
+  margin-top: 0;
+  font-size: 16px;
+  color: #222222;
+}
+/* line 10, ../../../../../app/stylesheets/themes/sof/_markdown.sass */
+.markdown#markdown_preview {
+  border: 2px dotted #cccccc;
+  min-height: 20px;
+}
+
+/* line 16, ../../../../../app/stylesheets/themes/sof/_markdown.sass */
+#answers .children .markdown {
+  font-size: 14px;
+  color: #555555;
+}
+/* line 20, ../../../../../app/stylesheets/themes/sof/_markdown.sass */
+#answers .children .markdown p {
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 15px;
+  color: #555555;
+  margin-bottom: 10px;
+}
+
+/* line 29, ../../../../../app/stylesheets/themes/sof/_markdown.sass */
+#question-body-col .comments .comment {
+  font-size: 13px;
+}
+/* line 32, ../../../../../app/stylesheets/themes/sof/_markdown.sass */
+#question-body-col .comments .comment .markdown p {
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 15px;
+  color: #555555;
+  margin-bottom: 4px;
+}
+/* line 39, ../../../../../app/stylesheets/themes/sof/_markdown.sass */
+#question-body-col .comments .comment .actions a {
+  font-size: 12px;
+}
+
+/* line 2, ../../../../../app/stylesheets/themes/sof/_stats.sass */
+.stats .entry {
+  padding: 12px 2px;
+}
+/* line 4, ../../../../../app/stylesheets/themes/sof/_stats.sass */
+.stats .entry .text {
+  font-size: 16px;
+}
+/* line 6, ../../../../../app/stylesheets/themes/sof/_stats.sass */
+.stats .entry .data {
+  font-size: 20px;
+  font-weight: bold;
+  color: #666666;
+}
+
+/* line 2, ../../../../../app/stylesheets/themes/sof/_groups.sass */
+#groups .actions {
+  float: right;
+}
+
+/* line 5, ../../../../../app/stylesheets/themes/sof/_groups.sass */
+a.request_group {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #26b82b;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #b4d3b5), color-stop(10%, #7ab17c), color-stop(50%, #4d834e), color-stop(50%, #477948), color-stop(100%, #5a995b));
+  background-image: -moz-linear-gradient(top, #b4d3b5 0%, #7ab17c 10%, #4d834e 50%, #477948 50%, #5a995b 100%);
+  background-image: linear-gradient(top, #b4d3b5 0%, #7ab17c 10%, #4d834e 50%, #477948 50%, #5a995b 100%);
+  border-color: #365c37;
+  text-shadow: #104e12 0px 1px 1px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 24px;
+  line-height: 30px;
+  padding: 6px 24px;
+  border-width: 2px;
+  margin-top: 20px;
+  float: right;
+}
+/* line 172, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group.disabled, a.request_group[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group.disabled:hover, a.request_group.disabled:focus, a.request_group[disabled]:hover, a.request_group[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group.disabled:active, a.request_group[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group, a.request_group:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group.disabled:active, a.request_group.disabled:hover, a.request_group[disabled]:active, a.request_group[disabled]:hover {
+  background-color: #26b82b;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #b4d3b5), color-stop(10%, #7ab17c), color-stop(50%, #4d834e), color-stop(50%, #477948), color-stop(100%, #5a995b));
+  background-image: -moz-linear-gradient(top, #b4d3b5 0%, #7ab17c 10%, #4d834e 50%, #477948 50%, #5a995b 100%);
+  background-image: linear-gradient(top, #b4d3b5 0%, #7ab17c 10%, #4d834e 50%, #477948 50%, #5a995b 100%);
+  border-color: #365c37;
+  text-shadow: #104e12 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group.disabled:active, a.request_group.disabled:active:visited, a.request_group.disabled:hover, a.request_group.disabled:hover:visited, a.request_group[disabled]:active, a.request_group[disabled]:active:visited, a.request_group[disabled]:hover, a.request_group[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:hover, a.request_group:focus {
+  background-color: #23ab28;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #a9cdab), color-stop(10%, #6fab72), color-stop(50%, #477948), color-stop(50%, #416f42), color-stop(100%, #548f55));
+  background-image: -moz-linear-gradient(top, #a9cdab 0%, #6fab72 10%, #477948 50%, #416f42 50%, #548f55 100%);
+  background-image: linear-gradient(top, #a9cdab 0%, #6fab72 10%, #477948 50%, #416f42 50%, #548f55 100%);
+  border-color: #305231;
+  text-shadow: #0d410f 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:hover, a.request_group:hover:visited, a.request_group:focus, a.request_group:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:active {
+  background-color: #219f23;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #477949), color-stop(30%, #4b804c), color-stop(50%, #447345), color-stop(50%, #3e693f), color-stop(100%, #569358));
+  background-image: -moz-linear-gradient(top, #477949 0%, #4b804c 30%, #447345 50%, #3e693f 50%, #569358 100%);
+  background-image: linear-gradient(top, #477949 0%, #4b804c 30%, #447345 50%, #3e693f 50%, #569358 100%);
+  border-color: #2b492b;
+  text-shadow: #0b350c 0px -1px -1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:active, a.request_group:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group:active {
+  padding: 5px 23px;
+  border-width: 3px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.request_group.disabled:active, a.request_group[disabled] {
+  padding: 6px 24px;
+  border-width: 2px;
+}
+/* line 12, ../../../../../app/stylesheets/themes/sof/_groups.sass */
+a.request_group:visited, a.request_group:link {
+  color: white;
+}
+
+/* line 16, ../../../../../app/stylesheets/themes/sof/_groups.sass */
+#show_group .group_logo {
+  float: right;
+}
+/* line 18, ../../../../../app/stylesheets/themes/sof/_groups.sass */
+#show_group .actions {
+  padding: 5px;
+  margin: 6px;
+  background: #eeeeee;
+}
+/* line 22, ../../../../../app/stylesheets/themes/sof/_groups.sass */
+#show_group .actions a {
+  margin: 2px 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question {
+  background: #2c3843;
+  color: white;
+  padding: 20px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -khtml-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+/* line 6, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question h3 {
+  color: white;
+}
+/* line 8, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question .columns {
+  margin-top: 15px;
+}
+/* line 10, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question .columns .column_info {
+  float: left;
+  width: 10%;
+}
+/* line 13, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question .columns .column_info .avatar {
+  float: right;
+  margin: 5px 5px 20px 0px;
+  width: 50%;
+  text-align: center;
+}
+/* line 18, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question .columns .column_info .reputation {
+  color: #cccccc;
+  font-size: 38px;
+  font-weight: bold;
+  float: right;
+  margin-right: 5px;
+  text-align: center;
+  width: 50%;
+}
+/* line 27, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question .columns .column_info .reputation.big_number {
+  font-size: 33px;
+  margin-right: 20px;
+}
+/* line 30, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question .columns .column_form {
+  float: right;
+  width: 85%;
+}
+/* line 33, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question .columns .column_form .pointer {
+  background: transparent url(/images/pointer.png) no-repeat;
+  width: 20px;
+  height: 40px;
+  float: left;
+  margin-top: 12px;
+  margin-right: -1px;
+}
+/* line 40, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question .columns .column_form textarea {
+  padding: 4px;
+  width: 95%;
+  height: 67px;
+  background: white;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -khtml-border-radius: 8px 8px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
+  color: black;
+  font-weight: bold;
+  border-style: none;
+  outline-style: none;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+/* line 52, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question .columns .column_form textarea:focus {
+  outline: 0px;
+}
+/* line 55, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question .columns .column_form #tags .text_field {
+  width: 60%;
+}
+/* line 58, ../../../../../app/stylesheets/themes/sof/_quick_question.sass */
+#quick_question .ask_question {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #ff6600;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffcba9), color-stop(10%, #ff944d), color-stop(50%, #ef6000), color-stop(50%, #e05a00), color-stop(100%, #ff7214));
+  background-image: -moz-linear-gradient(top, #ffcba9 0%, #ff944d 10%, #ef6000 50%, #e05a00 50%, #ff7214 100%);
+  background-image: linear-gradient(top, #ffcba9 0%, #ff944d 10%, #ef6000 50%, #e05a00 50%, #ff7214 100%);
+  border-color: #b34700;
+  text-shadow: #803300 0px 1px 1px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 2px;
+  float: right;
+}
+/* line 172, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question.disabled, #quick_question .ask_question[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question.disabled:hover, #quick_question .ask_question.disabled:focus, #quick_question .ask_question[disabled]:hover, #quick_question .ask_question[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question.disabled:active, #quick_question .ask_question[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question, #quick_question .ask_question:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question.disabled:active, #quick_question .ask_question.disabled:hover, #quick_question .ask_question[disabled]:active, #quick_question .ask_question[disabled]:hover {
+  background-color: #ff6600;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffcba9), color-stop(10%, #ff944d), color-stop(50%, #ef6000), color-stop(50%, #e05a00), color-stop(100%, #ff7214));
+  background-image: -moz-linear-gradient(top, #ffcba9 0%, #ff944d 10%, #ef6000 50%, #e05a00 50%, #ff7214 100%);
+  background-image: linear-gradient(top, #ffcba9 0%, #ff944d 10%, #ef6000 50%, #e05a00 50%, #ff7214 100%);
+  border-color: #b34700;
+  text-shadow: #803300 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question.disabled:active, #quick_question .ask_question.disabled:active:visited, #quick_question .ask_question.disabled:hover, #quick_question .ask_question.disabled:hover:visited, #quick_question .ask_question[disabled]:active, #quick_question .ask_question[disabled]:active:visited, #quick_question .ask_question[disabled]:hover, #quick_question .ask_question[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:hover, #quick_question .ask_question:focus {
+  background-color: #f06000;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffc29a), color-stop(10%, #ff8b3e), color-stop(50%, #e05a00), color-stop(50%, #d15400), color-stop(100%, #ff6905));
+  background-image: -moz-linear-gradient(top, #ffc29a 0%, #ff8b3e 10%, #e05a00 50%, #d15400 50%, #ff6905 100%);
+  background-image: linear-gradient(top, #ffc29a 0%, #ff8b3e 10%, #e05a00 50%, #d15400 50%, #ff6905 100%);
+  border-color: #a34100;
+  text-shadow: #712d00 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:hover, #quick_question .ask_question:hover:visited, #quick_question .ask_question:focus, #quick_question .ask_question:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:active {
+  background-color: #e05a00;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #e05a00), color-stop(30%, #ea5e00), color-stop(50%, #d55600), color-stop(50%, #c65000), color-stop(100%, #ff6d09));
+  background-image: -moz-linear-gradient(top, #e05a00 0%, #ea5e00 30%, #d55600 50%, #c65000 50%, #ff6d09 100%);
+  background-image: linear-gradient(top, #e05a00 0%, #ea5e00 30%, #d55600 50%, #c65000 50%, #ff6d09 100%);
+  border-color: #933b00;
+  text-shadow: #612700 0px -1px -1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:active, #quick_question .ask_question:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question:active {
+  padding: 4px 17px;
+  border-width: 3px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#quick_question .ask_question.disabled:active, #quick_question .ask_question[disabled] {
+  padding: 5px 18px;
+  border-width: 2px;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+#search_box {
+  background: #2c3843;
+  margin-bottom: 30px;
+  color: white;
+  padding: 20px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -khtml-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+/* line 7, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+#search_box h4 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+/* line 11, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+#search_box .columns {
+  margin-top: 15px;
+}
+/* line 13, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+#search_box .columns .column_info {
+  float: left;
+  width: 10%;
+}
+/* line 16, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+#search_box .columns .column_info .avatar {
+  float: right;
+  margin: 5px 5px 20px 0px;
+  width: 50%;
+  text-align: center;
+}
+/* line 21, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+#search_box .columns .column_info .reputation {
+  color: #cccccc;
+  font-size: 38px;
+  font-weight: bold;
+  float: right;
+  margin-right: 5px;
+  text-align: center;
+  width: 50%;
+}
+/* line 30, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+#search_box .columns .column_info .reputation.big_number {
+  font-size: 33px;
+  margin-right: 20px;
+}
+/* line 33, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+#search_box .columns .column_form {
+  float: right;
+  width: 85%;
+}
+/* line 36, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+#search_box .columns .column_form .pointer {
+  background: transparent url(/images/pointer.png) no-repeat;
+  width: 20px;
+  height: 40px;
+  float: left;
+  margin-top: 12px;
+  margin-right: -1px;
+}
+/* line 43, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+#search_box .columns .column_form textarea {
+  padding: 4px;
+  width: 95%;
+  background: white;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -khtml-border-radius: 8px 8px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
+  color: black;
+  font-weight: bold;
+  border-style: none;
+  outline-style: none;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+/* line 54, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+#search_box .columns .column_form textarea:focus {
+  outline: 0px;
+}
+/* line 57, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+#search_box .ask_question {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #ff6600;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffcba9), color-stop(10%, #ff944d), color-stop(50%, #ef6000), color-stop(50%, #e05a00), color-stop(100%, #ff7214));
+  background-image: -moz-linear-gradient(top, #ffcba9 0%, #ff944d 10%, #ef6000 50%, #e05a00 50%, #ff7214 100%);
+  background-image: linear-gradient(top, #ffcba9 0%, #ff944d 10%, #ef6000 50%, #e05a00 50%, #ff7214 100%);
+  border-color: #b34700;
+  text-shadow: #803300 0px 1px 1px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 2px;
+  float: right;
+}
+/* line 172, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question.disabled, #search_box .ask_question[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question.disabled:hover, #search_box .ask_question.disabled:focus, #search_box .ask_question[disabled]:hover, #search_box .ask_question[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question.disabled:active, #search_box .ask_question[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question, #search_box .ask_question:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question.disabled:active, #search_box .ask_question.disabled:hover, #search_box .ask_question[disabled]:active, #search_box .ask_question[disabled]:hover {
+  background-color: #ff6600;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffcba9), color-stop(10%, #ff944d), color-stop(50%, #ef6000), color-stop(50%, #e05a00), color-stop(100%, #ff7214));
+  background-image: -moz-linear-gradient(top, #ffcba9 0%, #ff944d 10%, #ef6000 50%, #e05a00 50%, #ff7214 100%);
+  background-image: linear-gradient(top, #ffcba9 0%, #ff944d 10%, #ef6000 50%, #e05a00 50%, #ff7214 100%);
+  border-color: #b34700;
+  text-shadow: #803300 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question.disabled:active, #search_box .ask_question.disabled:active:visited, #search_box .ask_question.disabled:hover, #search_box .ask_question.disabled:hover:visited, #search_box .ask_question[disabled]:active, #search_box .ask_question[disabled]:active:visited, #search_box .ask_question[disabled]:hover, #search_box .ask_question[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question:hover, #search_box .ask_question:focus {
+  background-color: #f06000;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffc29a), color-stop(10%, #ff8b3e), color-stop(50%, #e05a00), color-stop(50%, #d15400), color-stop(100%, #ff6905));
+  background-image: -moz-linear-gradient(top, #ffc29a 0%, #ff8b3e 10%, #e05a00 50%, #d15400 50%, #ff6905 100%);
+  background-image: linear-gradient(top, #ffc29a 0%, #ff8b3e 10%, #e05a00 50%, #d15400 50%, #ff6905 100%);
+  border-color: #a34100;
+  text-shadow: #712d00 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question:hover, #search_box .ask_question:hover:visited, #search_box .ask_question:focus, #search_box .ask_question:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question:active {
+  background-color: #e05a00;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #e05a00), color-stop(30%, #ea5e00), color-stop(50%, #d55600), color-stop(50%, #c65000), color-stop(100%, #ff6d09));
+  background-image: -moz-linear-gradient(top, #e05a00 0%, #ea5e00 30%, #d55600 50%, #c65000 50%, #ff6d09 100%);
+  background-image: linear-gradient(top, #e05a00 0%, #ea5e00 30%, #d55600 50%, #c65000 50%, #ff6d09 100%);
+  border-color: #933b00;
+  text-shadow: #612700 0px -1px -1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question:active, #search_box .ask_question:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question:active {
+  padding: 4px 17px;
+  border-width: 3px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+#search_box .ask_question.disabled:active, #search_box .ask_question[disabled] {
+  padding: 5px 18px;
+  border-width: 2px;
+}
+
+/* line 62, ../../../../../app/stylesheets/themes/sof/_search_box.sass */
+.search_field {
+  margin-top: 1em;
+}
+
+/* line 2, ../../../../../app/stylesheets/themes/sof/_widgets.sass */
+.widget ul.list {
+  margin-top: 2px;
+}
+/* line 4, ../../../../../app/stylesheets/themes/sof/_widgets.sass */
+.widget .more {
+  float: right;
+  margin-right: 10px;
+  padding: 1px;
+}
+/* line 10, ../../../../../app/stylesheets/themes/sof/_widgets.sass */
+.widget#groups ul li {
+  color: #888888;
+}
+/* line 12, ../../../../../app/stylesheets/themes/sof/_widgets.sass */
+.widget#groups ul li a {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 17, ../../../../../app/stylesheets/themes/sof/_widgets.sass */
+.widget#users ul li, .widget#top_users ul li {
+  height: 35px;
+}
+/* line 19, ../../../../../app/stylesheets/themes/sof/_widgets.sass */
+.widget#users ul li .gravatar, .widget#top_users ul li .gravatar {
+  float: left;
+}
+/* line 21, ../../../../../app/stylesheets/themes/sof/_widgets.sass */
+.widget#users ul li .item, .widget#top_users ul li .item {
+  margin-left: 40px;
+}
+
+/* line 2, ../../../../../app/stylesheets/themes/sof/_users.sass */
+#users .badges {
+  line-height: 25px;
+  width: 80%;
+}
+
+/* line 7, ../../../../../app/stylesheets/themes/sof/_users.sass */
+#users_show #badges {
+  width: 40%;
+}
+
+/* line 10, ../../../../../app/stylesheets/themes/sof/_users.sass */
+.reputation {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+/* line 14, ../../../../../app/stylesheets/themes/sof/_users.sass */
+.modflair, .ownerflair {
+  color: black;
+}
+
+/* line 17, ../../../../../app/stylesheets/themes/sof/_users.sass */
+.general-info {
+  margin-top: 20px;
+}
+/* line 19, ../../../../../app/stylesheets/themes/sof/_users.sass */
+.general-info .avatar {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+/* line 23, ../../../../../app/stylesheets/themes/sof/_users.sass */
+.general-info .avatar .reputation {
+  margin-top: 20px;
+  font-size: 400%;
+  font-weight: bold;
+}
+/* line 27, ../../../../../app/stylesheets/themes/sof/_users.sass */
+.general-info .avatar .text {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 31, ../../../../../app/stylesheets/themes/sof/_users.sass */
+.general-info .user-info {
+  float: left;
+  width: 34%;
+}
+/* line 34, ../../../../../app/stylesheets/themes/sof/_users.sass */
+.general-info .user-info .user-field {
+  font-weight: bold;
+  font-size: 120%;
+  width: 45%;
+}
+/* line 38, ../../../../../app/stylesheets/themes/sof/_users.sass */
+.general-info .user-info .user-field-value {
+  width: 40%;
+}
+/* line 41, ../../../../../app/stylesheets/themes/sof/_users.sass */
+.general-info .bio-info {
+  float: left;
+  width: 40%;
+  padding: 8px;
+  margin: 4px;
+  background: #eeeeee;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+/* line 50, ../../../../../app/stylesheets/themes/sof/_users.sass */
+a.follow_link {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #e76400;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff8c34), color-stop(100%, #c85700));
+  background-image: -moz-linear-gradient(top, #ff8c34 0%, #c85700 100%);
+  background-image: linear-gradient(top, #ff8c34 0%, #c85700 100%);
+  border-color: #9b4300;
+  text-shadow: #682d00 0px 1px 1px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -o-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -khtml-border-radius: 18px;
+  border-radius: 18px;
+  font-size: 24px;
+  line-height: 15px;
+  padding: 6px 24px;
+  border-width: 1px;
+  float: right;
+}
+/* line 172, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link.disabled, a.follow_link[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link.disabled:hover, a.follow_link.disabled:focus, a.follow_link[disabled]:hover, a.follow_link[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link.disabled:active, a.follow_link[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link, a.follow_link:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link.disabled:active, a.follow_link.disabled:hover, a.follow_link[disabled]:active, a.follow_link[disabled]:hover {
+  background-color: #e76400;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff8c34), color-stop(100%, #c85700));
+  background-image: -moz-linear-gradient(top, #ff8c34 0%, #c85700 100%);
+  background-image: linear-gradient(top, #ff8c34 0%, #c85700 100%);
+  border-color: #9b4300;
+  text-shadow: #682d00 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link.disabled:active, a.follow_link.disabled:active:visited, a.follow_link.disabled:hover, a.follow_link.disabled:hover:visited, a.follow_link[disabled]:active, a.follow_link[disabled]:active:visited, a.follow_link[disabled]:hover, a.follow_link[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:hover, a.follow_link:focus {
+  background-color: #d85d00;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff8325), color-stop(100%, #b95000));
+  background-image: -moz-linear-gradient(top, #ff8325 0%, #b95000 100%);
+  background-image: linear-gradient(top, #ff8325 0%, #b95000 100%);
+  border-color: #8c3c00;
+  text-shadow: #592600 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:hover, a.follow_link:hover:visited, a.follow_link:focus, a.follow_link:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:active {
+  background-color: #c85700;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #c35500), color-stop(40%, #d25c00), color-stop(85%, #d25c00), color-stop(100%, #f56b00));
+  background-image: -moz-linear-gradient(top, #c35500 0%, #d25c00 40%, #d25c00 85%, #f56b00 100%);
+  background-image: linear-gradient(top, #c35500 0%, #d25c00 40%, #d25c00 85%, #f56b00 100%);
+  border-color: #7c3600;
+  text-shadow: #492000 0px -1px -1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:active, a.follow_link:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link:active {
+  padding: 5px 23px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.follow_link.disabled:active, a.follow_link[disabled] {
+  padding: 6px 24px;
+  border-width: 1px;
+}
+/* line 55, ../../../../../app/stylesheets/themes/sof/_users.sass */
+a.follow_link:active, a.follow_link:link {
+  color: white;
+}
+
+/* line 58, ../../../../../app/stylesheets/themes/sof/_users.sass */
+a.unfollow_link {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1282479180') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: red;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff4d4d), color-stop(100%, #e00000));
+  background-image: -moz-linear-gradient(top, #ff4d4d 0%, #e00000 100%);
+  background-image: linear-gradient(top, #ff4d4d 0%, #e00000 100%);
+  border-color: #b30000;
+  text-shadow: maroon 0px 1px 1px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -o-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -khtml-border-radius: 18px;
+  border-radius: 18px;
+  font-size: 24px;
+  line-height: 15px;
+  padding: 6px 24px;
+  border-width: 1px;
+  float: right;
+}
+/* line 172, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:focus {
+  outline: none;
+}
+/* line 178, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link.disabled, a.unfollow_link[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link.disabled:hover, a.unfollow_link.disabled:focus, a.unfollow_link[disabled]:hover, a.unfollow_link[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link.disabled:active, a.unfollow_link[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link, a.unfollow_link:visited {
+  color: white;
+}
+/* line 26, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link.disabled:active, a.unfollow_link.disabled:hover, a.unfollow_link[disabled]:active, a.unfollow_link[disabled]:hover {
+  background-color: red;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff4d4d), color-stop(100%, #e00000));
+  background-image: -moz-linear-gradient(top, #ff4d4d 0%, #e00000 100%);
+  background-image: linear-gradient(top, #ff4d4d 0%, #e00000 100%);
+  border-color: #b30000;
+  text-shadow: maroon 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link.disabled:active, a.unfollow_link.disabled:active:visited, a.unfollow_link.disabled:hover, a.unfollow_link.disabled:hover:visited, a.unfollow_link[disabled]:active, a.unfollow_link[disabled]:active:visited, a.unfollow_link[disabled]:hover, a.unfollow_link[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:hover, a.unfollow_link:focus {
+  background-color: #f00000;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff3e3e), color-stop(100%, #d10000));
+  background-image: -moz-linear-gradient(top, #ff3e3e 0%, #d10000 100%);
+  background-image: linear-gradient(top, #ff3e3e 0%, #d10000 100%);
+  border-color: #a30000;
+  text-shadow: #710000 0px 1px 1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:hover, a.unfollow_link:hover:visited, a.unfollow_link:focus, a.unfollow_link:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:active {
+  background-color: #e00000;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #db0000), color-stop(40%, #ea0000), color-stop(85%, #ea0000), color-stop(100%, #ff0f0f));
+  background-image: -moz-linear-gradient(top, #db0000 0%, #ea0000 40%, #ea0000 85%, #ff0f0f 100%);
+  background-image: linear-gradient(top, #db0000 0%, #ea0000 40%, #ea0000 85%, #ff0f0f 100%);
+  border-color: #930000;
+  text-shadow: #610000 0px -1px -1px;
+}
+/* line 98, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:active, a.unfollow_link:active:visited {
+  color: white;
+}
+/* line 152, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link:active {
+  padding: 5px 23px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../../../../../opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.unfollow_link.disabled:active, a.unfollow_link[disabled] {
+  padding: 6px 24px;
+  border-width: 1px;
+}
+/* line 63, ../../../../../app/stylesheets/themes/sof/_users.sass */
+a.unfollow_link:active, a.unfollow_link:link, a.unfollow_link:visited {
+  color: white;
+}
+
+/* line 67, ../../../../../app/stylesheets/themes/sof/_users.sass */
+.friend_list {
+  margin: 3px;
+}
+/* line 69, ../../../../../app/stylesheets/themes/sof/_users.sass */
+.friend_list span {
+  padding: 1px 2px;
+}
+
+/* line 2, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+#badges ul.list {
+  padding-bottom: 15px;
+}
+/* line 5, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+#badges ul.list li .badge_item {
+  width: 30%;
+  float: left;
+}
+/* line 8, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+#badges ul.list li .badge_item .badge {
+  width: 55%;
+  display: inline;
+}
+/* line 11, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+#badges ul.list li .badge_item .counter {
+  display: inline;
+  width: 40%;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* line 16, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+#badges ul.list li .badge_description {
+  width: 50%;
+  float: left;
+}
+
+/* line 22, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+#badges_show .title .counter {
+  font-size: 28px;
+}
+
+/* line 25, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+.badgeicon {
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -khtml-border-radius: 8px 8px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
+  margin-bottom: 2px;
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+}
+/* line 33, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+.badgeicon.silver {
+  background: silver;
+}
+/* line 35, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+.badgeicon.bronze {
+  background: #e1a970;
+}
+/* line 37, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+.badgeicon.gold {
+  background: #ffcc00;
+}
+
+/* line 39, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+.badgecount {
+  margin-left: -3px;
+}
+
+/* line 42, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+.badge {
+  background: #222222;
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  -khtml-border-radius: 6px 6px 6px 6px;
+  border-radius: 6px 6px 6px 6px;
+  padding: 4px 8px 4px 3px;
+  margin: 0px 3px 3px 0px;
+  vertical-align: baseline;
+  border-bottom: 1px solid gray;
+  line-height: 23px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: #eeeeee;
+}
+/* line 56, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+.badge:hover, .badge:link, .badge:visited, .badge:active {
+  font-size: 13px !important;
+  color: #eeeeee !important;
+  background: #222222 !important;
+  text-decoration: none !important;
+}
+/* line 62, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+.badge .badgeicon {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+/* line 65, ../../../../../app/stylesheets/themes/sof/_badges.sass */
+.badge.mini {
+  line-height: 15px !important;
+  padding: 0px 4px 0px 4px;
+  margin: 0px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -khtml-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  margin-left: 3px;
+  display: inline;
+  overflow: hidden;
+  float: left;
+  font-size: 10px;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/sof/_footer.sass */
+#footer {
+  background-color: #777777;
+  border-top: 4px solid black;
+  color: white;
+  margin-left: -11%;
+  margin-right: -11%;
+}
+/* line 7, ../../../../../app/stylesheets/themes/sof/_footer.sass */
+#footer a {
+  color: #eeeeee;
+  font-weight: bold;
+}
+/* line 11, ../../../../../app/stylesheets/themes/sof/_footer.sass */
+#footer .block {
+  font-size: 12px;
+  background-color: #777777;
+  padding: 0 10px;
+  text-align: right;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/sof/_close_requests.sass */
+#request_close_question_form, #question_flag_form {
+  padding: 20px 20px 0px 20px;
+  border: 8px solid lightGray;
+}
+
+/* line 2, ../../../../../app/stylesheets/themes/sof/_manage_widgets.sass */
+#manage_widgets ul#widgets {
+  width: 100%;
+}
+/* line 5, ../../../../../app/stylesheets/themes/sof/_manage_widgets.sass */
+#manage_widgets ul#widgets li .widget {
+  width: 40%;
+  border: 1px dotted #666666;
+  padding: 4px;
+}
+/* line 9, ../../../../../app/stylesheets/themes/sof/_manage_widgets.sass */
+#manage_widgets ul#widgets li .widget .controls {
+  float: right;
+  padding: 4px;
+  width: 30%;
+}
+/* line 13, ../../../../../app/stylesheets/themes/sof/_manage_widgets.sass */
+#manage_widgets ul#widgets li .widget .controls .action {
+  float: right;
+  display: block;
+}
+/* line 16, ../../../../../app/stylesheets/themes/sof/_manage_widgets.sass */
+#manage_widgets ul#widgets li .widget_description {
+  width: 40%;
+  color: #666666;
+  margin-right: 15%;
+  float: right;
+  font-size: 20px;
+}
+
+/* line 1, ../../../../../app/stylesheets/themes/sof/_base.sass */
+a {
+  color: #029aec;
+}
+/* line 4, ../../../../../app/stylesheets/themes/sof/_base.sass */
+a:link, a:visited {
+  color: #0077bb;
+  text-decoration: none;
+}
+/* line 8, ../../../../../app/stylesheets/themes/sof/_base.sass */
+a:hover, a:active {
+  color: #dd3300;
+}
+
+/* line 11, ../../../../../app/stylesheets/themes/sof/_base.sass */
+h1, h2, h3 {
+  color: #444444;
+}
+
+/* line 14, ../../../../../app/stylesheets/themes/sof/_base.sass */
+body {
+  color: #333333;
+  background: white;
+  font-family: Arial, "Liberation Sans", "DejaVu Sans", sans-serif;
+  font-size: 13px;
+}
+
+/* line 21, ../../../../../app/stylesheets/themes/sof/_base.sass */
+hr {
+  background: #aaaaaa;
+}
+
+/* line 25, ../../../../../app/stylesheets/themes/sof/_base.sass */
+p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* line 30, ../../../../../app/stylesheets/themes/sof/_base.sass */
+input.checkbox {
+  vertical-align: middle;
+}
+
+/* line 34, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#header h1 {
+  font-size: 28px;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+/* line 40, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.hightlight {
+  background-color: #ffffcc;
+}
+
+/* line 44, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.small {
+  font-size: 11px;
+}
+
+/* line 48, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.gray {
+  color: #999999;
+}
+
+/* line 54, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#header h1 a:link, #header h1 a:active, #header h1 a:hover, #header h1 a:visited {
+  color: #eaeaea;
+}
+
+/* line 58, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#main {
+  background: white;
+  width: 75%;
+}
+/* line 62, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#main .block {
+  padding: 0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  background: transparent;
+}
+/* line 68, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#main .block .content {
+  background: white;
+}
+/* line 70, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#main .block .content .inner {
+  padding: 0px;
+}
+/* line 73, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#main .block h2.title {
+  margin: 10px 0 5px 0;
+  background-color: none;
+  padding: 5px 5px 5px 15px;
+  font-size: 18px;
+  color: #445566;
+}
+
+/* line 80, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#container {
+  margin: auto;
+  width: 960px;
+}
+
+/* line 84, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 88, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar {
+  width: 24%;
+}
+/* line 90, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar .notice {
+  background-color: #ecf6fd;
+  padding: 0 10px;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+/* line 98, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar .notice h2 {
+  font-size: 16px;
+  margin: 5px 0;
+  border-bottom: 1px solid #445566;
+}
+/* line 103, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar .notice p {
+  font-size: 12px;
+}
+/* line 106, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar .help {
+  background-color: #ffefc6;
+}
+/* line 109, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar .block {
+  padding-bottom: 0;
+}
+/* line 112, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar .block .content {
+  padding: 0 10px;
+}
+/* line 115, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar h3 {
+  padding: 5px 10px;
+  color: #333333;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+/* line 124, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar ul li a:link, #sidebar ul li a:visited {
+  font-size: 12px;
+}
+/* line 127, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar ul li a:hover, #sidebar ul li a:active {
+  background: none;
+  color: #444444;
+  font-size: 12px;
+  text-decoration: underline;
+}
+/* line 134, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar ul.navigation li.last a {
+  border-bottom: none;
+}
+/* line 138, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar ul.navigation li a:link, #sidebar ul.navigation li a:visited {
+  padding: 7px 10px;
+  color: #6a6a6a;
+  text-decoration: none;
+}
+/* line 143, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar ul.navigation li a:hover {
+  text-decoration: underline;
+}
+/* line 146, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#sidebar .block .sidebar-block h4 {
+  border-bottom: 1px dotted #aaaaaa;
+}
+
+/* line 150, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#main-navigation ul li {
+  background: #445566;
+  border-top: 1px solid #5c738a;
+  color: #eeeeee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+/* line 157, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#main-navigation ul li:hover {
+  border-top-color: #7593b0;
+  background-color: #576c82 !important;
+  color: white;
+}
+/* line 162, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#main-navigation ul li.active {
+  background-color: #eeeeee !important;
+  color: #333333;
+}
+/* line 167, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#main-navigation ul li a:link, #main-navigation ul li a:visited, #main-navigation ul li a:hover, #main-navigation ul li a:active {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+/* line 172, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#user-navigation ul li a:link, #user-navigation ul li a:visited, #user-navigation ul li a:hover, #user-navigation ul li a:active {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+/* line 176, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#user-navigation ul li a:link, #user-navigation ul li a:visited {
+  color: #ccddee;
+  border-bottom: 1px dotted #334455;
+}
+/* line 180, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#user-navigation ul li a:hover {
+  color: white;
+  border-bottom: 1px dotted #ccddee;
+  text-decoration: none;
+}
+
+/* line 187, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#main-navigation ul li a {
+  font-size: 12px;
+  padding: 3px 10px;
+}
+/* line 192, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#main-navigation ul li.active a:link, #main-navigation ul li.active a:visited, #main-navigation ul li.active a:hover, #main-navigation ul li.active a:active {
+  color: #364b69;
+}
+
+/* line 196, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.secondary-navigation ul li a:link, .secondary-navigation ul li a:visited, .secondary-navigation ul li a:hover, .secondary-navigation ul li a:active {
+  text-decoration: none;
+  color: #666666;
+}
+
+/* line 200, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.secondary-navigation {
+  background: white;
+  border-bottom: 1px solid #222222;
+  color: #222222;
+}
+/* line 205, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.secondary-navigation ul {
+  padding-right: 20px;
+  float: right;
+}
+/* line 209, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.secondary-navigation ul li {
+  color: black;
+  margin-right: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 1px 1px 0px 1px;
+}
+/* line 216, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.secondary-navigation ul li a {
+  padding: 3px 10px;
+  color: black;
+  font-weight: bold;
+}
+/* line 221, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.secondary-navigation ul li.active {
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid white;
+  margin-bottom: -1px;
+  background-color: white !important;
+  color: #333333;
+}
+/* line 230, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.secondary-navigation ul li.active a {
+  color: #222222;
+}
+/* line 233, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.secondary-navigation ul li:hover {
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  color: #333333;
+}
+
+/* line 238, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.pagination {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 241, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.pagination span {
+  padding-bottom: 0px;
+}
+/* line 243, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.pagination span.current {
+  background: #808185;
+  color: #ffffe0;
+  border: 1px solid #808185;
+  -moz-border-radius: 1px 1px 1px 1px;
+  -webkit-border-radius: 1px 1px 1px 1px;
+  -khtml-border-radius: 1px 1px 1px 1px;
+  border-radius: 1px 1px 1px 1px;
+}
+/* line 249, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.pagination span.disabled {
+  background: #eeeeee;
+  color: #aaaaaa;
+  border: 1px solid #dddddd;
+  -moz-border-radius: 1px 1px 1px 1px;
+  -webkit-border-radius: 1px 1px 1px 1px;
+  -khtml-border-radius: 1px 1px 1px 1px;
+  border-radius: 1px 1px 1px 1px;
+}
+/* line 255, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.pagination a {
+  color: #808185;
+  border: 1px solid #dddddd;
+  -moz-border-radius: 1px 1px 1px 1px;
+  -webkit-border-radius: 1px 1px 1px 1px;
+  -khtml-border-radius: 1px 1px 1px 1px;
+  border-radius: 1px 1px 1px 1px;
+}
+/* line 260, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.pagination a:hover {
+  color: #444444;
+  border: 1px solid #576c82;
+}
+
+/* line 266, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.table th {
+  background: #576c82;
+  color: #f5f5f5;
+  font-weight: normal;
+  padding: 3px;
+}
+/* line 272, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.table th a.toggle {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: transparent url(images/tick.png) center no-repeat;
+  text-indent: -9999px;
+  -moz-outline: none;
+}
+/* line 280, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.table th.first {
+  width: 30px;
+  text-align: center;
+}
+/* line 284, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.table td {
+  border-bottom: 1px solid #aaaaaa;
+}
+
+/* line 289, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.form input.text, .form textarea.textarea {
+  border: 1px solid #dddddd;
+  padding: 5px;
+  width: 99%;
+}
+/* line 294, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.form input.text_field, .form textarea.text_area {
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-top: 2px solid #cccccc;
+  border-left: 2px solid #cccccc;
+  width: 99%;
+}
+/* line 301, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.form .navform {
+  padding: 10px;
+  background-color: #eeeeee;
+  font-size: 14px;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-top: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+/* line 310, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.form .navform input {
+  font-size: 14px;
+}
+
+/* line 314, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.description {
+  color: #aaaaaa;
+  font-family: Georgia, serif;
+}
+
+/* line 320, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.flash .message {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-align: center;
+  margin: 0 auto 5px;
+  width: 80%;
+}
+/* line 327, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.flash .message p {
+  margin: 8px;
+}
+/* line 330, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.flash .error {
+  border: 1px solid #ffbbbb;
+  background-color: #ffdddd;
+}
+/* line 334, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.flash .warning {
+  border: 1px solid #fffaaa;
+  background-color: #ffffcc;
+}
+/* line 338, ../../../../../app/stylesheets/themes/sof/_base.sass */
+.flash .notice {
+  border: 1px solid #ddddff;
+  background-color: #eeeeff;
+}
+
+/* line 343, ../../../../../app/stylesheets/themes/sof/_base.sass */
+ul.list li {
+  border-bottom-color: #f0f0ee;
+}
+/* line 346, ../../../../../app/stylesheets/themes/sof/_base.sass */
+ul.list li .item .avatar {
+  border-color: #f0f0ee;
+  margin: 3px 10px 0 0;
+}
+/* line 350, ../../../../../app/stylesheets/themes/sof/_base.sass */
+ul.list li .left {
+  padding: 5px 5px;
+}
+
+/* line 354, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#box .block {
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+}
+/* line 359, ../../../../../app/stylesheets/themes/sof/_base.sass */
+#box .block h2 {
+  background: #576c82;
+  color: #f5f5f5;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}

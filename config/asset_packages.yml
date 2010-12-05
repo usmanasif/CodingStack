@@ -1,0 +1,45 @@
+---
+javascripts:
+- base:
+  - jquery
+  - jquery.tools.min
+  - jquery-ui
+  - jquery.textarea
+  - jquery.wysiwyg
+  - jquery.autocomplete
+  - jquery.fcbkcomplete
+  - jquery.notifyBar
+  - showdown
+  - highlight/prettify
+  - components/search
+  - application
+  - modules/sessions
+  - modules/index_question
+  - modules/retag
+  - modules/new_question
+  - modules/index_welcome
+  - modules/show_user
+  - modules/index_group
+  - modules/index_user
+  - modules/tags_question
+  - modules/members
+  - modules/move_group
+  - modules/editor
+
+- show:
+  - modules/single/question
+  - jquery.autovideo
+  - modules/show_question
+
+- login:
+  - openid/js/jquery.openid.min
+
+
+
+stylesheets:
+- base:
+  - jquery-ui
+  - compiled/application
+  - prettify
+  - ../javascripts/openid/css/style
+

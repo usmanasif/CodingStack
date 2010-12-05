@@ -1,0 +1,14 @@
+# Messages for Breton (Brezhoneg)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Y-M D
+br: 
+  admin: 
+    moderate: 
+      index: 
+        all: Pep tra
+        ban: Forbannañ
+        banned: Goulenn forbannet
+        content: Danvez
+        item_title: Titl
+        title: Habaskaat

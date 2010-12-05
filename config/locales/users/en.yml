@@ -1,0 +1,85 @@
+en:
+  users:
+    index:
+      title: All users
+      empty: "This group does not have any members. Participate by joining this group."
+      filter: "Search for users"
+      reputation: Reputation
+      newest: Newest
+      oldest: Oldest
+      name: Name
+      reputation_tooltip: Users sorted by higher reputation
+      newest_tooltip: Users who just joined
+      oldest_tooltip: Users who were the first to join
+      name_tooltip: Users sorted alphabetically
+    new:
+      title: Sign up as a new user
+      submit: Sign up
+    edit:
+      title: Settings
+      submit: Save
+      enable_twitter: Enable your Facebook or Twitter accounts
+    show:
+      title: "User %{user}"
+      follow: Follow
+      unfollow: Unfollow
+      views: views
+    follow:
+      flash_notice: "The user %{user} was added to your friends"
+    unfollow:
+      flash_notice: "The user %{user} was removed from your friends"
+    form:
+      information: Information
+      notifications: Notifications
+      new_answer_notification: Get email notifications for new answers
+      give_advice_notification: Receive email notifications about questions in your field of expertise
+      activities_notification: Receive email notifications about system activities such as earned badges, new followers, etc.
+      reports_notification: Receive a report with latest group activity (only for group admins)
+      avatar_tip: "Change your profile image using Gravatar"
+      show_more_lang: "Show more languages"
+    create:
+      flash_notice: "Thanks for signing up!"
+      flash_error:  "Sorry, we could not set up that account. Please try again, or contact an administrator (link is above)."
+    messages:
+      errors:
+        reputation_needed: "You need a reputation of %{min_reputation} to %{action}"
+    actions:
+      vote_up: Vote up
+      vote_down: Vote down
+      flag: Flag
+      edit_others_posts: "Edit other's posts"
+      edit_wiki_post: "Edit wiki posts"
+      retag_others_questions: "Retag others questions"
+      vote_to_close_own_question: "Request closing own question"
+      vote_to_close_any_question: "Request closing any question"
+  activerecord:
+    models:
+      users: Users
+      user: User
+    attributes:
+      user:
+        login: Username
+        email: Email
+        name: Real name
+        current_password: Current password
+        password: Password
+        password_confirmation: Password confirmation
+        created_at: created at
+        updated_at: updated at
+        activation_code: Activation code
+        activated_at: activated at
+        fullname: Full name
+        language: Language
+        asked_by: asked by
+        timezone: Time zone
+        preferred_tags: Preferred tags
+        preferred_languages: Select the languages you know
+        last_logged_at: seen
+        created_at: joined
+        reputation: Reputation
+        avatar: Profile image
+        hide_country: Do not display my country
+        language_filter: Filter by language
+        website: Website
+        birthday: Birthday
+        age: Age

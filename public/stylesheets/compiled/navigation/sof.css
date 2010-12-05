@@ -1,0 +1,97 @@
+/* line 1, ../../../../app/stylesheets/navigation/_navigation.sass */
+#main-bar.questions ul li.questions a,
+#main-bar.users ul li.users a,
+#main-bar.badges ul li.badges a,
+#main-bar.tags ul li.tags a,
+#main-bar.unanswered ul li.unanswered a,
+#main-bar.dashboard ul li.dashboard a,
+#main-bar.widgets ul li.widgets a,
+#main-bar.ads ul li.ads a,
+#main-bar.members ul li.members a,
+#main-bar.properties ul li.properties a,
+#main-bar.stats ul li.stats a,
+#main-bar.actions ul li.actions a,
+#main-bar.content ul li.content a,
+#main-bar.pages ul li.pages a,
+#main-bar.announcements ul li.announcements a {
+  background-color: #ff9900 !important;
+  color: white;
+}
+
+/* line 18, ../../../../app/stylesheets/navigation/_navigation.sass */
+.secondary-navigation.votes ul li.votes a,
+.secondary-navigation.newest ul li.newest a,
+.secondary-navigation.oldest ul li.oldest a,
+.secondary-navigation.most_active ul li.most_active a,
+.secondary-navigation.activity ul li.activity a,
+.secondary-navigation.hot ul li.hot a,
+.secondary-navigation.mytags ul li.mytags a,
+.secondary-navigation.questions ul li.questions a,
+.secondary-navigation.expert ul li.expert a,
+.secondary-navigation.answers ul li.answers a,
+.secondary-navigation.question_help ul li.question_help a,
+.secondary-navigation.question_prompt ul li.question_prompt a,
+.secondary-navigation.head_tag ul li.head_tag a,
+.secondary-navigation.head ul li.head a,
+.secondary-navigation.constrains ul li.constrains a,
+.secondary-navigation.rewards ul li.rewards a,
+.secondary-navigation.general ul li.general a,
+.secondary-navigation.theme ul li.theme a,
+.secondary-navigation.domain ul li.domain a,
+.secondary-navigation.name ul li.name a {
+  border-top: 1px solid #222222;
+  border-left: 1px solid #222222;
+  border-right: 1px solid #222222;
+  border-bottom: 1px solid transparent;
+  margin-bottom: -1px;
+  background-color: white !important;
+  color: #333333;
+}
+/* line 15, ../../../../app/stylesheets/navigation/sof.sass */
+.secondary-navigation.votes ul li.votes a:hover,
+.secondary-navigation.newest ul li.newest a:hover,
+.secondary-navigation.oldest ul li.oldest a:hover,
+.secondary-navigation.most_active ul li.most_active a:hover,
+.secondary-navigation.activity ul li.activity a:hover,
+.secondary-navigation.hot ul li.hot a:hover,
+.secondary-navigation.mytags ul li.mytags a:hover,
+.secondary-navigation.questions ul li.questions a:hover,
+.secondary-navigation.expert ul li.expert a:hover,
+.secondary-navigation.answers ul li.answers a:hover,
+.secondary-navigation.question_help ul li.question_help a:hover,
+.secondary-navigation.question_prompt ul li.question_prompt a:hover,
+.secondary-navigation.head_tag ul li.head_tag a:hover,
+.secondary-navigation.head ul li.head a:hover,
+.secondary-navigation.constrains ul li.constrains a:hover,
+.secondary-navigation.rewards ul li.rewards a:hover,
+.secondary-navigation.general ul li.general a:hover,
+.secondary-navigation.theme ul li.theme a:hover,
+.secondary-navigation.domain ul li.domain a:hover,
+.secondary-navigation.name ul li.name a:hover {
+  background: white !important;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+/* line 20, ../../../../app/stylesheets/navigation/sof.sass */
+.secondary-navigation.votes ul li.votes a a,
+.secondary-navigation.newest ul li.newest a a,
+.secondary-navigation.oldest ul li.oldest a a,
+.secondary-navigation.most_active ul li.most_active a a,
+.secondary-navigation.activity ul li.activity a a,
+.secondary-navigation.hot ul li.hot a a,
+.secondary-navigation.mytags ul li.mytags a a,
+.secondary-navigation.questions ul li.questions a a,
+.secondary-navigation.expert ul li.expert a a,
+.secondary-navigation.answers ul li.answers a a,
+.secondary-navigation.question_help ul li.question_help a a,
+.secondary-navigation.question_prompt ul li.question_prompt a a,
+.secondary-navigation.head_tag ul li.head_tag a a,
+.secondary-navigation.head ul li.head a a,
+.secondary-navigation.constrains ul li.constrains a a,
+.secondary-navigation.rewards ul li.rewards a a,
+.secondary-navigation.general ul li.general a a,
+.secondary-navigation.theme ul li.theme a a,
+.secondary-navigation.domain ul li.domain a a,
+.secondary-navigation.name ul li.name a a {
+  color: #333333;
+}

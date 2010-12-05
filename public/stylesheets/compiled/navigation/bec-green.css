@@ -1,0 +1,24 @@
+/* line 18, ../../../../app/stylesheets/navigation/_navigation.sass */
+.secondary-navigation.votes ul li.votes a,
+.secondary-navigation.newest ul li.newest a,
+.secondary-navigation.oldest ul li.oldest a,
+.secondary-navigation.most_active ul li.most_active a,
+.secondary-navigation.activity ul li.activity a,
+.secondary-navigation.hot ul li.hot a,
+.secondary-navigation.mytags ul li.mytags a,
+.secondary-navigation.questions ul li.questions a,
+.secondary-navigation.expert ul li.expert a,
+.secondary-navigation.answers ul li.answers a,
+.secondary-navigation.question_help ul li.question_help a,
+.secondary-navigation.question_prompt ul li.question_prompt a,
+.secondary-navigation.head_tag ul li.head_tag a,
+.secondary-navigation.head ul li.head a,
+.secondary-navigation.constrains ul li.constrains a,
+.secondary-navigation.rewards ul li.rewards a,
+.secondary-navigation.general ul li.general a,
+.secondary-navigation.theme ul li.theme a,
+.secondary-navigation.domain ul li.domain a,
+.secondary-navigation.name ul li.name a {
+  color: black;
+  font-weight: bold;
+}

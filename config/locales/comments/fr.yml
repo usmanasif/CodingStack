@@ -1,0 +1,19 @@
+# Messages for French (Français)
+# Exported from translatewiki.net
+# Export driver: syck
+fr: 
+  comments: 
+    create: 
+      flash_notice: merci pour votre commentaire
+    edit: 
+      title: Éditer le commentaire
+    shared: 
+      add_comment: ajouter un commentaire...
+      comment_submit: commenter
+      reply: répondre
+      said: a dit
+    update: 
+      flash_notice: le commentaire a été actualisé avec succès.
+  models: 
+    comment: comment
+    comments: commentaire

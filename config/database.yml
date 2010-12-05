@@ -1,0 +1,14 @@
+development:
+  database: codingstack-development
+  host: 127.0.0.1
+  port: 27017
+
+test:
+  database: codingstack-development
+  host: 127.0.0.1
+  port: 27017
+
+production:
+  database: codingstack-production
+  host: 127.0.0.1
+  port: 27017

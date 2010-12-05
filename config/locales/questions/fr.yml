@@ -1,0 +1,136 @@
+# Messages for French (Français)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Peter17
+fr: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: réponses
+        asked_by: posée par
+        body: corps
+        closed: fermée
+        created_at: posée
+        language: langue
+        tags: tags
+        title: titre
+        updated_at: actualisée
+        updated_by: actualisée par
+        views: vues
+        votes: votes
+    models: 
+      question: question
+      questions: questions
+  questions: 
+    answer: 
+      add_comment: ajouter un commentaire...
+      flag: reporter un abus
+      pick_answer: choisir comme solution
+      unset_answer: annuler solution?
+    create: 
+      flash_notice: la question a été créée avec succès.
+    edit: 
+      title: Éditer la question
+    flag: 
+      title: reporter un abus
+    form: 
+      adult_content: cette question possède du contenu pour adultes.
+      body_tip: quelle est votre question? soyez descriptif.
+      language_tip: sélectionnez la langue de votre question.
+      tags_tip: utilisez les tags pour ajouter plus d'information à question.
+    index: 
+      active: actives
+      active_tooltip: les questions actualisées le plus récemment
+      ask_question: poser une question
+      empty: aucune question n'a été posé pour le moment, soyez le premier à en poser une!
+      help_to_answer: aidez-nous
+      hot: hot
+      hot_tooltip: les questions les plus active de ces 5 derniers jours
+      newest: récentes
+      newest_tooltip: les questions les plus récentes
+      oldest: anciennes
+      title: toutes les questions
+      unanswered_questions: questions sans réponses
+      votes: votes
+      votes_tooltip: les questions les plus votées
+    model: 
+      messages: 
+        empty_tags: désolé, vous devez utiliser au moins un tag.
+        title_too_long: le titre est trop long, il ne doit pas contenir plus de 100 caractères
+        too_many_tags: désolé, vous ne pouvez utiliser que 9 tags maximum.
+        too_short: parait trop court. S'il vous plait, veuillez utiliser plus de mots que %{count} pour être plus specific
+    move: 
+      group_label: "transférer au groupe du nom:"
+      submit: transférer!
+      title: "transférer la question: %{title}"
+    move_to: 
+      group_dont_exists: le groupe %{group} n'éxiste pas
+      success: question transférée à %{group}
+    new: 
+      how_to_ask: comment poser une question
+      title: posez une question
+    question: 
+      accepted_tooltip: Cette question a été répondu correctement
+    retag: 
+      title: modifier les tags
+    retag_form: 
+      cancel: annuler
+      submit: actualizer las tags!
+      title: Actualiser les tags
+    retag_to: 
+      failure: Désolé, les tags n'ont pas pu être actualisé.
+      success: Les tags ont été actualisé avec succès.
+    revert: 
+      title: revert question
+    shared: 
+      flag: signaler
+    show: 
+      accepted_tooltip: l'une des réponses a été accepté comme solution
+      another_answers: autres réponses
+      answers: réponses
+      answers_title: 
+        one: "%{count} réponse"
+        other: "%{count} réponses"
+      asked_on: posée dans
+      ban: ban
+      close: fermer
+      close_reason: "cette question a été fermée pour la raison suivante:"
+      favorite_tooltip: ajouter cette question à vos favorites
+      flag: reporter un abus
+      flagged_as: reporté comme
+      flags: reporter en tant que
+      last_activity: dernières activités
+      related_questions: questions en relation
+      request_closing: demande de fermeture
+      request_closing_details: demander de fermer cette question
+      retag: modifier les tags
+      retract_request: vous avez déjà fait une demande, voulez-vous vous rétracter?
+      share: partager cette question
+      share_on: partager cette question %{site}
+      solution: solution
+      to_answer_question: pour répondre à cette question
+      unauthenticated_retag: vous devez avoir un compte utilisateur por modifier les tags
+      unfavorite_tooltip: retirer cette question de vos favorites
+      unwatch_tooltip: arreter de suivre cette question
+      viewed: lues
+      watch_tooltip: suivre cette question
+    solve: 
+      flash_notice: la question a été résolue.
+    tags: 
+      filter: recherchez des tags
+      title: tags
+      tooltip: montrer les questions avec le tag %{tag}
+    unanswered: 
+      empty: ce groupe n'a aucune question sans réponses
+      expert: expert
+      my_tags: mes tags
+      tags: tags sans réponses
+      title: sans réponses
+    unsolve: 
+      flash_notice: la question n'est pas résolue.
+    unwatch: 
+      success: vous n'allez plus recevoir de notifications par email pour chaque réponse à cette question.
+    update: 
+      flash_notice: la question a été actualisée avec succès.
+    watch: 
+      success: vous allez maintenant recevoir des notifications par email pour chaque réponse à cette question.

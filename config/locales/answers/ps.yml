@@ -1,0 +1,24 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  activerecord: 
+    attributes: 
+      answer: 
+        created_at: ځوب شوي
+        link: تړنه
+    models: 
+      answer: ځواب
+      answers: ځوابونه
+  answers: 
+    create: 
+      flash_notice: مننه!
+    edit: 
+      title: ځواب سمول
+    form: 
+      answer_label: پوښتنه ځوابول
+      comment_submit: تبصره
+      submit: ځواب
+    update: 
+      flash_notice: ځواب مو په برياليتوب سره اوسمهاله شو.
